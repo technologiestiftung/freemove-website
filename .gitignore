@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+
+#eleventy
+_site/
+
+# Compiled CSS
+src/assets/css/style.compiled.css

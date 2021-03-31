@@ -5,15 +5,39 @@
     }
   }
 </style>
-<header id="header" class="h-16 border-b border-blue w-screen">
+<header id="header" class="h-16 border-b border-blue w-screen p-4 md:p-0">
   <!-- <img class="absolute" style="left: calc(23.3vw - 336px)" src="/assets/images/header-background.svg"> -->
   <img
     class="absolute hidden md:block"
     src="/assets/images/header-background.svg"
   />
   <img
-    class="relative z-10 w-1/6 pt-5 hidden md:block"
+    class="relative z-10 w-1/6 pl-6 hidden md:block"
+    style="padding-top: 2.2vw"
     src="/assets/images/freemove-logo.png"
   />
-  <img class="h-12 pt-2 pl-2 md:hidden" src="/assets/images/freemove-logo-small.png" />
+  <div class="md:hidden flex">
+    <img class="relative h-8" src="/assets/images/freemove-logo-small.png" />
+    <button class="hamburger hamburger--collapse is-active" type="button" onclick="this.classList.toggle('is-active')">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
 </header>
+<nav class="w-full absolute hidden md:block">
+  <div style="margin-left: 23.3vw; padding: calc(1.66vw - 10px) 0">
+    <a style="font-size: 1.33vw" class="text-white" href="/"
+      >FORSCHUNGSPROJEKT</a
+    >
+    <a style="font-size: 1.33vw" class="text-white mx-2" href="/partners"
+      >PROJEKTPARTNER:INNEN</a
+    >
+    <a style="font-size: 1.33vw" class="text-white mx-2" href="/"
+      >EVENTKALENDER</a
+    >
+    <a style="font-size: 1.33vw" class="text-white mx-2" href="/contact"
+      >KONTAKT</a
+    >
+  </div>
+</nav>

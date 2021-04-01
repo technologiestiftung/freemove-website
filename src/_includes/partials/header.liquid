@@ -11,13 +11,22 @@
     class="absolute hidden md:block"
     src="/assets/images/header-background.svg"
   />
-  <img
-    class="relative z-10 w-2/12 pl-4 hidden md:block"
-    style="padding-top: 1.1vw"
-    src="/assets/images/freemove-logo.svg"
-  />
+  <a href="/">
+    <img
+      class="relative z-10 w-2/12 pl-4 hidden md:block"
+      style="padding-top: 1.1vw"
+      src="/assets/images/freemove-logo.svg"
+      alt="freemove logo"
+    />
+  </a>
   <div class="md:hidden flex justify-between">
-    <img class="relative h-8" src="/assets/images/freemove-logo-small.png" />
+    <a>
+      <img
+        class="relative h-8"
+        src="/assets/images/freemove-logo-small.png"
+        alt="small freemove logo"
+      />
+    </a>
     <button
       class="hamburger hamburger--collapse"
       type="button"
@@ -33,14 +42,45 @@
   class="absolute hidden md:block ml-vw"
   style="padding: calc(1.66vw - 10px) 0"
 >
-  <a style="font-size: 1.33vw" class="text-white" href="/">FORSCHUNGSPROJEKT</a>
-  <a style="font-size: 1.33vw" class="text-white mx-2" href="/partners"
+  <a 
+    href="/projects"
+    {% if page.url == "/" %}
+    class="nav-font-size text-white mx-2"
+    {% endif %}
+    {% if page.url contains "/projects" %}
+    class="nav-font-size text-orange mx-2"
+    {% endif %}
+    class="nav-font-size text-blue mx-2"
+    >FORSCHUNGSPROJEKT</a
+  >
+  <a 
+    href="/partners"
+    {% if page.url == "/" %}
+    class="nav-font-size text-white mx-2"
+    {% endif %}
+    {% if page.url contains "/partners" %}
+    class="nav-font-size text-green mx-2"
+    {% endif %}
+    class="nav-font-size text-blue mx-2"
     >PROJEKTPARTNER:INNEN</a
   >
-  <a style="font-size: 1.33vw" class="text-white mx-2" href="/"
+  <a 
+    href="/calendar"
+    {% if page.url == "/" %}
+    class="nav-font-size text-white mx-2"
+    {% endif %}
+    {% if page.url contains "/calendar" %}
+    class="nav-font-size text-purple mx-2"
+    {% endif %}
+    class="nav-font-size text-blue mx-2"
     >EVENTKALENDER</a
   >
-  <a style="font-size: 1.33vw" class="text-white mx-2" href="/contact"
+  <a 
+    href="/contact"
+    {% if page.url == "/" %}
+    class="nav-font-size text-white mx-2"
+    {% endif %}
+    class="nav-font-size text-blue mx-2"
     >KONTAKT</a
   >
 </nav>

@@ -13,7 +13,8 @@
 
   @font-face {
     font-family: "Saira SemiCondensed";
-    src: url("/assets/fonts/SairaSemiCondensed-ExtraBold.ttf") format("truetype");
+    src: url("/assets/fonts/SairaSemiCondensed-ExtraBold.ttf")
+      format("truetype");
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -61,7 +62,8 @@
 
   @font-face {
     font-family: "Saira SemiCondensed";
-    src: url("/assets/fonts/SairaSemiCondensed-ExtraLight.ttf") format("truetype");
+    src: url("/assets/fonts/SairaSemiCondensed-ExtraLight.ttf")
+      format("truetype");
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -76,11 +78,17 @@
   }
 
   h1 {
-    @apply text-4xl md:text-6xl font-bold;
+    @apply text-4xl md:text-6xl font-semibold;
   }
 
   p {
-    @apply text-blue md:text-xl;
+    @apply text-blue leading-loose tracking-wide md:text-lg;
+  }
+}
+
+@layer components {
+  .component-container {
+    @apply mx-8 md:ml-vw max-w-screen-md;
   }
 }
 
@@ -88,6 +96,10 @@
   @variants responsive {
     .ml-vw {
       margin-left: 23.33vw;
+    }
+
+    .nav-font-size {
+      font-size: 1.33vw;
     }
   }
 }

@@ -3,11 +3,83 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed SemiCond";
+    src: url("/assets/fonts/SairaSemiCondensed-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
   h1 {
     @apply text-4xl md:text-6xl font-bold;
   }
 
   p {
-    @apply text-blue md:text-xl
+    @apply text-blue md:text-xl;
   }
 }

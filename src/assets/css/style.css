@@ -83,3 +83,11 @@
     @apply text-blue md:text-xl;
   }
 }
+
+@layer utilities {
+  @variants responsive {
+    .ml-vw {
+      margin-left: 23.33vw;
+    }
+  }
+}

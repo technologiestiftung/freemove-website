@@ -1,16 +1,20 @@
 ---
 layout: layouts/root.liquid
 ---
-<section class="px-8 py-16 md:py-24" style="background-image: url(/assets/images/home-background.png)">
-    <div class="mx-auto max-w-screen-md">
-        <h1 class="text-white font-normal">Privacy-Centered Urban Mobility Data</h1>
-        <p class="text-white my-8">
-            Das Potential der Analyse von Bewegungsdaten ist enorm, für die Bewältigung kritischer Probleme wie beispielsweise Epidemien und Katastrophen, aber auch für eine nachhaltige, menschzentrierte und umweltbewusste Stadt- und Verkehrsplanung. Demgegenüber stehen Herausforderungen, die mit der Verfügbarmachung solcher Bewegungsdaten verbunden sind: der rechtlich wie ethisch erforderliche hohe Schutz der Privatsphäre von Personen verlangt nach anspruchsvollen mathematischen und technischen Anonymisierungsverfahren.
+
+<section class="py-16 md:py-24" style="background-image: url(/assets/images/home-background.png)">
+    <div class="mx-8 md:ml-vw max-w-screen-md">
+        <h1 class="text-white font-normal">FreeMove Gesamtprojekt</h1>
+        <p class="text-white font-semibold my-8">
+            Transdisziplinäre Erforschung der Datenschutz-bewussten Verfügbarmachung von Bewegungsdaten für nachhaltige urbane Mobilität 
+        </p>
+        <p class="text-white my-8">   
+            FreeMove ist ein vom BMBF gefördertes, transdisziplinäres Projekt zur Erforschung von Mobilitätsdaten. Die Forschungsgruppe vereint die Kompetenzen von universitären und praktischen Partner:innen aus den Bereichen Machine Learning, digitale Selbstbestimmung, Human-Centered Computing und Distributed Security Infrastructures.
         </p>
     </div>
 </section>
-<section class="px-8 my-8 md:my-16">
-    <div class="mx-auto max-w-screen-md">
+<section class="my-8 md:my-16" >
+    <div class="mx-8 md:ml-vw max-w-screen-md">
         <h1 class="text-orange font-normal">Forschungssprojekt</h1>
         <p class="my-8">
             Zwischen der Verwertbarkeit der Daten, beispielsweise für statistische und algorithmische Modellierungsverfahren einerseits, und dem Datenschutz- und dem Datensicherheitsbeürfnis des Einzelnen andererseits gibt es daher einen Trade-Off und es gilt “ein öffentlich akzeptables Gleichgewicht zwischen dem Zugang zu Informationen und dem Schutz der Privatsphäre herzustellen”.

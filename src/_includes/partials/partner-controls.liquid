@@ -1,0 +1,22 @@
+{% assign previousPost = collections[tags] | getPreviousCollectionItem: page %}
+{% assign nextPost = collections[tags] | getNextCollectionItem: page %}
+
+{% if previousPost %}
+<div class="absolute h-full flex items-center" style="right: 105%">
+  <a href="{{ previousPost.url }}">
+    <div
+      class="sticky top-16 bottom-16 border-green hover:border-black component-left-arrow"
+      style="left: 105%"
+    ></div>
+  </a>
+</div>
+{% endif %} {% if nextPost %}
+<div class="absolute h-full flex items-center" style="left: 105%">
+  <a href="{{ nextPost.url }}">
+    <div
+      class="sticky top-16 bottom-16 border-green hover:border-black component-right-arrow"
+      style="left: 105%"
+    ></div>
+  </a>
+</div>
+{% endif %}

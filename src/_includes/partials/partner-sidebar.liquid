@@ -1,0 +1,11 @@
+<div class="hidden md:block absolute h-full w-32 pt-24" style="right: 105%">
+  {%- for school in schoolFullName %} {% if school[0] != "fub" %} {% assign
+  schoolName = school[0] %} {% assign schoolSlug = { school[1][0] | slug }} %}
+  <a
+    href="/partners/{{ schoolSlug }}/{{
+      collections[schoolName][0].data.name | slug
+    }}"
+    ><p class="text-green mb-4 text-right text-base">{{ school[1][1] }}</p></a
+  >
+  {% endif %} {% endfor -%}
+</div>

@@ -7,7 +7,7 @@ module.exports = function (eleventyConfig) {
   
   return {
     dir: {
-      // data: "_data",
+      data: "_data",
       input: "src/",
       output: "_site", // this is the default
     },

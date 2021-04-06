@@ -46,41 +46,42 @@
     href="/projects"
     {% if page.url == "/" %}
     class="nav-font-size text-white mx-2"
-    {% endif %}
-    {% if page.url contains "/projects" %}
+    {% elsif page.url contains "/projects" %}
     class="nav-font-size text-orange mx-2"
-    {% endif %}
+    {% else %}
     class="nav-font-size text-blue mx-2"
+    {% endif %}
     >FORSCHUNGSPROJEKT</a
   >
   <a 
     href="/partners"
     {% if page.url == "/" %}
     class="nav-font-size text-white mx-2"
-    {% endif %}
-    {% if page.url contains "/partners" %}
+    {% elsif page.url contains "/partners" %}
     class="nav-font-size text-green mx-2"
-    {% endif %}
+    {% else %}
     class="nav-font-size text-blue mx-2"
+    {% endif %}
     >PROJEKTPARTNER:INNEN</a
   >
   <a 
     href="/calendar"
     {% if page.url == "/" %}
     class="nav-font-size text-white mx-2"
-    {% endif %}
-    {% if page.url contains "/calendar" %}
+    {% elsif page.url contains "/calendar" %}
     class="nav-font-size text-purple mx-2"
-    {% endif %}
+    {% else %}
     class="nav-font-size text-blue mx-2"
+    {% endif %}
     >EVENTKALENDER</a
   >
   <a 
     href="/contact"
     {% if page.url == "/" %}
     class="nav-font-size text-white mx-2"
-    {% endif %}
+    {% else %}
     class="nav-font-size text-blue mx-2"
+    {% endif %}
     >KONTAKT</a
   >
 </nav>

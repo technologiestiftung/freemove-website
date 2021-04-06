@@ -7,7 +7,10 @@
     "clean": "rm -rf _site",
     "dev:css": "postcss src/assets/css/style.css -o src/assets/css/style.compiled.css --watch --verbose",
     "dev:eleventy": "eleventy --serve --quiet",
+    "build:css": "NODE_ENV=${NODE_ENV:=production} postcss src/assets/css/style.css -o src/assets/css/style.compiled.css",
+    "build:eleventy": "ELEVENTY_ENV=production eleventy",
     "dev": "npm-run-all clean --parallel dev:* --print-label",
+    "build": "run-s clean build:css build:eleventy --print-label",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

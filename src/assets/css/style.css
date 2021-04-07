@@ -137,6 +137,17 @@
   .component-partner > p > img {
     @apply rounded-full;
   }
+
+  .component-contact > p {
+    @apply border-b border-blue w-full;
+  }
+
+  .component-contact > p > input {
+    @apply p-2 text-sm placeholder-blue outline-none;
+  }
+  .component-contact > p > textarea {
+    @apply p-2 text-sm placeholder-blue outline-none w-full resize-none h-64;
+  }
 }
 
 @layer utilities {

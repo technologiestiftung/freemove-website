@@ -1,0 +1,27 @@
+---
+layout: layouts/wrapper.liquid
+title: Kontakt
+permalink: /contact/
+---
+
+<form class="component-contact" name="contact" netlify>
+  <p>
+    <label class="hidden">Name</label>
+    <input type="text" name="name" placeholder="NAME"/>
+  </p>
+  <p>
+    <label class="hidden">Addresse</label>
+    <input type="text" name="address" placeholder="ADRRESSE"/>
+  </p>
+  <p>
+    <label class="hidden">Email</label>
+    <input type="email" name="email" placeholder="EMAIL"/>
+  </p>
+  <p>
+    <label class="hidden">Nachricht</label>
+    <textarea type="text" name="message" placeholder="NACHRICHT"></textarea>
+  </p>
+  <p class="text-right" style="border: 0">
+    <button class="border border-blue py-1 px-4 mt-4" type="submit">Senden</button>
+  </p>
+</form>

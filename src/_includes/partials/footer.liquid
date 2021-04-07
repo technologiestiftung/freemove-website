@@ -1,0 +1,38 @@
+<footer>
+  <section class="border-t border-b border-blue flex">
+    <div class="max-w-screen-lg mx-auto p-8">
+      {% include partials/logos.liquid %}
+    </div>
+  </section>
+  <section class="bg-gray-100">
+    <div
+      class="max-w-screen-lg mx-auto px-8 py-6 block sm:flex justify-between"
+    >
+      <div class="flex items-center">
+        <p class="text-sm text-gray-700">
+          © {{ "now" | date: "%Y" }} Technologiestiftung Berlin
+        </p>
+      </div>
+      <ul class="flex items-center mt-2 list-none sm:mt-0">
+        <li>
+          <a
+            href="https://www.technologiestiftung-berlin.de/de/impressum/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-sm text-gray-700"
+            >Impressum</a
+          >
+        </li>
+        <li class="ml-4">
+          <a
+            href="https://www.technologiestiftung-berlin.de/de/datenschutz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-sm text-gray-700"
+            >Datenschutzerklärung</a
+          >
+        </li>
+      </ul>
+    </div>
+  </section>
+</footer>

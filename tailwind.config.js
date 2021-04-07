@@ -1,12 +1,12 @@
 module.exports = {
   purge: {
     enabled: process.env.NODE_ENV === "production",
-    content: ["./src/**/*.{html,liquid,njk}"],
+    content: ["./src/**/*.{md,html,liquid,njk}"],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ["Helvetica", "sans-serif"],
+      sans: ["Saira SemiCondensed", "sans-serif"],
     },
     extend: {
       colors: {
@@ -18,7 +18,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ['active'],
+      translate: ['active'],
+    },
   },
   plugins: [],
 };

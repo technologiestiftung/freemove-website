@@ -3,11 +3,150 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-ExtraBold.ttf")
+      format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed SemiCond";
+    src: url("/assets/fonts/SairaSemiCondensed-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-ExtraLight.ttf")
+      format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Saira SemiCondensed";
+    src: url("/assets/fonts/SairaSemiCondensed-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
   h1 {
-    @apply text-4xl md:text-6xl font-bold;
+    @apply text-4xl md:text-6xl font-semibold;
+  }
+
+  h2 {
+    @apply text-2xl md:text-4xl font-semibold;
+  }
+
+  h2 {
+    @apply text-xl md:text-2xl font-medium;
   }
 
   p {
-    @apply text-blue md:text-xl
+    @apply text-blue leading-loose tracking-wide md:text-lg py-2;
+  }
+
+  ul {
+    @apply list-disc list-inside text-blue m-2 tracking-wide;
+  }
+}
+
+@layer components {
+  .component-container {
+    @apply mx-8 md:ml-vw max-w-screen-md;
+  }
+
+  .component-right-arrow {
+    @apply border-b-2 border-r-2 border-black w-4 h-4 transform -rotate-45 cursor-pointer active:scale-90;
+  }
+
+  .component-left-arrow {
+    @apply border-b-2 border-l-2 border-black w-4 h-4 transform rotate-45 cursor-pointer active:scale-90;
+  }
+
+  .component-school {
+    @apply border-b border-green pb-16;
+  }
+  
+  .component-school > h1 {
+    @apply text-green;
+  }
+
+  .component-school > div {
+    @apply flex items-center my-8 px-4 text-green;
+  }
+
+  .component-school > div > p {
+    @apply w-3/12 mr-8;
+  }
+
+  .component-partner {
+    @apply flex items-center my-16 text-green relative;
+  }
+
+  .component-partner > p {
+    @apply w-1/3 mr-8;
+  }
+  .component-partner > p > img {
+    @apply rounded-full;
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    .ml-vw {
+      margin-left: 23.33vw;
+    }
+
+    .nav-font-size {
+      font-size: 1.33vw;
+    }
   }
 }

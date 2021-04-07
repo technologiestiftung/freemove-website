@@ -5,15 +5,83 @@
     }
   }
 </style>
-<header id="header" class="h-16 border-b border-blue w-screen">
+<header id="header" class="h-16 border-b border-blue w-screen p-4 md:p-0">
   <!-- <img class="absolute" style="left: calc(23.3vw - 336px)" src="/assets/images/header-background.svg"> -->
   <img
     class="absolute hidden md:block"
     src="/assets/images/header-background.svg"
   />
-  <img
-    class="relative z-10 w-1/6 pt-5 hidden md:block"
-    src="/assets/images/freemove-logo.png"
-  />
-  <img class="h-12 pt-2 pl-2 md:hidden" src="/assets/images/freemove-logo-small.png" />
+  <a href="/">
+    <img
+      class="relative z-10 w-2/12 pl-4 hidden md:block"
+      style="padding-top: 1.1vw"
+      src="/assets/images/freemove-logo.svg"
+      alt="freemove logo"
+    />
+  </a>
+  <div class="md:hidden flex justify-between">
+    <a>
+      <img
+        class="relative h-8"
+        src="/assets/images/freemove-logo-small.png"
+        alt="small freemove logo"
+      />
+    </a>
+    <button
+      class="hamburger hamburger--collapse"
+      type="button"
+      onclick="this.classList.toggle('is-active')"
+    >
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
 </header>
+<nav
+  class="absolute hidden md:block ml-vw"
+  style="padding: calc(1.66vw - 10px) 0"
+>
+  <a 
+    href="/projects"
+    {% if page.url == "/" %}
+    class="nav-font-size text-white mx-2"
+    {% elsif page.url contains "/projects" %}
+    class="nav-font-size text-orange mx-2"
+    {% else %}
+    class="nav-font-size text-blue mx-2"
+    {% endif %}
+    >FORSCHUNGSPROJEKT</a
+  >
+  <a 
+    href="/partners"
+    {% if page.url == "/" %}
+    class="nav-font-size text-white mx-2"
+    {% elsif page.url contains "/partners" %}
+    class="nav-font-size text-green mx-2"
+    {% else %}
+    class="nav-font-size text-blue mx-2"
+    {% endif %}
+    >PROJEKTPARTNER:INNEN</a
+  >
+  <a 
+    href="/calendar"
+    {% if page.url == "/" %}
+    class="nav-font-size text-white mx-2"
+    {% elsif page.url contains "/calendar" %}
+    class="nav-font-size text-purple mx-2"
+    {% else %}
+    class="nav-font-size text-blue mx-2"
+    {% endif %}
+    >EVENTKALENDER</a
+  >
+  <a 
+    href="/contact"
+    {% if page.url == "/" %}
+    class="nav-font-size text-white mx-2"
+    {% else %}
+    class="nav-font-size text-blue mx-2"
+    {% endif %}
+    >KONTAKT</a
+  >
+</nav>

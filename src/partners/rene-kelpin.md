@@ -12,19 +12,13 @@ tags: dlr
 
 <div>
 
-### Technische Universität Berlin
-
-### Distributed Security Infrastructures
-
-### Security Architecture & Differential Privacy
-
 ## {{name}}
 
-### florian.tschorsch@tu-berlin.de
+[Rene.Kelpin@dlr.de](mailto:Rene.Kelpin@dlr.de)
 
 
 </div>
 {% include partials/partner-controls.liquid %}
 </div>
 
-René Kelpin ist Diplom-Mathematiker und arbeitet seit 2000 als wissenschaftlicher Mitarbeiter am Institut für Verkehrsforschung im Deutschen Zentrum für Luft- und Raumfahrt. Er arbeitet in nationalen und EU-weiten Projekten zu Mobilitätsdiensten und bringt dort seine Expertise in Fragen der Datenquellen, Datenverfügbarkeit und Datensparsamkeit ein. Seit 2007 leitet er die Clearingstelle für Verkehrsdaten und ist seit 2016 verantwortlich für den Aufbau und den Betrieb des DLR MovingLab. Im Projekt Freemove kommt das DLR MovingLab als smartphonegestützte Erhebungsmethode von Mobilitätsdaten in einem der Projektpiloten zum Einsatz.
+René Kelpin ist Diplom-Mathematiker und arbeitet seit 2000 als wissenschaftlicher Mitarbeiter am Institut für Verkehrsforschung im Deutschen Zentrum für Luft- und Raumfahrt. Er arbeitet in nationalen und EU-weiten Projekten zu Mobilitätsdiensten und bringt dort seine Expertise in Fragen der Datenquellen, Datenverfügbarkeit und Datensparsamkeit ein. Seit 2007 leitet er die Clearingstelle für Verkehrsdaten und ist seit 2016 verantwortlich für den Aufbau und den Betrieb des **[DLR MovingLab](https://movinglab.dlr.de)**. Im Projekt Freemove kommt das DLR MovingLab als smartphonegestützte Erhebungsmethode von Mobilitätsdaten in einem der Projektpiloten zum Einsatz.

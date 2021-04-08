@@ -82,19 +82,19 @@
   }
 
   h2 {
-    @apply text-2xl md:text-4xl font-semibold;
+    @apply text-base sm:text-xl md:text-2xl font-semibold;
   }
 
-  h2 {
-    @apply text-xl md:text-2xl font-medium;
+  h3 {
+    @apply text-sm sm:text-lg md:text-xl font-medium;
   }
 
   p {
-    @apply text-blue leading-loose tracking-wide md:text-lg py-2;
+    @apply text-blue leading-relaxed md:leading-loose md:tracking-wide md:text-lg py-2;
   }
 
   ul {
-    @apply list-disc list-inside text-blue m-2 tracking-wide;
+    @apply list-disc text-blue m-2 tracking-wide ml-4;
   }
 }
 
@@ -103,50 +103,85 @@
     @apply mx-8 md:ml-vw max-w-screen-md;
   }
 
+  .component-arrow {
+    @apply border-black w-4 h-4 transform cursor-pointer active:scale-90;
+  }
+
   .component-right-arrow {
-    @apply border-b-2 border-r-2 border-black w-4 h-4 transform -rotate-45 cursor-pointer active:scale-90;
+    @apply component-arrow border-b-2 border-r-2 -rotate-45;
   }
 
   .component-left-arrow {
-    @apply border-b-2 border-l-2 border-black w-4 h-4 transform rotate-45 cursor-pointer active:scale-90;
+    @apply component-arrow border-b-2 border-l-2 rotate-45;
+  }
+
+  .component-down-arrow {
+    @apply component-arrow border-b-2 border-l-2 -rotate-45;
+  }
+
+  .component-up-arrow {
+    @apply component-arrow border-t-2 border-l-2 rotate-45;
   }
 
   .component-school {
     @apply border-b border-green pb-16;
   }
-  
-  .component-school > h1 {
+
+  .component-school :is(h1, h2) {
     @apply text-green;
   }
 
   .component-school > div {
-    @apply flex items-center my-8 px-4 text-green;
+    @apply hidden sm:flex items-center my-8 md:px-4 text-green;
   }
 
   .component-school > div > p {
-    @apply w-3/12 mr-8;
+    @apply w-3/12 mr-4 md:mr-8;
+  }
+
+  .component-school > p {
+    @apply pt-8 sm:pt-4;
   }
 
   .component-partner {
-    @apply flex items-center my-16 text-green relative;
+    @apply flex flex-col sm:flex-row items-center mt-16 mb-4 sm:mb-16 text-green relative px-16 md:px-8;
   }
 
   .component-partner > p {
-    @apply w-1/3 mr-8;
+    @apply w-1/2 mb-4 sm:w-1/3 sm:mr-8 sm:mb-0;
   }
   .component-partner > p > img {
     @apply rounded-full;
   }
 
+  .component-partner > div > h2 {
+    @apply text-2xl text-center sm:text-left;
+  }
+
+  .component-partner > div > h3 {
+    @apply text-xl text-center sm:text-left;
+  }
+
+  .component-partner > div > p {
+    @apply text-lg text-center sm:text-left text-green p-0;
+  }
+
   .component-contact > p {
     @apply border-b border-blue w-full;
   }
+ 
 
   .component-contact > p > input {
     @apply p-2 text-sm placeholder-blue outline-none w-full;
   }
   .component-contact > p > textarea {
     @apply p-2 text-sm placeholder-blue outline-none w-full resize-none h-64;
+  }
+  .component-navbar-mobile {
+    @apply flex flex-col text-blue h-0 md:hidden;
+  }
+  .component-navbar-mobile > div {
+    @apply px-8 py-4 text-xl;
   }
 }
 

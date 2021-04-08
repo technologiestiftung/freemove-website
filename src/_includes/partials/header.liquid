@@ -4,9 +4,38 @@
       height: 5vw;
     }
   }
+
+  @keyframes open-nav {
+    from {height: 0;}
+    to {height: 100%;}
+  }
+
+  #mobile-nav {
+    overflow: hidden;
+  }
+
+  nav.open {
+    height: 100%;
+    padding-top: 32px;
+    /* animation: open-nav 0.5s linear 0s 1; */
+  }
+
+  .left-arrow {
+    right: 97%;
+  }
+  .right-arrow {
+    left: 97%;
+  }
+  @media (min-width: 768px) {
+    .left-arrow {
+      right: 100%;
+    }
+    .right-arrow {
+      left: 100%;
+    }
+  }
 </style>
-<header id="header" class="h-16 border-b border-blue w-screen p-4 md:p-0">
-  <!-- <img class="absolute" style="left: calc(23.3vw - 336px)" src="/assets/images/header-background.svg"> -->
+<header id="header" class="h-16 border-b border-blue w-screen px-8 py-4 md:p-0">
   <img
     class="absolute hidden md:block"
     src="/assets/images/header-background.svg"
@@ -20,7 +49,7 @@
     />
   </a>
   <div class="md:hidden flex justify-between">
-    <a>
+    <a href='/'>
       <img
         class="relative h-8"
         src="/assets/images/freemove-logo-small.png"
@@ -30,7 +59,7 @@
     <button
       class="hamburger hamburger--collapse"
       type="button"
-      onclick="this.classList.toggle('is-active')"
+      onclick="this.classList.toggle('is-active');document.getElementById('mobile-nav').classList.toggle('open');document.getElementsByTagName('main')[0].classList.toggle('hidden');document.getElementsByTagName('footer')[0].classList.toggle('hidden')"
     >
       <span class="hamburger-box">
         <span class="hamburger-inner"></span>
@@ -43,11 +72,9 @@
   style="padding: calc(1.66vw - 10px) 0"
 >
   <a 
-    href="/project"
+    href="/"
     {% if page.url == "/" %}
-    class="nav-font-size text-white mx-2"
-    {% elsif page.url contains "/projects" %}
-    class="nav-font-size text-orange mx-2"
+    class="nav-font-size text-white mx-2 text-2xl font-semibold"
     {% else %}
     class="nav-font-size text-blue mx-2"
     {% endif %}
@@ -79,9 +106,34 @@
     href="/contact"
     {% if page.url == "/" %}
     class="nav-font-size text-white mx-2"
+    {% elsif page.url == "/contact/" %}
+    class="nav-font-size text-blue mx-2 font-semibold"
     {% else %}
     class="nav-font-size text-blue mx-2"
     {% endif %}
     >KONTAKT</a
   >
+</nav>
+<nav id="mobile-nav" class="component-navbar-mobile">
+  <div>
+    <a href="/project">FORSCHUNGSPROJEKT</a>
+  </div>
+  <div class="flex justify-between flex-wrap">
+    <a href="/partners">PROJEKTPARTNER:INNEN</a>
+    <button class="border-blue component-down-arrow mr-5" onclick="['component-down-arrow','component-up-arrow','border-blue','border-white'].forEach(className => this.classList.toggle(className));['bg-green', 'border-t', 'border-b', 'border-blue', 'text-white'].forEach(className => parentNode.classList.toggle(className));this.nextElementSibling.classList.toggle('hidden')"></button>
+    <div class="hidden w-full">
+      {%- for school in schoolFullName %} {% if school[0] != "fub" %} {% assign
+        schoolName = school[0] %}
+        <a href="{{ collections[schoolName][0].url }}"
+          ><p class="text-white text-base">{{ school[1][1] }}</p></a
+        >
+        {% endif %} {% endfor -%}
+    </div>
+  </div>
+  <div>
+    <a href="/calendar">EVENTKALENDER</a>
+  </div>
+  <div>
+    <a href="/contact">KONTAKT</a>
+  </div>
 </nav>

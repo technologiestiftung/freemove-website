@@ -1,6 +1,6 @@
 ---
 name: Prof. Dr. Max von Grafenstein LL.M.
-image: max-grafenstein.png
+image: max-grafenstein.jpg
 tags: udk
 ---
 
@@ -12,16 +12,9 @@ tags: udk
 
 <div>
 
-### Technische Universität Berlin
-
-### Distributed Security Infrastructures
-
-### Security Architecture & Differential Privacy
-
 ## {{name}}
 
-### florian.tschorsch@tu-berlin.de
-
+[m.von-grafenstein@udk-berlin.de](mailto:m.von-grafenstein@udk-berlin.de)
 
 </div>
 {% include partials/partner-controls.liquid %}

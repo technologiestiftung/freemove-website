@@ -57,7 +57,7 @@
       />
     </a>
     <button
-      class="hamburger hamburger--collapse"
+      class="hamburger hamburger--collapse focus:outline-none"
       type="button"
       onclick="this.classList.toggle('is-active');document.getElementById('mobile-nav').classList.toggle('open');document.getElementsByTagName('main')[0].classList.toggle('hidden');document.getElementsByTagName('footer')[0].classList.toggle('hidden')"
     >
@@ -118,9 +118,9 @@
   <div>
     <a href="/project">FORSCHUNGSPROJEKT</a>
   </div>
-  <div class="flex justify-between flex-wrap">
-    <a href="/partners">PROJEKTPARTNER:INNEN</a>
-    <button class="border-blue component-down-arrow mr-5" onclick="['component-down-arrow','component-up-arrow','border-blue','border-white'].forEach(className => this.classList.toggle(className));['bg-green', 'border-t', 'border-b', 'border-blue', 'text-white'].forEach(className => parentNode.classList.toggle(className));this.nextElementSibling.classList.toggle('hidden')"></button>
+  <div class="flex justify-between flex-wrap" onclick="['component-down-arrow','component-up-arrow','border-blue','border-white'].forEach(className => this.children[1].classList.toggle(className));['bg-green', 'border-t', 'border-b', 'border-blue', 'text-white'].forEach(className => this.classList.toggle(className));this.children[2].classList.toggle('hidden')">
+    <a href="javascript:">PROJEKTPARTNER:INNEN</a>
+    <button class="border-blue component-down-arrow mr-5 focus:outline-none"></button>
     <div class="hidden w-full">
       {%- for school in schoolFullName %} {% if school[0] != "fub" %} {% assign
         schoolName = school[0] %}

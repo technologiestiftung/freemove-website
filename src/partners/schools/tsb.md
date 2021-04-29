@@ -4,7 +4,7 @@
 
 <div>
 
-![Logo of the {{schoolFullName[tags][0]}}](/assets/images/tsb-logo.svg)
+![Logo of the {{schoolFullName[tags][0]}}](/assets/images/tsb-logo.png)
 
 <div>
 

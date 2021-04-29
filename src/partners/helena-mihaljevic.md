@@ -21,4 +21,4 @@ tags: htw
 </div>
 {% include partials/partner-controls.liquid %}
 
-Helena Mihaljević ist promovierte Mathematikerin mit Hintergund in dynamischen Systemen. Seit 2018 ist sie Professorin für Data Science an der Hochschule für Technik und Wirtschaft Berlin in Assoziation mit dem Einstein Center Digital Future. Sie forscht in interdisziplinären Projekten, u.a. im Bereich der datenbasierten Mobilitätsforschung, und bringt jahrelange Erfahrung in der Anwendung, Entwicklung und Optimierung von Algorithmen des maschinellen Lernens sowie der Erstellung von datengetrieber Software in das Projekt.
+Helena Mihaljević ist promovierte Mathematikerin mit Hintergund in dynamischen Systemen. Seit 2018 ist sie Professorin für Data Science an der Hochschule für Technik und Wirtschaft Berlin in Assoziation mit dem Einstein Center Digital Future. Sie forscht in interdisziplinären Projekten, u.a. im Bereich der datenbasierten Mobilitätsforschung, und bringt jahrelange Erfahrung in der Anwendung, Entwicklung und Optimierung von Algorithmen des maschinellen Lernens sowie der Erstellung von datengetriebener Software in das Projekt.

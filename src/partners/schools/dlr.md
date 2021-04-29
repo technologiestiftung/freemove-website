@@ -24,7 +24,6 @@ Im Institut für Verkehrsforschung (VF) am Deutschen Zentrum für Luft- und Raum
 - Wechselwirkungen zwischen Informations- und Kommunikationstechnologien (IKT) und Mobilität
 - Urbane Mobilität im nationalen und internationalen Kontex
 
-In einer Vielzahl von Projekten und Studien, in denen personen- und unternehmensbezogene Daten erhoben werden, haben die im Projekt Freemove adressierten Themen und Forschungsfragstellungen eine ganz besondere Bedeutung. Antworten zu Fragen des Datenschutzes, zur Information von Proband:innen und zu einer ausgewogenen Balance zwischen Datensparsamkeit und wissenschaftlicher Detailtiefe werden in den täglichen Arbeiten am Institut dringend benötigt.
-
+In einer Vielzahl von Projekten und Studien, in denen personen- und unternehmensbezogene Daten erhoben werden, haben die im Projekt Freemove adressierten Themen und Forschungsfragstellungen eine besondere Bedeutung. Erkenntnisse zu Fragen des Datenschutzes und einer ausgewogenen Balance zwischen Datensparsamkeit und wissenschaftlicher Detailtiefe werden, in den täglichen Arbeiten am Institut, dringend benötigt. Im Projekt Freemove kommt das DLR MovingLab als smartphonegestützte Erhebungsmethode von Mobilitätsdaten in einem der Projektpiloten zum Einsatz. 
 
 </div>

@@ -2,6 +2,7 @@
 name: Prof. Dr. Max von Grafenstein LL.M.
 image: max-grafenstein.jpg
 tags: udk
+date: 2000-01-01
 ---
 
 {% include ./schools/udk.md %}

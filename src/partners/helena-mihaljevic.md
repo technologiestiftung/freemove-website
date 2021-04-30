@@ -2,6 +2,7 @@
 name: Prof. Dr. Helena Mihaljević
 image: helena-mihaljevic.jpg
 tags: htw
+date: 2000-01-01
 ---
 
 {% include ./schools/htw.md %}

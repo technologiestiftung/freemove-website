@@ -2,6 +2,7 @@
 name: Prof. Dr. Florian Tschorsch
 image: florian-tschorsch.jpg
 tags: tub
+date: 2000-01-01
 ---
 
 {% include ./schools/tub.md %}

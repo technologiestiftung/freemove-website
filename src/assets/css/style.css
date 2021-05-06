@@ -191,8 +191,12 @@
       margin-left: 23.33vw;
     }
 
-    .nav-font-size {
+    .nav-font-size-md {
       font-size: 1.33vw;
+    }
+
+    .nav-font-size-lg {
+      font-size: 1.66vw;
     }
   }
 }

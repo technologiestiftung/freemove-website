@@ -35,9 +35,10 @@
     }
   }
 </style>
-<header id="header" class="h-16 border-b border-blue w-screen px-8 py-4 md:p-0">
+<header id="header" class="h-16 border-b border-blue md:border-b-0 w-screen px-8 py-4 md:p-0">
   <img
     class="absolute hidden md:block"
+    style="z-index: -1"
     src="/assets/images/header-background.svg"
   />
   <a href="/">
@@ -74,42 +75,42 @@
   <a 
     href="/"
     {% if page.url == "/" %}
-    class="nav-font-size text-white mx-2 text-2xl font-semibold"
+    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 text-2xl font-semibold"
     {% else %}
-    class="nav-font-size text-blue mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2"
     {% endif %}
     >FORSCHUNGSPROJEKT</a
   >
   <a 
     href="/partners"
     {% if page.url == "/" %}
-    class="nav-font-size text-white mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2"
     {% elsif page.url contains "/partners" %}
-    class="nav-font-size text-green mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-green mx-2 font-semibold"
     {% else %}
-    class="nav-font-size text-blue mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2"
     {% endif %}
     >PROJEKTPARTNER:INNEN</a
   >
-  <a 
+  <!-- <a 
     href="/calendar"
     {% if page.url == "/" %}
-    class="nav-font-size text-white mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2"
     {% elsif page.url contains "/calendar" %}
-    class="nav-font-size text-purple mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-purple mx-2"
     {% else %}
-    class="nav-font-size text-blue mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2"
     {% endif %}
     >EVENTKALENDER</a
-  >
+  > -->
   <a 
     href="/contact"
     {% if page.url == "/" %}
-    class="nav-font-size text-white mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2"
     {% elsif page.url == "/contact/" %}
-    class="nav-font-size text-blue mx-2 font-semibold"
+    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2 font-semibold"
     {% else %}
-    class="nav-font-size text-blue mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2"
     {% endif %}
     >KONTAKT</a
   >
@@ -130,9 +131,9 @@
         {% endif %} {% endfor -%}
     </div>
   </div>
-  <div>
+  <!-- <div>
     <a href="/calendar">EVENTKALENDER</a>
-  </div>
+  </div> -->
   <div>
     <a href="/contact">KONTAKT</a>
   </div>

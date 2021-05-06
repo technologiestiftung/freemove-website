@@ -8,7 +8,6 @@
 
 <div>
 
-### TSB
 ## Technologiestiftung Berlin
 
 </div>

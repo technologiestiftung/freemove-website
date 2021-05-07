@@ -1,0 +1,12 @@
+{
+    "prof": {
+        "name": "Prof. Dr. Helena Mihaljević",
+        "email": "helena.mihaljevic@htw-berlin.de",
+        "image": "/assets/images/helena-mihaljevic.jpg"
+    },
+    "student": {
+        "name": "Alexandra Kapp",
+        "email": "alexandra.kapp@htw-berlin.de",
+        "image": "/assets/images/alexandra-kapp.jpg"
+    }
+}

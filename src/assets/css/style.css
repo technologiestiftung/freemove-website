@@ -124,7 +124,7 @@
   }
 
   .component-school {
-    @apply border-b border-green pb-16;
+    @apply border-b border-green pb-4 mt-16;
   }
 
   .component-school :is(h1, h2) {
@@ -144,7 +144,7 @@
   }
 
   .component-partner {
-    @apply flex flex-col sm:flex-row items-center mt-16 mb-4 sm:mb-16 text-green relative px-16 md:px-8;
+    @apply flex flex-col sm:flex-row items-center my-6 text-green relative px-16 md:px-8;
   }
 
   .component-partner > p {

@@ -1,0 +1,32 @@
+{
+    "fub": {
+        "en":"Free University of Berlin",
+        "de":"Freie Universität Berlin",
+        "logo": "/assets/images/fub-logo.svg"
+    },
+    "dlr": {
+        "en":"German Aerospace Center",
+        "de":"Deutsches Zentrum für Luft- und Raumfahrt",
+        "logo": "/assets/images/dlr-logo.svg"
+    },
+    "htw": {
+        "en":"University of Applied Sciences",
+        "de":"Hochschule für Technik und Wirtschaft Berlin",
+        "logo": "/assets/images/htw-logo.jpg"
+    },
+    "tub": {
+        "en": "Technical University of Berlin",
+        "de": "Technische Universität Berlin",
+        "logo": "/assets/images/tub-logo.svg"
+    },
+    "udk": {
+        "en":"Berlin University of the Arts",
+        "de":"Universität der Künste Berlin",
+        "logo": "/assets/images/udk-logo.svg"
+    },
+    "tsb": {
+        "en":"Technology Foundation Berlin",
+        "de":"Technologiestiftung Berlin",
+        "logo": "/assets/images/tsb-logo.png"
+    }
+}

@@ -165,17 +165,12 @@
   .component-partner > div > p {
     @apply text-lg text-center sm:text-left text-green p-0;
   }
-
-  .component-contact > p {
-    @apply border-b border-blue w-full;
-  }
  
-
-  .component-contact > p > input {
-    @apply p-2 text-sm placeholder-blue outline-none w-full;
+  .component-contact > div > input {
+    @apply mb-4 p-2 placeholder-blue outline-none w-full shadow-sm focus:ring-blue block w-full sm:text-sm placeholder-blue text-blue rounded-md;
   }
   .component-contact > p > textarea {
-    @apply p-2 text-sm placeholder-blue outline-none w-full resize-none h-64;
+    @apply p-2 placeholder-blue outline-none w-full resize-none h-64 shadow-sm focus:ring-blue block w-full sm:text-sm placeholder-blue text-blue rounded-md;
   }
   .component-navbar-mobile {
     @apply flex flex-col text-blue h-0 md:hidden;

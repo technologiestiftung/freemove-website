@@ -9,20 +9,20 @@ title: Kontakt
 <br>
 
 <form class="component-contact" name="contact" action='/contact/success' netlify>
+  <div>
+    <label for="name" class="sr-only">name</label>
+    <input type="text" name="name" id="name" placeholder="NAME">
+  </div>
+  <div>
+    <label for="address" class="sr-only">address</label>
+    <input type="text" name="address" id="address" placeholder="ADRRESSE">
+  </div>
+  <div>
+    <label for="email" class="sr-only">email</label>
+    <input type="email" name="email" id="email" placeholder="EMAIL">
+  </div>
   <p>
-    <label class="hidden">Name</label>
-    <input type="text" name="name" placeholder="NAME" required/>
-  </p>
-  <p>
-    <label class="hidden">Addresse</label>
-    <input type="text" name="address" placeholder="ADRRESSE"/>
-  </p>
-  <p>
-    <label class="hidden">Email</label>
-    <input type="email" name="email" placeholder="EMAIL" required/>
-  </p>
-  <p>
-    <label class="hidden">Nachricht</label>
+    <label for="message" class="sr-only">message</label>
     <textarea type="text" name="message" placeholder="NACHRICHT" required></textarea>
   </p>
   <p class="text-right" style="border: 0">

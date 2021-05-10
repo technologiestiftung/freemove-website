@@ -1,4 +1,4 @@
-<div class="component-school">
+<div id="udk" class="component-school">
 
 # {{schools.udk.de}} (UDK)
 

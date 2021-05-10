@@ -1,4 +1,4 @@
-<div class="component-school">
+<div id="htw" class="component-school">
 
 # {{schools.htw.de}} (HTW)
 

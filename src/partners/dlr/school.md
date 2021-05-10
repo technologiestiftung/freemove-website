@@ -1,4 +1,4 @@
-<div class="component-school">
+<div id="dlr" class="component-school">
 
 # {{schools.dlr.de}} (DLR)
 

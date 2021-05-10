@@ -1,4 +1,4 @@
-<div class="component-school border-b-0">
+<div id="tsb" class="component-school border-b-0">
 
 # {{schools.tsb.de}}
 

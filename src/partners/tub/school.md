@@ -1,4 +1,4 @@
-<div class="component-school">
+<div id="tub" class="component-school">
 
 # {{schools.tub.de}} (TU B)
 

@@ -10,7 +10,6 @@
 
 ## {{schools.dlr.de}}
 ### Institut für Verkehrsforschung
-### Institut VF
 
 </div>
 

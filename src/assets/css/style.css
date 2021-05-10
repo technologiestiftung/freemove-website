@@ -167,10 +167,10 @@
   }
  
   .component-contact > div > input {
-    @apply mb-4 p-2 placeholder-blue outline-none w-full shadow-sm focus:ring-blue block w-full sm:text-sm placeholder-blue text-blue rounded-md;
+    @apply border-blue mb-4 p-2 placeholder-blue outline-none w-full shadow-sm focus:ring-blue block w-full sm:text-sm placeholder-blue text-blue rounded-md;
   }
   .component-contact > p > textarea {
-    @apply p-2 placeholder-blue outline-none w-full resize-none h-64 shadow-sm focus:ring-blue block w-full sm:text-sm placeholder-blue text-blue rounded-md;
+    @apply border-blue p-2 placeholder-blue outline-none w-full resize-none h-64 shadow-sm focus:ring-blue block w-full sm:text-sm placeholder-blue text-blue rounded-md;
   }
   .component-navbar-mobile {
     @apply flex flex-col text-blue h-0 md:hidden;

@@ -5,7 +5,7 @@ permalink: /partners/
 ---
 
 
-# Projektpartner:innen
+<h1 class="text-green"> Projektpartner:innen </h1>
 
 <div class="relative text-green">
 

@@ -1,6 +1,6 @@
 <div id="dlr" class="component-school">
 
-# {{schools.dlr.de}} (DLR)
+# {{schools.dlr.de}}
 
 <div>
 

@@ -1,6 +1,6 @@
 <div id="tub" class="component-school">
 
-# {{schools.tub.de}} (TU B)
+# {{schools.tub.de}}
 
 <div>
 

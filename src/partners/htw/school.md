@@ -1,6 +1,6 @@
 <div id="htw" class="component-school">
 
-# {{schools.htw.de}} (HTW)
+# {{schools.htw.de}}
 
 <div>
 

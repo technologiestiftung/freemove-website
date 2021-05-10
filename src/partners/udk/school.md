@@ -1,6 +1,6 @@
 <div id="udk" class="component-school">
 
-# {{schools.udk.de}} (UDK)
+# {{schools.udk.de}}
 
 <div>
 

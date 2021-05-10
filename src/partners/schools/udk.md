@@ -18,6 +18,7 @@
 ## Professur für Digitale Selbstbestimmung
 
 Das Ziel des Forschungsprogramms Digitale Selbstbestimmung ist Mechanismen, Instrumente und Konzepte zu entwickeln, die den verschiedenen Akteur*innen helfen, die Risiken der Digitalisierung besser zu identifizieren, die Verantwortlichkeiten klarer zuzuweisen, sowie die Risiken effektiver zu kontrollieren und – als Konsequenz daraus – die Vorteile datengetriebener Innovation besser auszuschöpfen. Zu diesem Zweck werden die Projekte entlang der folgenden Forschungscluster strukturiert:
+
 - Data Protection by Design
 - Data Governance
 - Certificates und Codes of Conducts

@@ -123,12 +123,21 @@
     <a href="javascript:">PROJEKTPARTNER:INNEN</a>
     <button class="border-blue component-down-arrow mr-5 focus:outline-none"></button>
     <div class="hidden w-full">
-      {%- for school in schoolFullName %} {% if school[0] != "fub" %} {% assign
-        schoolName = school[0] %}
-        <a href="{{ collections[schoolName][0].url }}"
-          ><p class="text-white text-base">{{ school[1][1] }}</p></a
-        >
-        {% endif %} {% endfor -%}
+      <a href="/partners/dlr">
+        <p class="text-white text-base">{{ schools.dlr.de }}</p>
+      </a>
+      <a href="/partners/htw">
+        <p class="text-white text-base">{{ schools.htw.de }}</p>
+      </a>
+      <a href="/partners/tub">
+        <p class="text-white text-base">{{ schools.tub.de }}</p>
+      </a>
+      <a href="/partners/udk">
+        <p class="text-white text-base">{{ schools.udk.de }}</p>
+      </a>
+      <a href="/partners/tsb">
+        <p class="text-white text-base">{{ schools.tsb.de }}</p>
+      </a>
     </div>
   </div>
   <!-- <div>

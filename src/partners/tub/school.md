@@ -1,14 +1,14 @@
-<div class="component-school">
+<div id="tub" class="component-school">
 
-# Technische Universität Berlin (TU B)
-
-<div>
-
-![Logo of the {{schoolFullName[tags][0]}}](/assets/images/tub-logo.svg)
+# {{schools.tub.de}}
 
 <div>
 
-## Technische Universität Berlin
+![Logo of the {{schools.tub.en}}]({{schools.tub.logo}})
+
+<div>
+
+## {{schools.tub.de}}
 ### Distributed Security Infrastructures
 ### DSI
 
@@ -25,5 +25,9 @@ Die Lehre und Forschung des Fachgebiets orientieren sich an diesem Rahmen und be
 ## Aufgabenbereich TU B im Projekt
 
 Die TU Berlin übernimmt im FreeMove Projekt die Aufgabe Anonymisierungsmethoden hinsichtlich der garantierten Privatsphäre zu analysieren, zu bewerten und zu evaluieren. Zu diesem Zweck generiert die TU Berlin synthetische Mobilitätsdaten und untersucht diese auf technische Datenschutz-Garantien.
+
+<div class="justify-end my-0">
+    <a href="/partners/tub" class="border border-green text-green text-xl py-1 px-4 cursor-pointer hover:bg-green hover:text-white" style="text-decoration: none;">Weiter</a>
+</div>
 
 </div>

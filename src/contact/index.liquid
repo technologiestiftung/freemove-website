@@ -3,22 +3,23 @@ layout: layouts/wrapper.liquid
 title: Kontakt
 ---
 
+<h1 class="text-blue">Kontakt</h1>
+
+<br>
+<br>
+
 <form class="component-contact" name="contact" action='/contact/success' netlify>
+  <div>
+    <label for="name" class="sr-only">name</label>
+    <input type="text" name="name" id="name" placeholder="NAME*">
+  </div>
+  <div>
+    <label for="email" class="sr-only">email</label>
+    <input type="email" name="email" id="email" placeholder="EMAIL*" pattern='^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$'>
+  </div>
   <p>
-    <label class="hidden">Name</label>
-    <input type="text" name="name" placeholder="NAME" required/>
-  </p>
-  <p>
-    <label class="hidden">Addresse</label>
-    <input type="text" name="address" placeholder="ADRRESSE"/>
-  </p>
-  <p>
-    <label class="hidden">Email</label>
-    <input type="email" name="email" placeholder="EMAIL" required/>
-  </p>
-  <p>
-    <label class="hidden">Nachricht</label>
-    <textarea type="text" name="message" placeholder="NACHRICHT" required></textarea>
+    <label for="message" class="sr-only">message</label>
+    <textarea type="text" name="message" placeholder="NACHRICHT*" required></textarea>
   </p>
   <p class="text-right" style="border: 0">
     <button class="border border-blue py-1 px-4 mt-4 hover:bg-blue hover:text-white" type="submit">Senden</button>

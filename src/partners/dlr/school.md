@@ -1,16 +1,15 @@
-<div class="component-school">
+<div id="dlr" class="component-school">
 
-# Deutsches Zentrum für Luft- und Raumfahrt (DLR)
-
-<div>
-
-![Logo of the {{schoolFullName[tags][0]}}](/assets/images/dlr-logo.svg)
+# {{schools.dlr.de}}
 
 <div>
 
-## Deutsches Zentrum für Luft- und Raumfahrt
+![Logo of the {{schools.dlr.en}}]({{schools.dlr.logo}})
+
+<div>
+
+## {{schools.dlr.de}}
 ### Institut für Verkehrsforschung
-### Institut VF
 
 </div>
 
@@ -25,5 +24,9 @@ Im Institut für Verkehrsforschung (VF) am Deutschen Zentrum für Luft- und Raum
 - Urbane Mobilität im nationalen und internationalen Kontex
 
 In einer Vielzahl von Projekten und Studien, in denen personen- und unternehmensbezogene Daten erhoben werden, haben die im Projekt Freemove adressierten Themen und Forschungsfragstellungen eine besondere Bedeutung. Erkenntnisse zu Fragen des Datenschutzes und einer ausgewogenen Balance zwischen Datensparsamkeit und wissenschaftlicher Detailtiefe werden, in den täglichen Arbeiten am Institut, dringend benötigt. Im Projekt Freemove kommt das DLR MovingLab als smartphonegestützte Erhebungsmethode von Mobilitätsdaten in einem der Projektpiloten zum Einsatz. 
+
+<div class="justify-end my-0">
+    <a href="/partners/udk" class="border border-green text-green text-xl py-1 px-4 cursor-pointer hover:bg-green hover:text-white" style="text-decoration: none;">Weiter</a>
+</div>
 
 </div>

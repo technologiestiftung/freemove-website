@@ -96,6 +96,10 @@
   ul {
     @apply list-disc text-blue m-2 tracking-wide ml-4;
   }
+
+  a {
+    @apply hover:underline;
+  }
 }
 
 @layer components {
@@ -124,7 +128,7 @@
   }
 
   .component-school {
-    @apply border-b border-green pb-16;
+    @apply border-b border-green pb-4 mt-16;
   }
 
   .component-school :is(h1, h2) {
@@ -144,7 +148,7 @@
   }
 
   .component-partner {
-    @apply flex flex-col sm:flex-row items-center mt-16 mb-4 sm:mb-16 text-green relative px-16 md:px-8;
+    @apply flex flex-col sm:flex-row items-center my-6 text-green relative px-16 md:px-8;
   }
 
   .component-partner > p {
@@ -165,17 +169,12 @@
   .component-partner > div > p {
     @apply text-lg text-center sm:text-left text-green p-0;
   }
-
-  .component-contact > p {
-    @apply border-b border-blue w-full;
-  }
  
-
-  .component-contact > p > input {
-    @apply p-2 text-sm placeholder-blue outline-none w-full;
+  .component-contact > div > input {
+    @apply border-blue mb-4 p-2 placeholder-blue outline-none w-full shadow-sm focus:ring-blue block w-full sm:text-sm placeholder-blue text-blue rounded-md;
   }
   .component-contact > p > textarea {
-    @apply p-2 text-sm placeholder-blue outline-none w-full resize-none h-64;
+    @apply border-blue p-2 placeholder-blue outline-none w-full resize-none h-64 shadow-sm focus:ring-blue block w-full sm:text-sm placeholder-blue text-blue rounded-md;
   }
   .component-navbar-mobile {
     @apply flex flex-col text-blue h-0 md:hidden;

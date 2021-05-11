@@ -1,8 +1,17 @@
-<div class="hidden md:block absolute h-full w-36 pt-24" style="right: 105%">
-  {%- for school in schoolFullName %} {% if school[0] != "fub" %} {% assign
-  schoolName = school[0] %}
-  <a href="{{ collections[schoolName][0].url }}"
-    ><p class="text-green mb-4 text-right text-base">{{ school[1][1] }}</p></a
-  >
-  {% endif %} {% endfor -%}
+<div class="hidden md:block absolute h-full w-36 pt-18" style="right: 105%">
+  <a href="/partners/dlr">
+    <p class="text-green mb-4 text-right text-base {% if page.url contains "dlr" %} font-semibold {% endif %}">{{ schools.dlr.de }}</p>
+  </a>
+  <a href="/partners/htw">
+    <p class="text-green mb-4 text-right text-base {% if page.url contains "htw" %} font-semibold {% endif %}">{{ schools.htw.de }}</p>
+  </a>
+  <a href="/partners/tub">
+    <p class="text-green mb-4 text-right text-base {% if page.url contains "tub" %} font-semibold {% endif %}">{{ schools.tub.de }}</p>
+  </a>
+  <a href="/partners/udk">
+    <p class="text-green mb-4 text-right text-base {% if page.url contains "udk" %} font-semibold {% endif %}">{{ schools.udk.de }}</p>
+  </a>
+  <a href="/partners/tsb">
+    <p class="text-green mb-4 text-right text-base {% if page.url contains "tsb" %} font-semibold {% endif %}">{{ schools.tsb.de }}</p>
+  </a>
 </div>

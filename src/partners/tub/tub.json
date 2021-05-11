@@ -1,0 +1,12 @@
+{
+    "prof": {
+        "name": "Prof. Dr. Florian Tschorsch",
+        "email": "florian.tschorsch@tu-berlin.de",
+        "image": "/assets/images/florian-tschorsch.jpg"
+    },
+    "student": {
+        "name": "Saskia Nuñez von Voigt",
+        "email": "saskia.nunezvonvoigt@tu-berlin.de",
+        "image": "/assets/images/saskia-voigt.jpg"
+    }
+}

@@ -22,7 +22,7 @@ Verfahren zur Anonymisierung von Daten reduzieren typischerweise ihren Informati
 
 
 <div class="justify-end my-0">
-    <a href="/partners/htw" class="border border-green text-green text-xl py-1 px-4 cursor-pointer hover:bg-green hover:text-white">Weiter</a>
+    <a href="/partners/htw" class="border border-green text-green text-xl py-1 px-4 cursor-pointer hover:bg-green hover:text-white" style="text-decoration: none;">Weiter</a>
 </div>
 
 </div>

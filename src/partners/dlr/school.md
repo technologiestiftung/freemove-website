@@ -26,7 +26,7 @@ Im Institut für Verkehrsforschung (VF) am Deutschen Zentrum für Luft- und Raum
 In einer Vielzahl von Projekten und Studien, in denen personen- und unternehmensbezogene Daten erhoben werden, haben die im Projekt Freemove adressierten Themen und Forschungsfragstellungen eine besondere Bedeutung. Erkenntnisse zu Fragen des Datenschutzes und einer ausgewogenen Balance zwischen Datensparsamkeit und wissenschaftlicher Detailtiefe werden, in den täglichen Arbeiten am Institut, dringend benötigt. Im Projekt Freemove kommt das DLR MovingLab als smartphonegestützte Erhebungsmethode von Mobilitätsdaten in einem der Projektpiloten zum Einsatz. 
 
 <div class="justify-end my-0">
-    <a href="/partners/udk" class="border border-green text-green text-xl py-1 px-4 cursor-pointer hover:bg-green hover:text-white">Weiter</a>
+    <a href="/partners/udk" class="border border-green text-green text-xl py-1 px-4 cursor-pointer hover:bg-green hover:text-white" style="text-decoration: none;">Weiter</a>
 </div>
 
 </div>

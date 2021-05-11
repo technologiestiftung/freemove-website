@@ -96,6 +96,10 @@
   ul {
     @apply list-disc text-blue m-2 tracking-wide ml-4;
   }
+
+  a {
+    @apply hover:underline;
+  }
 }
 
 @layer components {

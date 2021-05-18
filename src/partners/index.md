@@ -4,12 +4,12 @@ title: Projektpartner:innen
 permalink: /partners/
 ---
 
-
 <h1 class="text-green"> Projektpartner:innen </h1>
 
 <div class="relative text-green">
 
 <div class="hidden md:block absolute h-full w-36 pt-18" style="right: 105%">
+  <div class="sticky" style="top: 6rem;">
   <a href="#dlr">
     <p class="text-green mb-4 text-right text-base">{{ schools.dlr.de }}</p>
   </a>
@@ -25,6 +25,7 @@ permalink: /partners/
   <a href="#tsb">
     <p class="text-green mb-4 text-right text-base">{{ schools.tsb.de }}</p>
   </a>
+</div>
 </div>
 
 {% include ./dlr/school.md %}

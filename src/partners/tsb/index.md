@@ -14,7 +14,7 @@ layout: partials/partner.liquid
 </div>
 </div>
 
-Christian Larsen ist Werkstuden im Ideation & Prototyping Lab der Technologiestiftung Berlin. Er studiert Stadt- und Regionalplanung an der TU Berlin mit Fokus auf städtische Mobilität. Sein Interesse gilt partizipativen Planungsprozessen und Fragen der sozialen Gerechtigkeit im Verkehrssystem.
+Christian Larsen ist Werkstudent im Ideation & Prototyping Lab der Technologiestiftung Berlin. Er studiert Stadt- und Regionalplanung an der TU Berlin mit Fokus auf städtische Mobilität. Sein Interesse gilt partizipativen Planungsprozessen und Fragen der sozialen Gerechtigkeit im Verkehrssystem.
 
 <div class="component-partner">
 

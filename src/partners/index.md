@@ -10,6 +10,9 @@ permalink: /partners/
 
 <div class="hidden md:block absolute h-full w-36 pt-18" style="right: 105%">
   <div class="sticky" style="top: 6rem;">
+  <a href="#fub">
+    <p class="text-green mb-4 text-right text-base">{{ schools.fub.de }}</p>
+  </a>
   <a href="#dlr">
     <p class="text-green mb-4 text-right text-base">{{ schools.dlr.de }}</p>
   </a>
@@ -28,6 +31,7 @@ permalink: /partners/
 </div>
 </div>
 
+{% include ./fub/school.md %}
 {% include ./dlr/school.md %}
 {% include ./htw/school.md %}
 {% include ./tub/school.md %}

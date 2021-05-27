@@ -22,7 +22,7 @@ Die Forschungsgruppe Human-Centered Computing am Institut für Informatik der Fr
 Im Projekt FreeMove repräsentiert die HCC Forschungsgruppe die Interessen der Datengebenden bezüglich ihrer Privatsphäre auf der einen und dem Mehrwert für Datennutzende auf der anderen Seite. Basierend auf einem wertebasierenden Ansatz, sollen neuartige Interaktions-Konzepte entwickelt werden, die es einer Person erlauben, eine informierte und reflektierte Entscheidung bezüglich der Datenweitergabe zu treffen. Der Schwerpunkt liegt dabei auf der Vermittlung der verwendeten Anonymisierungsmethode.
 
 <div class="justify-end my-0">
-    <a href="/partners/tub" class="border border-green text-green text-xl py-1 px-4 cursor-pointer hover:bg-green hover:text-white" style="text-decoration: none;">Weiter</a>
+    <a href="/partners/fub" class="border border-green text-green text-xl py-1 px-4 cursor-pointer hover:bg-green hover:text-white" style="text-decoration: none;">Weiter</a>
 </div>
 
 </div>

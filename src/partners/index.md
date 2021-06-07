@@ -8,28 +8,7 @@ permalink: /partners/
 
 <div class="relative text-green">
 
-<div class="hidden md:block absolute h-full w-36 pt-18" style="right: 105%">
-  <div class="sticky" style="top: 6rem;">
-  <a href="#fub">
-    <p class="text-green mb-4 text-right text-base">{{ schools.fub.de }}</p>
-  </a>
-  <a href="#dlr">
-    <p class="text-green mb-4 text-right text-base">{{ schools.dlr.de }}</p>
-  </a>
-  <a href="#htw">
-    <p class="text-green mb-4 text-right text-base">{{ schools.htw.de }}</p>
-  </a>
-  <a href="#tub">
-    <p class="text-green mb-4 text-right text-base">{{ schools.tub.de }}</p>
-  </a>
-  <a href="#udk">
-    <p class="text-green mb-4 text-right text-base">{{ schools.udk.de }}</p>
-  </a>
-  <a href="#tsb">
-    <p class="text-green mb-4 text-right text-base">{{ schools.tsb.de }}</p>
-  </a>
-</div>
-</div>
+{% include partials/partner-sidebar.liquid %}
 
 {% include ./fub/school.md %}
 {% include ./dlr/school.md %}

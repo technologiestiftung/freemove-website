@@ -1,0 +1,12 @@
+{
+    "prof": {
+        "name": "Prof. Dr. Max von Grafenstein LL.M.",
+        "email": "m.von-grafenstein@udk-berlin.de",
+        "image": "/assets/images/max-grafenstein.jpg"
+    },
+    "student": {
+        "name": "Elias Belgacem LL.M.",
+        "email": "e.belgacem@udk-berlin.de",
+        "image": "/assets/images/elias-belgacem.jpg"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "chris": {
+        "name": "Christian Larsen",
+        "email": "larsen@technologiestiftung-berlin.de",
+        "image": "/assets/images/christian-larsen.jpg"
+    },
+    "ingo": {
+        "name": "Ingo Hinterding",
+        "email": "hinterding@technologiestiftung-berlin.de",
+        "image": "/assets/images/ingo-hinterding.jpg"
+    },
+    "ed": {
+        "name": "Edmundo Galindo",
+        "email": "galindo@technologiestiftung-berlin.de",
+        "image": "/assets/images/edmundo-galindo.jpg"
+    },
+    "anne": {
+        "name": "Anne Möller",
+        "email": "moeller@technologiestiftung-berlin.de",
+        "image": "/assets/images/anne-moeller.jpg"
+    }
+}

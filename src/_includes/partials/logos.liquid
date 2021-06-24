@@ -1,29 +1,29 @@
 <div class="w-full flex flex-col md:flex-row justify-items-center">
   <div class="flex flex-wrap flex-col md:flex-row mr-8 md:mr-0">
-    <span class="w-24 block text-xs text-gray-700">Ein Projekt der:</span>
+    <span class="w-24 block text-xs text-gray-700">Gefördert von:</span>
     <a
       class="my-8 md:my-4 w-32"
       rel="noopener noreferrer"
       target="_blank"
-      href="https://www.technologiestiftung-berlin.de/"
+      href="https://www.bmbf.de/"
     >
       <img
-        src="/assets/images/tsb-logo.png"
-        alt="Logo of the Technology Foundation Berlin"
+        src="/assets/images/bmbf-logo.svg"
+        alt="Logo of the Federal Ministry of Education and Research"
       />
     </a>
   </div>
-  <div class="flex flex-wrap items-center flex-col md:flex-row w-32 md:w-full">
-    <span class="w-full block text-xs text-gray-700">Partner:</span>
+  <div class="flex flex-wrap flex-col md:flex-row w-32 md:w-full">
+    <span class="w-full block text-xs text-gray-700">Partner:innen:</span>
     <a
-      class="my-8 md:my-4 md:mr-8 w-8/12 md:w-1/12 "
+      class="my-8 md:my-4 md:mr-8 w-8/12 md:w-1/12"
       rel="noopener noreferrer"
       target="_blank"
       href="https://www.tu.berlin/"
     >
       <img
-        src="/assets/images/tub-logo.svg"
-        alt="Logo of the Technical University of Berlin"
+        src="{{ schools.tub.logo }}"
+        alt="Logo of the {{ schools.tub.en }}"
       />
     </a>
     <a
@@ -33,8 +33,8 @@
       href="https://www.htw-berlin.de/"
     >
       <img
-        src="/assets/images/htw-logo.jpg"
-        alt="Logo of the University of Applied Sciences"
+        src="{{ schools.htw.logo }}"
+        alt="Logo of the {{ schools.htw.en }}"
       />
     </a>
     <a
@@ -44,8 +44,8 @@
       href="https://www.dlr.de/"
     >
       <img
-        src="/assets/images/dlr-logo.svg"
-        alt="Logo of the German Aerospace Center"
+        src="{{ schools.dlr.logo }}"
+        alt="Logo of the {{ schools.dlr.en }}"
       />
     </a>
     <a
@@ -55,19 +55,30 @@
       href="https://www.udk-berlin.de/"
     >
       <img
-        src="/assets/images/udk-logo.svg"
-        alt="Logo of the Berlin University of the Arts"
+        src="{{ schools.udk.logo }}"
+        alt="Logo of the {{ schools.udk.en }}"
+      />
+    </a>
+    <a
+      class="my-8 md:my-4 md:w-2/12 md:mr-8"
+      rel="noopener noreferrer"
+      target="_blank"
+      href="https://www.fu-berlin.de/"
+    >
+      <img
+        src="{{ schools.fub.logo }}"
+        alt="Logo of the {{ schools.fub.en }}"
       />
     </a>
     <a
       class="my-8 md:my-4 md:w-2/12"
       rel="noopener noreferrer"
       target="_blank"
-      href="https://www.fu-berlin.de/"
+      href="https://www.technologiestiftung-berlin.de/"
     >
       <img
-        src="/assets/images/fub-logo.svg"
-        alt="Logo of the Free University of Berlin"
+        src="{{ schools.tsb.logo }}"
+        alt="Logo of the {{ schools.tsb.en }}"
       />
     </a>
   </div>

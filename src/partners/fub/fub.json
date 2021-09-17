@@ -3,5 +3,10 @@
         "name": "Prof. Müller-Birnbaum",
         "email": "clmb@inf.fu-berlin.de",
         "image": "/assets/images/claudia-mueller-birn.jpg"
-    }
+    },
+    "student": {
+       "name": "Dr. Daniel Franzen",
+       "email": "daniel.franzen@fu-berlin.de",
+       "image": "/assets/images/daniel-franzen.jpg"
+        }
 }

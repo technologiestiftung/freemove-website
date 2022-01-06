@@ -1,0 +1,6 @@
+details .icon-expand {
+  transition: transform 0.2s ease-in-out;
+}
+details[open] .icon-expand {
+  transform: rotate(180deg);
+}

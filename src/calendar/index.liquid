@@ -5,43 +5,47 @@ permalink: /calendar/
 ---
 
 <h1 class="text-purple">Events</h1>
-<div class="relative text-purple">
-  <h2 class="mt-12 text-4xl">2021</h2>
-  <ul class="list-none ml-0 mt-6">
-    <li class="py-8 border-t border-b border-purple">
-      <div class="flex">
-        <div class="block">
-          <div class="text-4xl font-medium">05.11.</div>
-          <div class="mt-2">15:30 - 16:30</div>
-        </div>
-        <div class="ml-10">
-          <h3 class="text-4xl font-medium">Berlin Science Week</h3>
-          <div>
-            <p class="leading-7">
-              Podiumsdiskussion 15:30 - 16:30 Uhr. <br />
-              Anschließend: Austausch in der CityLAB Pixelwelt.
-            </p>
-            <a
-              class="
-                border border-blue
-                text-xl
-                py-1
-                px-4
-                mt-2
-                inline-block
-                hover:no-underline
-                hover:bg-blue hover:text-white
-              "
-              href="https://us02web.zoom.us/webinar/register/9316348210431/WN_TlZyOdecRc2Pih6no8PpPQ"
-              target="_blank"
-              noopener
-              noreferrer
-            >
-              Zur Registrierung
-            </a>
+
+<div class="relative">
+  {% for yearWithEvents in collections.events_by_year reversed %}
+  <h2 class="mt-12 text-4xl text-purple">{{ yearWithEvents.year }}</h2>
+  <ul class="list-none ml-0 mt-6 border-t border-purple">
+    {% for event in yearWithEvents.events reversed %}
+    <li class="py-8 border-b border-purple">
+      {% if event.templateContent.length > 0 %}
+        <details>
+          <summary class="list-none flex flex-wrap sm:flex-nowrap">
+            {% include
+              partials/event-card.liquid,
+              title: event.data.title,
+              subtitle: event.data.subtitle,
+              date: event.data.date,
+              time: event.data.time
+              registerLink: event.data.registerLink,
+              registerText: event.data.registerText
+              has_details: true
+            %}
+          </summary>
+          <div class="mt-16">
+            {{ event.templateContent }}
           </div>
-        </div>
-      </div>
+        </details>
+      {% else %}
+      {% include
+          partials/event-card.liquid,
+          title: event.data.title,
+          subtitle: event.data.subtitle,
+          date: event.data.date,
+          time: event.data.time
+          registerLink: event.data.registerLink,
+          registerText: event.data.registerText,
+          has_details: false
+        %}       
+      {% endif %}
     </li>
+    {% endfor %}
   </ul>
+  {% endfor %}
 </div>
+
+

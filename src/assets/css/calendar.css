@@ -4,3 +4,7 @@ details .icon-expand {
 details[open] .icon-expand {
   transform: rotate(180deg);
 }
+
+details summary::-webkit-details-marker {
+  display: none;
+}

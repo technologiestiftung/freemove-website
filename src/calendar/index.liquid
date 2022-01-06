@@ -13,8 +13,8 @@ permalink: /calendar/
     {% for event in yearWithEvents.events reversed %}
     <li class="py-4 md:py-8 border-b border-purple">
       {% if event.templateContent.length > 0 %}
-        <details>
-          <summary class="list-none flex flex-wrap md:flex-nowrap">
+        <details open>
+          <summary class="list-none flex flex-wrap md:flex-nowrap cursor-pointer">
             {% include
               partials/event-card.liquid,
               title: event.data.title,

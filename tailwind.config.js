@@ -1,9 +1,6 @@
 module.exports = {
-  purge: {
-    enabled: process.env.NODE_ENV === "production",
-    content: ["./src/**/*.{md,html,liquid,njk}"],
-  },
-  darkMode: false, // or 'media' or 'class'
+  mode: "jit",
+  content: ["./src/**/*.{md,html,liquid,njk}"],
   theme: {
     fontFamily: {
       sans: ["Saira SemiCondensed", "sans-serif"],
@@ -15,12 +12,6 @@ module.exports = {
         green: "#00983A",
         purple: "#662483",
       },
-    },
-  },
-  variants: {
-    extend: {
-      scale: ["active"],
-      translate: ["active"],
     },
   },
   plugins: [require("@tailwindcss/forms")],

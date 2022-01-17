@@ -1,0 +1,55 @@
+{% comment %}
+
+  Fields:
+  - title
+  - subtitle
+  - date
+  - time
+  - registerLink (not required)
+  - registerText (not required)
+  - has_details (not required)
+
+{% endcomment %}
+
+<div class="w-full grid grid-cols-[80px_1fr] md:grid-cols-[120px_1fr] gap-2 text-purple">
+  <div class="block">
+    <div class="text-3xl md:text-4xl font-medium">{{ date | date: "%d.%m." }}</div>
+    <time class="mt-2">{{ time }}</time>
+  </div>
+  <div>
+    <h3 class="text-3xl md:text-4xl font-medium">{{ title }}</h3>
+    <div>
+      <p class="leading-7">
+        {{ subtitle | newline_to_br }}
+      </p>
+      {% if registerLink and registerText %}
+        <a
+          class="
+            border border-blue
+            text-xl
+            py-1
+            px-4
+            mt-2
+            inline-block
+            transition-colors
+            hover:no-underline
+            hover:bg-blue hover:text-white
+          "
+          href="{{ registerLink }}"
+          target="_blank"
+          noopener
+          noreferrer
+        >
+          {{ registerText }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% if has_details %}
+  <div class="flex-grow-0 self-end justify-self-center">
+    <img src="/assets/images/icons/expand.svg" alt="Mehr anzeigen Icon" aria-hidden="true" class="w-16 icon-expand">
+  </div>
+{% endif %}
+
+<link rel="stylesheet" href="/assets/css/calendar.css">

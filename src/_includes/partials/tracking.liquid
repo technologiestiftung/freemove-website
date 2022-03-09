@@ -3,10 +3,9 @@
 3  var _paq = window._paq = window._paq || [];
 4  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
 5  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-6  _paq.push(["setCookieDomain", "*.www.freemove.space"]);
-7  _paq.push(["disableCookies"]);
-8  _paq.push(['trackPageView']);
-9  _paq.push(['enableLinkTracking']);
+   _paq.push(["trackPageView"]);
+   _paq.push(["enableLinkTracking"]);
+   _paq.push(["requireCookieConsent"]);
 10  (function() {
 11    var u="https://piwik.technologiestiftung-berlin.de/";
 12    _paq.push(['setTrackerUrl', u+'matomo.php']);

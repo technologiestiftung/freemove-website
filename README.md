@@ -81,3 +81,41 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
+## Credits
+
+### Partners network
+<table>
+  <tr>
+    <td>
+      <img width="120" src="https://logos.citylab-berlin.org/logo-technologiestiftung-berlin-en.svg" />
+    </td>
+    <td>
+      <img width="100" src="https://logos.citylab-berlin.org/logo-tu-berlin.svg" />
+    </td>
+    <td>
+      <img width="100" src="https://logos.citylab-berlin.org/logo-htw-berlin.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img width="60" src="https://logos.citylab-berlin.org/logo-dir-berlin.svg" />
+    </td>
+    <td>
+      <img width="200" src="https://logos.citylab-berlin.org/logo-udk-berlin.svg" />
+    </td>
+    <td>
+      <img width="140" src="https://logos.citylab-berlin.org/logo-fub-berlin.svg" />
+    </td>
+  </tr>
+</table>
+
+### Supported by
+<table>
+  <tr>
+    <td>
+      <a src="https://www.bmbf.de/bmbf/en/home/home_node.html">
+        <img width="120" src="https://logos.citylab-berlin.org/logo-bbf.svg" />
+      </a>
+    </td>
+  </tr>
+</table>

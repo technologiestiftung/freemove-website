@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Build%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiesitftung%20Berlin-blue)
+![](https://img.shields.io/badge/Built%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiestiftung%20Berlin-blue)
 
 # freemove
 
@@ -7,10 +7,12 @@ This repository contains the source code of the website for the freemove project
 ## Tech Stack
 
 ### Content & Structure (HTML)
+
 This static site is built with [Eleventy (11ty)](https://www.11ty.dev/docs/). It uses the templating language [liquid](https://liquidjs.com/index.html) to combine together data and templates.
 
 ### Styling (CSS)
-The pages are styles using [Tailwind CSS](https://tailwindcss.com). 
+
+The pages are styles using [Tailwind CSS](https://tailwindcss.com).
 
 ## Getting started
 
@@ -84,6 +86,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ## Credits
 
 ### Partners network
+
 <table>
   <tr>
     <td>
@@ -110,6 +113,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 </table>
 
 ### Supported by
+
 <table>
   <tr>
     <td>

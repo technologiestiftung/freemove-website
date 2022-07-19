@@ -15,7 +15,7 @@
 
 </div>
 
-Im Institut für Verkehrsforschung (VF) am Deutschen Zentrum für Luft- und Raumfahrt forschen Wissenschaftler:innen aus unterschiedlichen Disziplinen zu Entwicklungen und Perspektiven des Personen- und Wirtschaftsverkehrs. Die Vision: ein modernes und zukunftsfähiges Verkehrssystem, effizient und nachhaltig für Mensch und Umwelt gestalten. Die Forschungsfelder des Instituts sind:
+Im Institut für Verkehrsforschung (VF) am Deutschen Zentrum für Luft- und Raumfahrt forschen Wissenschaftler:innen aus unterschiedlichen Disziplinen zu Entwicklungen und Perspektiven des Personen- und Wirtschaftsverkehrs. Die Vision: ein modernes und zukunftsfähiges Verkehrssystem gestalten, welches effizient und nachhaltig für Mensch und Umwelt ist. Die Forschungsfelder des Instituts sind:
 - Untersuchungen des Mobilitäts- und Verkehrsverhaltens von Personen sowohl in privaten Haushalten als auch in Unternehmen
 - Modelle zur Abbildung und Prognose der regionalen Verkehrsnachfrage im Personen- und Wirtschaftsverkehr
 - Bewertung von Technologien und Maßnahmen hinsichtlich ihres Wirkungspotenzials

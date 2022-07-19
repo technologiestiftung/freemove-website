@@ -75,75 +75,75 @@
   <a 
     href="/"
     {% if page.url == "/" %}
-    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 text-2xl font-semibold"
+    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 text-2xl font-semibold no-underline"
     {% else %}
-    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2 no-underline"
     {% endif %}
     >FORSCHUNGSPROJEKT</a
   >
   <a 
     href="/partners"
     {% if page.url == "/" %}
-    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 no-underline"
     {% elsif page.url contains "/partners" %}
-    class="nav-font-size-lg lg:nav-font-size-md text-green mx-2 font-semibold"
+    class="nav-font-size-lg lg:nav-font-size-md text-green mx-2 font-semibold no-underline"
     {% else %}
-    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2 no-underline"
     {% endif %}
     >PROJEKTPARTNER:INNEN</a
   >
   <a 
     href="/calendar"
     {% if page.url == "/" %}
-    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 no-underline"
     {% elsif page.url contains "/calendar" %}
-    class="nav-font-size-lg lg:nav-font-size-md text-purple mx-2 font-semibold"
+    class="nav-font-size-lg lg:nav-font-size-md text-purple mx-2 font-semibold no-underline"
     {% else %}
-    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2 no-underline"
     {% endif %}
     >EVENTKALENDER</a
   >
   <a 
     href="/contact"
     {% if page.url == "/" %}
-    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 no-underline"
     {% elsif page.url == "/contact/" %}
-    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2 font-semibold"
+    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2 font-semibold no-underline"
     {% else %}
-    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2"
+    class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2 no-underline"
     {% endif %}
     >KONTAKT</a
   >
 </nav>
 <nav id="mobile-nav" class="component-navbar-mobile">
   <div>
-    <a href="/project">FORSCHUNGSPROJEKT</a>
+    <a href="/project" class="no-underline">FORSCHUNGSPROJEKT</a>
   </div>
   <div class="flex justify-between flex-wrap" onclick="['component-down-arrow','component-up-arrow','border-blue','border-white'].forEach(className => this.children[1].classList.toggle(className));['bg-green', 'border-t', 'border-b', 'border-blue', 'text-white'].forEach(className => this.classList.toggle(className));this.children[2].classList.toggle('hidden')">
-    <a href="javascript:">PROJEKTPARTNER:INNEN</a>
+    <a href="javascript:" class="no-underline">PROJEKTPARTNER:INNEN</a>
     <button class="border-blue component-down-arrow mr-5 focus:outline-none"></button>
-    <div class="hidden w-full">
+    <div class="hidden w-full" class="no-underline">
       <a href="/partners/dlr">
         <p class="text-white text-base">{{ schools.dlr.de }}</p>
       </a>
-      <a href="/partners/htw">
+      <a href="/partners/htw" class="no-underline">
         <p class="text-white text-base">{{ schools.htw.de }}</p>
       </a>
-      <a href="/partners/tub">
+      <a href="/partners/tub" class="no-underline">
         <p class="text-white text-base">{{ schools.tub.de }}</p>
       </a>
-      <a href="/partners/udk">
+      <a href="/partners/udk" class="no-underline">
         <p class="text-white text-base">{{ schools.udk.de }}</p>
       </a>
-      <a href="/partners/tsb">
+      <a href="/partners/tsb" class="no-underline">
         <p class="text-white text-base">{{ schools.tsb.de }}</p>
       </a>
     </div>
   </div>
   <div>
-    <a href="/calendar">EVENTKALENDER</a>
+    <a href="/calendar" class="no-underline">EVENTKALENDER</a>
   </div>
   <div>
-    <a href="/contact">KONTAKT</a>
+    <a href="/contact" class="no-underline">KONTAKT</a>
   </div>
 </nav>

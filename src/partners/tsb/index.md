@@ -3,22 +3,22 @@ layout: partials/partner.liquid
 ---
 <div class="component-partner">
 
-![Photo of {{chris.name}}]({{chris.image}})
+![{{markus.name}}]({{markus.image}})
 
 <div>
 
-## {{chris.name}}
+## {{markus.name}}
 
-[{{chris.email}}](mailto:{{chris.email}})
+[{{markus.email}}](mailto:{{markus.email}})
 
 </div>
 </div>
 
-Christian Larsen ist Werkstudent im Ideation & Prototyping Lab der Technologiestiftung Berlin. Er studiert Stadt- und Regionalplanung an der TU Berlin mit Fokus auf städtische Mobilität. Sein Interesse gilt partizipativen Planungsprozessen und Fragen der sozialen Gerechtigkeit im Verkehrssystem.
+Markus Sperl ist Wissenschaflicher Mitarbeiter am CityLAB der Technologiestiftung Berlin. Er studierte Politikwissenschaften in München, Berlin und Kopenhagen und interessiert sich besonders für die Schnittstelle zwischen Technologie & Wissenschaft, Politik und Zivilgesellschaft, und für die Gestaltung fruchtbarer Dialoge zwischen den unterschiedlichen Sphären.
 
 <div class="component-partner">
 
-![Photo of {{ingo.name}}]({{ingo.image}})
+![{{ingo.name}}]({{ingo.image}})
 
 <div>
 
@@ -33,7 +33,7 @@ Ingo Hinterding ist Product Lead im CityLAB der Technologiestiftung Berlin. Er s
 
 <div class="component-partner">
 
-![Photo of {{ed.name}}]({{ed.image}})
+![{{ed.name}}]({{ed.image}})
 
 <div>
 
@@ -48,7 +48,7 @@ Edmundo Galindo ist wissenschaftlicher Mitarbeiter am CityLAB der Technologiesti
 
 <div class="component-partner">
 
-![Photo of {{anne.name}}]({{anne.image}})
+![{{anne.name}}]({{anne.image}})
 
 <div>
 

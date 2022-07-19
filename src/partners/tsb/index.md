@@ -3,22 +3,22 @@ layout: partials/partner.liquid
 ---
 <div class="component-partner">
 
-![Photo of {{chris.name}}]({{chris.image}})
+![{{markus.name}}]({{markus.image}})
 
 <div>
 
-## {{chris.name}}
+## {{markus.name}}
 
-[{{chris.email}}](mailto:{{chris.email}})
+[{{markus.email}}](mailto:{{markus.email}})
 
 </div>
 </div>
 
-Christian Larsen ist Werkstudent im Ideation & Prototyping Lab der Technologiestiftung Berlin. Er studiert Stadt- und Regionalplanung an der TU Berlin mit Fokus auf städtische Mobilität. Sein Interesse gilt partizipativen Planungsprozessen und Fragen der sozialen Gerechtigkeit im Verkehrssystem.
+Markus Sperl ist Wissenschaflicher Mitarbeiter am CityLAB der Technologiestiftung Berlin. Er studierte Politikwissenschaften in München, Berlin und Kopenhagen und interessiert sich besonders für die Schnittstelle zwischen Technologie & Wissenschaft, Politik und Zivilgesellschaft, und für die Gestaltung fruchtbarer Dialoge zwischen den unterschiedlichen Sphären.
 
 <div class="component-partner">
 
-![Photo of {{ingo.name}}]({{ingo.image}})
+![{{ingo.name}}]({{ingo.image}})
 
 <div>
 
@@ -29,11 +29,11 @@ Christian Larsen ist Werkstudent im Ideation & Prototyping Lab der Technologiest
 </div>
 </div>
 
-Ingo Hinterding ist Public Tech Lead im Ideation & Prototyping Lab der Technologiestiftung Berlin. Er studierte Visuelle Kommunikation mit Schwerpunkt Interface Design an der Fachhochschule Aachen und verfügt über langjährige Erfahrung in Produktmanagement, Design und Softwareentwicklung sowohl als Freelancer als auch als Gründer diverser StartUps. Sein Fokus liegt auf der agilen Entwicklung pragmatischer Softwarelösungen für komplexe Problemstellungen.
+Ingo Hinterding ist Product Lead im CityLAB der Technologiestiftung Berlin. Er studierte Visuelle Kommunikation mit Schwerpunkt Interface Design an der Fachhochschule Aachen und verfügt über langjährige Erfahrung in Produktmanagement, Design und Softwareentwicklung sowohl als Freelancer als auch als Gründer diverser Start-ups. Sein Fokus liegt auf der agilen Entwicklung pragmatischer Softwarelösungen für komplexe Problemstellungen.
 
 <div class="component-partner">
 
-![Photo of {{ed.name}}]({{ed.image}})
+![{{ed.name}}]({{ed.image}})
 
 <div>
 
@@ -44,11 +44,11 @@ Ingo Hinterding ist Public Tech Lead im Ideation & Prototyping Lab der Technolog
 </div>
 </div>
 
-Edmundo Galindo ist wissenschaftlicher Mitarbeiter im Ideation & Prototyping Lab der Technologiestiftung Berlin im Bereich User Experience, User Interface, Design Thinking und Projektmanagement. Er hat Industrie Design an der UDK Berlin und Interface Design an der FH Potsdam studiert. Sein Interesse liegt in Research, Konzeption und Gestaltung von Digitalanwendungen mit zukunftsorientierten Visionen.
+Edmundo Galindo ist wissenschaftlicher Mitarbeiter am CityLAB der Technologiestiftung Berlin im Bereich User Experience, User Interface, Design Thinking und Projektmanagement. Er hat Industriedesign an der UdK Berlin und Interface Design an der FH Potsdam studiert. Sein Interesse liegt in Research, Konzeption und Gestaltung von Digitalanwendungen mit zukunftsorientierten Visionen.
 
 <div class="component-partner">
 
-![Photo of {{anne.name}}]({{anne.image}})
+![{{anne.name}}]({{anne.image}})
 
 <div>
 

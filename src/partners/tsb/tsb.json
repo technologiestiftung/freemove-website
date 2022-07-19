@@ -1,22 +1,22 @@
 {
-    "chris": {
-        "name": "Christian Larsen",
-        "email": "larsen@technologiestiftung-berlin.de",
-        "image": "/assets/images/christian-larsen.jpg"
+    "markus": {
+        "name": "Markus Sperl",
+        "email": "markus.sperl@ts.berlin",
+        "image": "/assets/images/markus-sperl.jpg"
     },
     "ingo": {
         "name": "Ingo Hinterding",
-        "email": "hinterding@technologiestiftung-berlin.de",
+        "email": "ingo.hinterding@ts.berlin",
         "image": "/assets/images/ingo-hinterding.jpg"
     },
     "ed": {
         "name": "Edmundo Galindo",
-        "email": "galindo@technologiestiftung-berlin.de",
+        "email": "edmundo.galindo@ts.berlin",
         "image": "/assets/images/edmundo-galindo.jpg"
     },
     "anne": {
         "name": "Anne Möller",
-        "email": "moeller@technologiestiftung-berlin.de",
+        "email": "anne.moeller@ts.berlin",
         "image": "/assets/images/anne-moeller.jpg"
     }
 }

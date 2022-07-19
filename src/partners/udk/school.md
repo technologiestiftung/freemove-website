@@ -33,7 +33,7 @@ Die Erkenntnisse und Methoden dieses interdisziplinären Forschungsansatzes werd
 
 ## Aufgabenbereich UdK
 
-Die rechtliche Perspektive wird im FreeMove-Projekt durch die UdK abgedeckt. Max von
+Die rechtliche Perspektive wird im freemove-Projekt durch die UdK abgedeckt. Max von
 Grafenstein und Elias Belgacem beforschen mit einem Schwerpunkt auf Data Protection by
 Design (inkl. datenschutzrechtliche Zertifizierung) die Schnittstelle zwischen
 Datenschutzrecht, Technik und User-Centric Design. Dabei liegt ihr Augenmerk insbesondere

@@ -29,4 +29,4 @@ Helena Mihaljević ist promovierte Mathematikerin mit Hintergund in dynamischen 
 </div>
 </div>
 
-Alexandra Kapp hat 2018 an der Otto-Friedrich-Universität Bamberg ihren Master of Science im Studiengang Computing in the Humanities absolviert. Im Anschluss hat sie als Daten-Analystin mit besonderem Fokus auf Geo- und Mobilitätsdaten gearbeitet. Sie arbeitet im Projekt FreeMove an der Analyse und Modellierung der Mobilitätsdaten.
+Alexandra Kapp hat 2018 an der Otto-Friedrich-Universität Bamberg ihren Master of Science im Studiengang Computing in the Humanities absolviert. Im Anschluss hat sie als Daten-Analystin mit besonderem Fokus auf Geo- und Mobilitätsdaten gearbeitet. Sie arbeitet im Projekt freemove an der Analyse und Modellierung der Mobilitätsdaten.

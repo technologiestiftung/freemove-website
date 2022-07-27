@@ -5,4 +5,4 @@ subtitle: "Projektvorstellung im CityLAB und TSB-Kontext"
 date: 2021-06-24
 ---
 
-Christian Larsen wird im Zuge der von der Deutschen Gesellschaft für Internationale Zusammenarbeit veranstalteten (GIZ) organisierten Konferenz zum Thema "Innovationsförderung durch Digitalisierung" sprechen.
+Christian Larsen wird im Zuge der von der Deutschen Gesellschaft für Internationale Zusammenarbeit (GIZ) veranstalteten organisierten Konferenz zum Thema "Innovationsförderung durch Digitalisierung" sprechen.

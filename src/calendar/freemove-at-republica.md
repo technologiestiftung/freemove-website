@@ -1,6 +1,6 @@
 ---
 layout: layouts/event.liquid
-title: "freeMove @ Re:Publica"
+title: "freemove @ Re:Publica"
 subtitle: "Projektvorstellung im Kontext CityLAB und Technologiestiftung Berlin"
 date: 2022-06-08
 time: "14:00 - 16:00"

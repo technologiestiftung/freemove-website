@@ -3,6 +3,7 @@ layout: layouts/blog.liquid
 title: "„Wir können grundlegende Fragen nicht outsourcen“"
 subtitle: "Interview mit Christian J. Larsen (TSB, freemove), geführt von Frauke Nippel (TSB)"
 date: 2021-08-03
+thumb_image_path: "/assets/images/blog/post-01_thumb.jpg"
 tags: 
     - Mobilitätsdaten
     - privacy-utility trade off

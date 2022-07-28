@@ -4,13 +4,18 @@
   aria-label="Artikel: {{ title }}"
 >
   <div class="grid grid-cols-[auto,1fr] gap-4 md:gap-5">
-    {% if has-thumb == true %}
+    {% if thumb_image_path %}
       <img
         src="{{ thumb_image_path }}"
         alt="{{ title }}"
+        class="w-24 aspect-square sm:w-32 md:w-48 lg:w-56"
       />
     {% else %}
-      <div class="w-24 aspect-square sm:w-32 md:w-48 lg:w-56 bg-gray-300"></div>
+      <img
+        src="/assets/images/blog/post-fallback_thumb.jpg"
+        alt="Verschwommene laufende Personen"
+        class="w-24 aspect-square sm:w-32 md:w-48 lg:w-56"
+      />
     {% endif %}
     <div
       class="h-full flex flex-wrap gap-y-2 place-content-between"

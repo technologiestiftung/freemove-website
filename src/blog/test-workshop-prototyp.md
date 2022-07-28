@@ -4,6 +4,7 @@ title: "Test-Workshop eines Prototyps zur datenschutz-bewussten Exploration von 
 subtitle: "freemove lädt die Mobilitätsszene zum fachlichen Austausch an die TSB"
 author: "Markus Sperl"
 date: 2022-06-03
+thumb_image_path: "/assets/images/blog/post-10_thumb.jpg"
 tags: 
     - Privatsphäre-erhaltende Technologien (PETs)
     - Privatsphäre

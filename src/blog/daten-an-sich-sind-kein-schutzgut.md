@@ -3,6 +3,7 @@ layout: layouts/blog.liquid
 title: "„Daten an sich sind kein Schutzgut“"
 subtitle: "Interview mit Prof. Max von Grafenstein (Digitale Souveränität, UdK)"
 date: 2021-12-07
+thumb_image_path: "/assets/images/blog/post-04_thumb.jpg"
 tags: 
     - Digitale Souveränität
     - Datenschutz

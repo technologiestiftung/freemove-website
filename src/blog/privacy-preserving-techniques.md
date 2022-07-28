@@ -3,6 +3,7 @@ layout: layouts/blog.liquid
 title: "Privacy-preserving techniques and how they apply to mobility data"
 author: "Alexandra Kapp (HTW)"
 date: 2022-03-14
+thumb_image_path: "/assets/images/blog/post-08_thumb.jpg"
 tags: 
     - Privatsphäre
     - Privatsphäre-erhaltende Technologien (PETs)

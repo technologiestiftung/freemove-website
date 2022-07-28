@@ -15,8 +15,9 @@ permalink: /blog/
         url: article.url,
         title: article.data.title,
         abstract: article.data.subtitle,
-        date: article.date
-        has-thumb: false %}
+        date: article.date,
+        thumb_image_path: article.data.thumb_image_path
+      %}
     </li>
   {% endfor %}
 </ul>

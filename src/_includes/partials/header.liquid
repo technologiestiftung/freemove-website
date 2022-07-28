@@ -73,13 +73,15 @@
   style="padding: calc(1.66vw - 10px) 0"
 >
   <a 
-    href="/"
+    href="/blog"
     {% if page.url == "/" %}
-    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 text-2xl font-semibold no-underline"
+    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 text-2xl no-underline"
+    {% elsif page.url contains "/blog" %}
+    class="nav-font-size-lg lg:nav-font-size-md text-orange mx-2 font-semibold no-underline"
     {% else %}
     class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2 no-underline"
     {% endif %}
-    >FORSCHUNGSPROJEKT</a
+    >BLOG</a
   >
   <a 
     href="/partners"
@@ -117,7 +119,7 @@
 </nav>
 <nav id="mobile-nav" class="component-navbar-mobile">
   <div>
-    <a href="/project" class="no-underline">FORSCHUNGSPROJEKT</a>
+    <a href="/blog" class="no-underline">BLOG</a>
   </div>
   <div class="flex justify-between flex-wrap" onclick="['component-down-arrow','component-up-arrow','border-blue','border-white'].forEach(className => this.children[1].classList.toggle(className));['bg-green', 'border-t', 'border-b', 'border-blue', 'text-white'].forEach(className => this.classList.toggle(className));this.children[2].classList.toggle('hidden')">
     <a href="javascript:" class="no-underline">PROJEKTPARTNER:INNEN</a>

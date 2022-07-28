@@ -1,0 +1,41 @@
+---
+layout: layouts/wrapper.liquid
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - project
+    - documents
+permalink: /blog/tag/{{ tag | slug }}/
+eleventyComputed:
+  title: "{{ tag | capitalize }}"
+tags: blog
+---
+
+<h1 class="text-orange !text-3xl sm:!text-4xl md:!text-5xl font-normal">
+    Blogbeiträge zum Thema: <br />
+    <span class="font-semibold">{{ title }}</span>
+</h1>
+
+<div class="mt-8 md:mt-3 w-full flex justify-end">
+    <a href="/blog" class="text-orange no-underline">
+        → Alle Blogbeiträge
+    </a>
+</div>
+
+<ul class="mt-10 p-0 ml-0 mr-0 list-none flex flex-wrap gap-2">
+  {% for article in collections[tag] reversed %}
+  <li>
+    {% include partials/article-card.liquid,
+        url: article.url,
+        title: article.data.title,
+        abstract: article.data.subtitle,
+        date: article.date,
+        thumb_image_path: article.data.thumb_image_path
+    %}
+  </li>
+  {% endfor %}
+</ul>

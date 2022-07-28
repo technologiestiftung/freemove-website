@@ -1,0 +1,35 @@
+---
+layout: layouts/wrapper.liquid
+tags: blog
+---
+
+<article>
+  <h1 class="text-orange leading-tight">{{ title }}</h1>
+  <h2 class="mt-4 text-blue text-xl md:text-4xl !leading-normal !md:leading-relaxed">{{ subtitle }}</h2>
+  {% if author %}
+    <span class="inline-block pr-3 mr-2 border-r border-gray-200 text-blue text-lg">{{ author }}</span>
+  {% endif %}
+  <time class="mt-2 inline-block text-blue text-lg">{{ date | date: "%d.%m.%Y" }}</time>
+  
+  {% if tags %}
+    <ul class="mt-10 p-0 ml-0 mr-0 list-none flex flex-wrap gap-2">
+      {% for tag in tags %}
+        {% if tag != 'blog' %}
+          <li class="rounded-md bg-blue bg-opacity-20 text-blue hover:bg-opacity-100 hover:text-white transition-colors">
+            <a href="/blog/tag/{{ tag | slug }}" class="inline-block py-1 px-2 no-underline">{{ tag }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+  
+  <hr class="mt-8 mb-6 w-full block bg-gray-400" />
+
+  <div class="prose prose-headings:text-blue prose-a:text-inherit prose-table:text-blue prose-strong:text-blue">
+    {{ content }}
+  </div>
+</article>
+
+<hr class="mt-8 mb-12 w-full block bg-gray-400" />
+
+<a href="/blog" class="border border-blue rounded-md py-1 px-3 no-underline text-blue hover:bg-blue hover:text-white transition-colors">Zur Blogübersicht</a>

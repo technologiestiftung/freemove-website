@@ -1,5 +1,4 @@
 module.exports = {
-  mode: "jit",
   content: ["./src/**/*.{md,html,liquid,njk}"],
   theme: {
     fontFamily: {
@@ -14,5 +13,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
 };

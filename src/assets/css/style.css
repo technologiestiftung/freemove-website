@@ -100,6 +100,14 @@
   a {
     @apply underline;
   }
+
+  blockquote {
+    @apply my-3 pl-6 italic border-l border-gray-300 text-lg;
+  }
+
+  cite {
+    @apply not-italic;
+  }
 }
 
 @layer components {

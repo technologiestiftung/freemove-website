@@ -1,9 +1,9 @@
 <a
   href="{{ url }}"
-  class="block h-full p-5 bg-white shadow focus:shadow-none transform focus:scale-95 transition-transform no-underline"
+  class="block h-full p-4 md:p-5 bg-white shadow focus:shadow-none transform focus:scale-95 transition-transform no-underline"
   aria-label="Artikel: {{ title }}"
 >
-  <div class="grid grid-cols-[auto,1fr] gap-4">
+  <div class="grid grid-cols-[auto,1fr] gap-4 md:gap-5">
     {% if has-thumb == true %}
       <img
         src="{{ thumb_image_path }}"

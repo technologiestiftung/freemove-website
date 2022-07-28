@@ -12,9 +12,13 @@ tags: blog
   <time class="mt-2 inline-block text-blue text-lg">{{ date | date: "%d.%m.%Y" }}</time>
   
   {% if tags %}
-    <ul class="mt-10 p-0 ml-0 mr-0 list-none flex gap-2">
+    <ul class="mt-10 p-0 ml-0 mr-0 list-none flex flex-wrap gap-2">
       {% for tag in tags %}
-        <li class="py-1 px-2 rounded-md bg-blue bg-opacity-20 text-blue">{{ tag }}</li>
+        {% if tag != 'blog' %}
+          <li class="py-1 px-2 rounded-md bg-blue bg-opacity-20 text-blue">
+            {{ tag }}
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
   {% endif %}

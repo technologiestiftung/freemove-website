@@ -10,6 +10,11 @@ module.exports = function (eleventyConfig) {
   // The blog layout has a tag, but also individual blog entries.
   eleventyConfig.setDataDeepMerge(true);
 
+  eleventyConfig.addCollection(
+    "tagList",
+    require("./src/_filters/getTagList.js")
+  );
+
   eleventyConfig.addCollection("events_by_year", function (collectionApi) {
     const eventItems = collectionApi.getFilteredByTag("event");
     const uniqueEventYears = [

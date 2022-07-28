@@ -1,0 +1,29 @@
+<a
+  href="{{ url }}"
+  class="block h-full p-5 bg-white shadow focus:shadow-none transform focus:scale-95 transition-transform no-underline"
+  aria-label="Artikel: {{ title }}"
+>
+  <div class="grid grid-cols-[auto,1fr] gap-4">
+    {% if has-thumb == true %}
+      <img
+        src="{{ thumb_image_path }}"
+        alt="{{ title }}"
+      />
+    {% else %}
+      <div class="w-24 aspect-square sm:w-32 md:w-48 lg:w-56 bg-gray-300"></div>
+    {% endif %}
+    <div
+      class="h-full flex flex-wrap gap-y-2 place-content-between"
+    >
+      <h2 class="text-2xl sm:!text-3xl md:!text-4xl text-blue">
+        {{ title }}
+      </h2>
+      <p class="text-gray-900 leading-snug !py-0">
+        {{ abstract }}
+      </p>
+    </div>
+  </div>
+  <span class="mt-2 block text-orange font-medium">
+    {{ date | date: "%d.%m.%Y" }}
+  </span>
+</a>

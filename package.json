@@ -10,7 +10,7 @@
     "build:css": "npx tailwindcss -i ./src/assets/css/style.css -c tailwind.config.js -o ./_site/assets/css/style.css -m",
     "build:eleventy": "ELEVENTY_ENV=production eleventy",
     "dev": "npm-run-all clean --parallel dev:* --print-label",
-    "build": "run-s clean build:css build:eleventy --print-label",
+    "build": "run-s clean build:eleventy build:css --print-label",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

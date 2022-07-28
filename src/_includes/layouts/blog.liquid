@@ -1,0 +1,24 @@
+---
+layout: layouts/wrapper.liquid
+tags: blog
+---
+
+<article>
+  <h1 class="text-orange leading-tight">{{ title }}</h1>
+  <h2 class="mt-4 text-blue text-xl md:text-4xl !leading-normal !md:leading-relaxed">{{ subtitle }}</h2>
+  <time class="mt-2 block text-blue text-lg">{{ date | date: "%d.%m.%Y" }}</time>
+  
+  {% if tags %}
+    <ul class="mt-10 p-0 ml-0 mr-0 list-none flex gap-2">
+      {% for tag in tags %}
+        <li class="py-1 px-2 rounded-md bg-blue bg-opacity-20 text-blue">{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  
+  <hr class="mt-8 mb-6 w-full block bg-gray-400" />
+
+  <div class="prose prose-headings:text-blue prose-a:text-inherit">
+    {{ content }}
+  </div>
+</article>

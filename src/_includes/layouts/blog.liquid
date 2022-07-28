@@ -6,7 +6,10 @@ tags: blog
 <article>
   <h1 class="text-orange leading-tight">{{ title }}</h1>
   <h2 class="mt-4 text-blue text-xl md:text-4xl !leading-normal !md:leading-relaxed">{{ subtitle }}</h2>
-  <time class="mt-2 block text-blue text-lg">{{ date | date: "%d.%m.%Y" }}</time>
+  {% if author %}
+    <span class="inline-block pr-3 mr-2 border-r border-gray-200 text-blue text-lg">{{ author }}</span>
+  {% endif %}
+  <time class="mt-2 inline-block text-blue text-lg">{{ date | date: "%d.%m.%Y" }}</time>
   
   {% if tags %}
     <ul class="mt-10 p-0 ml-0 mr-0 list-none flex gap-2">

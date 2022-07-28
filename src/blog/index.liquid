@@ -6,8 +6,8 @@ permalink: /blog/
 
 <h1 class="text-orange !text-3xl sm:!text-4xl md:!text-5xl">Blogbeiträge auf einen Blick</h1>
 
-<ul class="list-none !mx-0 !mb-0 !mt-8">
-  {% assign articlesOrderedByDate = collections.blog | reversed %}
+<ul class="list-none !mx-0 !mb-0 !mt-8 grid gap-8">
+  {% assign articlesOrderedByDate = collections.blog %}
 
   {% for article in articlesOrderedByDate %}
     <li>

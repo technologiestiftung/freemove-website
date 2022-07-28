@@ -16,7 +16,9 @@ First of all, it should be noted, that there is a difference between privacy pr
 
 Let us first have a look at different mechanisms and then at privacy principles and criteria. For demonstration, we use the below example dataset (see Figure 1):
 
-TODO: add pic
+![Figure 1: Example mobility dataset](/assets/images/blog/post-8_fig-01.png)
+_Figure 1: Example mobility dataset_
+
 
 ### Privacy mechanisms
 
@@ -30,11 +32,19 @@ The level of detail can be reduced to improve anonymity, which is also referred 
 
 Mobility data can be generalized by reducing the spatial or temporal granularity, also referred to as **cloaking**. The _spatial accuracy can be reduced by truncating latitude and longitude decimals_ (see Figure 2) or by _mapping points onto a tessellation_ (see Figure 3) and replacing coordinates with tile IDs.
 
-TODO: add pics
+![Figure 2: Reduction of spatial granularity by truncation of latitude and longitude to three decimals](/assets/images/blog/post-8_fig-02.png)
+_Figure 2: Reduction of spatial granularity by truncation of latitude and longitude to three decimals_
+
+![Figure 3: Reduction of spatial granularity by mapping coordinates onto a tessellation](/assets/images/blog/post-8_fig-03.png)
+_Figure 3: Reduction of spatial granularity by mapping coordinates onto a tessellation_
 
 Another option is the reduction of temporal accuracy by discarding every other point within a trajectory (see Figure 4) or by binning exact timestamps into pre-defined time windows (see Figure 5).
 
-TODO: add pics
+![Figure 4: Reduction of temporal granularity by reducing the sample interval to a minimum of 10 minutes](/assets/images/blog/post-8_fig-04.png)
+_Figure 4: Reduction of temporal granularity by reducing the sample interval to a minimum of 10 minutes_
+
+![Figure 5: Reduction of temporal granularity to the hour](/assets/images/blog/post-8_fig-05.png)
+_Figure 5: Reduction of temporal granularity to the hour_
 
 Simple applications of cloaking techniques did not provide great protection against attacks, as shown in various research (see Fiore et al., 2020).
 
@@ -44,7 +54,8 @@ Another straightforward privacy mechanism is **suppression**. Entire columns or
 
 In the context of mobility data, sensitive locations could be suppressed. For example, all records within a 50-meter radius of hospitals could be removed from the dataset to protect the privacy of patients (see Figure 6).
 
-TODO: add pic
+![Figure 6: Suppression of records close to sensitive locations (e.g., a hospital)](/assets/images/blog/post-8_fig-06.png)
+_Figure 6: Suppression of records close to sensitive locations (e.g., a hospital)_
 
 However, sensitive locations that allow easy re-identification are usually user-specific (like home or workplaces). Suppression of such locations thus relies on user-specific information, e.g., the fitness trackers Garmin or Strava allow the declaration of “privacy zones” where all activities within the zones are snapped to the zone perimeter when shared publically.
 
@@ -54,7 +65,8 @@ As a heuristic, it can be assumed that the most sensitive locations usually resi
 
 Mobility data is commonly aggregated spatially, temporally, or a combination of both. Aggregation functions thereby do not only serve analysis purposes but can also be used to provide privacy (see Figure 7).
 
-TODO: add pic
+![Figure 7: Spatial aggregation of tile visits](/assets/images/blog/post-8_fig-07.png)
+_Figure 7: Spatial aggregation of tile visits_
 
 Simple spatial aggregations treat single points of a trajectory individually, without maintaining information on the relation of points within a trajectory. To retain such information, more fine-granular aggregations need to be performed, commonly by origin-destination matrices or by aggregating trip counts per road segment (i.e., traffic volume).
 
@@ -68,11 +80,13 @@ Numerical values can be distorted by adding noise. An age of 24 might then be ch
 
 In the context of mobility data, noise can be added to coordinates, distorting them from their original location. Obviously, this results in unrealistic trajectories with zigzag shapes (see Figure 8). Smarter approaches including smoothing techniques have been proposed in the context of ship trajectories by [Jiang et al. (2013)](https://dl.acm.org/doi/10.1145/2484838.2484846) and [Shao et al. (2013)](https://www.springerprofessional.de/en/publishing-trajectory-with-differential-privacy-a-priori-vs-a-po/4158218).
 
-TODO: add pic
+![Figure 8: Spatial distortion by adding noise to coordinates](/assets/images/blog/post-8_fig-08.png)
+_Figure 8: Spatial distortion by adding noise to coordinates_
 
 [Duckham and Kulik (2005)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.8415&rep=rep1&type=pdf) formalized a model of obfuscation for location data that does not distort single coordinates; instead, a set of potential locations is provided, including the actual location, though not revealing which one is the true location (see Figure 9). Their model is directed at location-based service apps that query single locations of a user to provide a service (e.g., to return a recommendation for the closest Italian restaurant). The true closest restaurant should still be returned correctly, even when only the imprecise information of a set of potential locations is known.
 
-TODO: add pic
+![Figure 9: Model of obfuscation by Duckham and Kulik (2005)](/assets/images/blog/post-8_fig-09.png)
+_Figure 9: Model of obfuscation by Duckham and Kulik (2005): Given a setting, where the closest restaurant to the user shall be identified, where s, i, and y are the restaurant candidates. Obfuscation set O (containing the true location of the user) is provided to the location-based service application which can identify restaurant y as the closest one without knowing the actual true user location. Figure from [Duckham and Kulik (2005)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.105.8415&rep=rep1&type=pdf)_
 
 ### Swapping
 
@@ -80,7 +94,8 @@ Swapping is an anonymization mechanism where values of a dataset are rearranged 
 
 For mobility data, this can be applied by swapping trajectory segments where trajectories are close to one another, for example with the technique SwapMob, proposed by [Salas et al. (2018)](https://www.springerprofessional.de/en/swapmob-swapping-trajectories-for-mobility-anonymization/16104138).
 
-TODO: add pic
+![Figure 10: Swapping of trajectory segments](/assets/images/blog/post-8_fig-10.png)
+_Figure 10: Swapping of trajectory segments. Left: original trajectories of person 1 (red) and person 2 (blue). Right: swapped segments (outline color indicates original_
 
 The utility of such approaches is limited for use cases where origin-destination combinations or the course of the trajectory are relevant.
 
@@ -108,11 +123,13 @@ Indistinguishability demands that each record in a database must not be distingu
 
 K-anonymity is mostly achieved with **generalization** and **suppression**.
 
-TODO: add pic
+![Figure 11: Example of k-anonymity](/assets/images/blog/post-8_fig-11.png)
+_Figure 11: Example of k-anonymity. Left: raw data. Right: Anonymized data providing k-anonymity where k=2 (same color indicates common groups). Anonymization is reached by generalizing age and suppression of unique cities_
 
 To provide k-anonymity for mobility data, it must be ensured that any trajectory appears at least k times within the dataset. This is usually achieved by mapping coordinates onto a tessellation (spatial generalization) and/or suppressing unique (segments of) trajectories. This is not trivial as trajectories tend to be rather unique and often only very coarse tessellations and time windows can attain even 2-anonymity, thus coming at a high cost of spatiotemporal accuracy (Figure 12).
 
-TODO: add pic
+![Figure 12: In this example, there are three potential zonings. Only the coarsest zoning of east and west would provide 2-anonymity.](/assets/images/blog/post-8_fig-12.png)
+_Figure 12: In this example, there are three potential zonings. Only the coarsest zoning of east and west would provide 2-anonymity._
 
 Of course, this also depends on the characteristics of the data. Generally speaking, the longer and more fine-granular trajectories are, the harder it becomes to provide k-anonymity.
 

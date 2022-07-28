@@ -16,9 +16,9 @@ tags:
     - Stakeholderintegration
 ---
 
-Nach langer Zeit konnten wir endlich wieder einen Präsenz-Termin anbieten. Das Projekt freeMove hatte Praktiker:innen innovativer Mobilitätsdienstleister zu einem Erfahrungsaustausch eingeladen. Beim Treffen kam es zu einer lebhaften Diskussion über Theorie und Praxis des Datenschutzes. Als Grundlage dienten erste Überlegungen zu einem Framework, die das freeMove-Team vorstellte.
+Nach langer Zeit konnten wir endlich wieder einen Präsenz-Termin anbieten. Das Projekt freemove hatte Praktiker:innen innovativer Mobilitätsdienstleister zu einem Erfahrungsaustausch eingeladen. Beim Treffen kam es zu einer lebhaften Diskussion über Theorie und Praxis des Datenschutzes. Als Grundlage dienten erste Überlegungen zu einem Framework, die das freemove-Team vorstellte.
 
-TODO: [BILD 1]
+![Menschen mit medizinischen Gesichtsmasken](/assets/images/blog/Bild_1_-_Workshop_Okt_2021.jpeg)
 
 12 Expert:innen-Interviews hat das freeMove-Team geführt und ausgewertet. Diese qualitative Befragung hilft dem Projektteam bei der Bestandsaufnahme. Die Auswertung zeigt, welche Usecases, Verwendungszwecke und Methoden für die Erhebung und Verwertung personenbezogener Daten relevant sind. Alexandra Kapp von der [HTW Berlin](https://www.htw-berlin.de/) stellte diese Bestandsaufnahme vor und zeigte, wie die Erkenntnisse nun in die Entwicklung des Frameworks für eine Datenschutz-Grundverordnung (DSGVO) konforme Verfügbarmachung von Bewegungsdaten einfließen.
 Nach dieser Vorstellung startete die Diskussion.
@@ -33,7 +33,7 @@ Der Jurist Prof. Dr. Max von Grafenstein stellte klar, dass die technische Rekon
 
 Allerdings muss von Grafenstein einräumen, dass die Materie sich schwer fassen lässt. So werden Begriffe wie „Privacy“ aus dem angelsächsischen und „Datenschutz“ aus dem kontinentaleuropäischen Raum ständig synonym verwendet, kommen aber aus verschiedenen Kulturräumen und decken trotz Überschneidungen unterschiedliche Gesichtspunkte ab. Auch Begriffe wie „Fairness“, die den gewünschten Umgang mit Daten fassen, sind äußerst unpräzise und interpretierbar.
 
-TODO: [Bild 2, eingebettet rechts in Textverlauf]
+![Eine Person vor einer Leinwand mit freemove-Logo](/assets/images/blog/Bild_2_Workshop_Okt_2021.webp)
 
 Dennoch hält der Jurist den Datenschutz keineswegs für ein Hindernis bei der Arbeit mit Daten. Im Gegenteil: Die Notwendigkeit, die Erhebung und Verarbeitung genau zu planen, zu begründen und transparent zu gestalten, zwingt zu präzisen und reflektierten Arbeitsprozessen. Auch die Einschätzung, dass Mehrwert aus der Exploration der erhobenen Daten gewonnen werden könnte, dem die Datenspender:innen nicht ausdrücklich zugestimmt haben und dies Datenauswertung schwierig mache, lässt er nicht gelten. Denn wenn man den Zweck der Erhebung entsprechend formuliert, die Löschfristen korrekt termininert und die Zustimmung der Datenspender:innen einholt, lässt die DSGVO Raum für die Exploration personenbezogener Daten auch ohne einen präzise (vor-)formulierten Usecase.
 

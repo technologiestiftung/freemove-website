@@ -22,7 +22,8 @@ Das Verbundprojekt freemove erkennt die Notwendigkeit der Arbeit mit Mobilitäts
 
 Dank des wertvollen Feedbacks wird der Prototyp nun in einer Überarbeitungsschleife verbessert und anschließend Praktiker:innen _Open Source_ auf _GitHub_ zur Verfügung gestellt. Durch die wichtigen Rückkopplungen aus Kreisen tatsächlich mit Mobilitätsdaten arbeitender Menschen versuchen wir, dem im Projekt angelegten transdisziplinären Ansatz nachzukommen. Forschung bespielt für freeMove nicht nur den akademischen Diskurs aus verschiedenen disziplinären Blickwinkeln, sondern soll gesellschaftlich nutzbare Ergebnisse im Kontext nachhaltiger urbaner Transformation erzeugen.
 
-TODO: add pic
+![Arbeitsphase im Workshop-Verlauf](/assets/images/blog/Bild_1_Gruppenphase.jpg)
+_Arbeitsphase im Workshop-Verlauf_
 
 ### Ein ready-to-use Python-Package als Projektzwischenergebnis
 
@@ -32,7 +33,8 @@ Auf die Frage nach bereits bestehenden Lösungen für solche Datenexplorationen,
 
 Die sehr unterschiedlichen Backgrounds der Gäste gingen mit sehr verschiedenen Verwendungsszenarien einher, und damit unterschiedlichen Anpassungswünschen (Flexibilisierung, Visualisierungen), aus denen die Forscher:innen nun die nächsten Schritte selektieren.
 
-TODO: add pic
+![Datenvisualisierung im Mobilitätsdatenreport (fiktive Daten)](/assets/images/blog/Bild_2_Visualisierung_Report.png)
+_Datenvisualisierung im Mobilitätsdatenreport (fiktive Daten)_
 
 ### Wie viel Privatsphäre in welchem Kontext garantiert werden muss, ist gesellschaftlich auszuhandeln
 

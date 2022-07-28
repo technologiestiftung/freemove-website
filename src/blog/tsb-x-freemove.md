@@ -13,7 +13,8 @@ tags:
 
 Die Diskussion um die Corona App hat es gezeigt: Die Erhebung von Mobilitätsdaten wird besonders kritisch gesehen – verständlicherweise, denn wie Menschen sich durch die Stadt bewegen, wie oft sie bestimmte Ziele ansteuern und wie lange sie dort verweilen, verrät viel über ihre Vorlieben und Gewohnheiten. Gleichzeitig ermöglichen es gerade Mobilitätsdaten, das Zusammenleben besser zu organisieren. Wie gehen wir zukünftig mit diesem Konflikt um? Die Technologiestiftung hat gerade ein Projekt zu automatisierten Verkehrszählungen beendet und mit freemove ein Projekt mit erweiterter Fragestellung gestartet. Ein Interview mit Christian J. Larsen, der als wissenschaftlicher Mitarbeiter beide Projekte begleitet.
 
-TODO: add pic
+![Verschwommene Menschenmenge](/assets/images/blog/Bild1_Blogpost_Interview.webp)
+_© Be_Me, Pixabay_
 
 > Für die meisten Menschen dürfte es einen großen Unterschied machen, ob ihre Daten zum Beispiel – mit einer Löschfrist versehen und unter strengen Auflagen – für Forschungszwecke eingesetzt werden oder ob sie beispielsweise helfen sollen, ein kommerzielles Produkt zu bewerben und anschließend sogar weiterverkauft werden.
 > 
@@ -27,7 +28,7 @@ Das zeigt das Open Source Projekt OpenDataCam, welches wir in unserem Projekt ei
 
 Allerdings ist diese Lösung nicht ausgereift. Zurzeit gibt es noch Sicherheitslücken und Performanz-Probleme, die behoben werden müssen, aber diese Verbesserungen sind technisch möglich. Wir – das sind die Technologiestiftung und die Hochschule für Technik und Wirtschaft – haben jetzt auch eine [wissenschaftliche Publikation](https://www.tandfonline.com/doi/full/10.1080/21650020.2021.1950044?scroll=top&needAccess=true) vorgelegt, welche die Stärken und Schwächen der OpenDataCam ausführlich beschreibt und darstellt, wie der Einsatz im Rahmen eines Beteiligungsprozesses auf kommunaler Ebene möglich wäre.
 
-TODO: add pic
+![Screenshot der Open Traffic Cam](/assets/images/blog/Bild2_OpenTrafficCam_Blogpost.webp)
 
 _**Frauke Nippel**: Mit dem neuen Projekt Freemove bleibt Ihr beim Thema. Da geht es grundsätzlich um die Frage, ob und wie man Mobilitätsdaten sammeln kann, ohne Persönlichkeitsrechte zu verletzen. Wie schätzt Du es ein?_
 

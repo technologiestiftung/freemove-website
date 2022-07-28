@@ -4,9 +4,10 @@ title: "„Daten an sich sind kein Schutzgut“"
 subtitle: "Interview mit Prof. Max von Grafenstein (Digitale Souveränität, UdK)"
 date: 2021-12-07
 tags: 
-    - xyz
-    - sdfdg
-    - sdfsdgd
+    - Digitale Souveränität
+    - Datenschutz
+    - Privatsphäre als Grundrecht
+    - Zertifizierung und Standards
 ---
 
 Vor einigen Wochen boten wir im Rahmen des Projekts [freemove](https://www.technologiestiftung-berlin.de/projekte/freemove) einen Workshop an zu Theorie und Praxis des Umgangs mit Mobilitätsdaten. Es entstand eine lebhafte Diskussion zwischen den Praktiker:innen und den Projektverantwortlichen. Auch der Rechtsanwalt und Regulierungswissenschaftler [Prof. Dr. Max von Grafenstein von der Universität der Künste](https://www.udk-berlin.de/personen/detailansicht/person/show/maximilian-von-grafenstein-llm/), der zu den wissenschaftlichen Betreuern des Projekts gehört, war gefragt. Im Nachgang sprachen wir mit ihm über den Datenschutz und seine Rolle bei Digitalprojekten.

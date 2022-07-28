@@ -5,9 +5,11 @@ subtitle: "Routing and Traffic Management"
 author: "Alexandra Kapp (HTW)"
 date: 2022-02-02
 tags: 
-    - xyz
-    - sdfdg
-    - sdfsdgd
+    - Mobilitätsdaten
+    - Nutzungsszenarien
+    - Nachhaltige Mobilität
+    - Epidemiologie
+    - Disaster Management
 ---
 
 This is the second part of the series on use cases based on human mobility data. After part 1 about urban and traffic planning, we will have a closer look at routing and traffic management in this post. Unlike the mid- to long-term planning use cases in part 1, routing and traffic management applications optimize the navigation within the existing infrastructure.

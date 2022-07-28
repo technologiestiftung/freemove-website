@@ -5,9 +5,10 @@ subtitle: "Why Mobility Data Needs Protection"
 author: "Alexandra Kapp (HTW)"
 date: 2022-01-20
 tags: 
-    - xyz
-    - sdfdg
-    - sdfsdgd
+    - Datensicherheit
+    - Re-Identifizierung
+    - Mobilitätsdaten
+    - Cyber Security
 ---
 
 The General Data Protection Regulation (GDPR) from 2016 was a novel and unique law to secure the privacy and security of personal data, but it was not introduced without criticism. Companies see the GDPR as an obstacle that hinders them to pursue their use cases and which poses unrealistically high demands. Privacy threats on the other hand are rather seen as theoretical problems. You’d hear for example: “We are not interested in tracking any of our customers individually. We are only interested in broader patterns, but GDPR hinders us to access such information.”

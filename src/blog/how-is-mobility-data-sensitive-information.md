@@ -4,9 +4,10 @@ title: "How is mobility data sensitive information"
 author: "Alexandra Kapp (HTW)"
 date: 2022-04-25
 tags: 
-    - xyz
-    - sdfdg
-    - sdfsdgd
+    - Privatsphäre
+    - Datensicherheit
+    - Personenbezogene Daten
+    - Sensible Daten
 ---
 
 Political opinions, religious beliefs, sexual orientation, or health issues are typical examples of obvious sensitive information in the need of data protection. While human mobility data is also personal data, it is inherently complex and thus there are different aspects that can be considered sensitive. Is only the information about a person’s home and their child’s school location sensitive or is the exact route choice in between in the need of protection? Is it a privacy breach to reveal the speed at which someone was driving, for example when they caused a car crash? Depending on the information that is classified as critical, anonymization efforts need to be directed accordingly. In this blog post, I want to have a look at different attributes of mobility data that can be considered sensitive and elaborate on how that classification might differ depending on the context.

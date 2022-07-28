@@ -5,9 +5,15 @@ subtitle: "Autorin: Frauke Nippel (Technologiestiftung Berlin)"
 author: "Frauke Nippel"
 date: 2021-10-14
 tags: 
-    - xyz
-    - sdfdg
-    - sdfsdgd
+    - Datenschutz
+    - Personenbezogene Daten
+    - Mobilitätsdaten
+    - Datensammlung
+    - Datenverarbeitung
+    - Re-Identifizierung
+    - Anonymisierung
+    - DSGVO
+    - Stakeholderintegration
 ---
 
 Nach langer Zeit konnten wir endlich wieder einen Präsenz-Termin anbieten. Das Projekt freeMove hatte Praktiker:innen innovativer Mobilitätsdienstleister zu einem Erfahrungsaustausch eingeladen. Beim Treffen kam es zu einer lebhaften Diskussion über Theorie und Praxis des Datenschutzes. Als Grundlage dienten erste Überlegungen zu einem Framework, die das freeMove-Team vorstellte.

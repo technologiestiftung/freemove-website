@@ -4,9 +4,11 @@ title: "„Wir können grundlegende Fragen nicht outsourcen“"
 subtitle: "Interview mit Christian J. Larsen (TSB, freemove), geführt von Frauke Nippel (TSB)"
 date: 2021-08-03
 tags: 
-    - xyz
-    - sdfdg
-    - sdfsdgd
+    - Mobilitätsdaten
+    - privacy-utility trade off
+    - Verkehrszählung
+    - OpenDataCam
+    - Open Traffic Count
 ---
 
 Die Diskussion um die Corona App hat es gezeigt: Die Erhebung von Mobilitätsdaten wird besonders kritisch gesehen – verständlicherweise, denn wie Menschen sich durch die Stadt bewegen, wie oft sie bestimmte Ziele ansteuern und wie lange sie dort verweilen, verrät viel über ihre Vorlieben und Gewohnheiten. Gleichzeitig ermöglichen es gerade Mobilitätsdaten, das Zusammenleben besser zu organisieren. Wie gehen wir zukünftig mit diesem Konflikt um? Die Technologiestiftung hat gerade ein Projekt zu automatisierten Verkehrszählungen beendet und mit freemove ein Projekt mit erweiterter Fragestellung gestartet. Ein Interview mit Christian J. Larsen, der als wissenschaftlicher Mitarbeiter beide Projekte begleitet.

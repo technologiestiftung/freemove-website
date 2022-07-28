@@ -5,9 +5,10 @@ subtitle: "Podiumsdiskussion mit Sebastian Meier, Maita Schade, Klaudia Zotzmann
 author: "Christian Larsen"
 date: 2021-11-25
 tags: 
-    - xyz
-    - sdfdg
-    - sdfsdgd
+    - Datenschutz
+    - Gesellschaftlicher Diskurs
+    - Komplexität
+    - Nachhaltige Mobilität
 ---
 
 <iframe class="w-full aspect-video" src="https://www.youtube-nocookie.com/embed/RRFh-dqeZ0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

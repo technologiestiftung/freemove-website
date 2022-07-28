@@ -4,9 +4,9 @@ title: "Privacy-preserving techniques and how they apply to mobility data"
 author: "Alexandra Kapp (HTW)"
 date: 2022-03-14
 tags: 
-    - xyz
-    - sdfdg
-    - sdfsdgd
+    - Privatsphäre
+    - Privatsphäre-erhaltende Technologien (PETs)
+    - Mobilitätsdaten
 ---
 
 What does it actually mean to “anonymize” data? With this blog post, I want to give an overview of different established methods and how they apply to mobility data.

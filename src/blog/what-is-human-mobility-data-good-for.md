@@ -5,9 +5,11 @@ subtitle: "Urban and Traffic Planning"
 author: "Alexandra Kapp (HTW)"
 date: 2021-12-28
 tags: 
-    - xyz
-    - sdfdg
-    - sdfsdgd
+    - Mobilitätsdaten
+    - Nutzungsszenarien
+    - Nachhaltige Mobilität
+    - Epidemiologie
+    - Disaster Management
 ---
 
 There is a common misconception by data scientists who are not familiar with privacy measures that anonymization of data happens prior to and is independent of further analyses. The anonymized data can then supposedly be used for any desired use case. But the opposite is true: the better you know your use cases the more precise you can identify and apply suitable privacy-preserving methods to your data (Note: Entirely anonymous data is hard (or even impossible) to achieve as demonstrated repeatedly when personal information is extracted from supposedly anonymous data. _Privacy-enhancing_ or -_preserving_ are “softer” terms used in this context that do not claim to have reached full anonymity).

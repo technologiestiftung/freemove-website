@@ -5,9 +5,12 @@ subtitle: "freemove lädt die Mobilitätsszene zum fachlichen Austausch an die T
 author: "Markus Sperl"
 date: 2022-06-03
 tags: 
-    - xyz
-    - sdfdg
-    - sdfsdgd
+    - Privatsphäre-erhaltende Technologien (PETs)
+    - Privatsphäre
+    - Prototyp
+    - Stakeholderintegration
+    - Mobility as a Service (MaaS)
+    - Transdisziplinarität
 ---
 
 Am Donnerstag, den 19.05.2022, hatte das Projekt freeMove nach einem weiteren Pandemiewinter endlich die Möglichkeit, in Präsenz mit Praxisvertreter:innen in Austausch zu treten. Ausnahmsweise nicht in den Räumlichkeiten des CityLABs, fand sich eine bunt gemischte Gruppe aus der Mobilitätsszene in der Grunewaldstraße unter dem Dach der Technologiestiftung zusammen. Von ÖPNV, MaaS-Unternehmen wie Sharing-Diensten, Ridepooling oder Routing-Anbieter:innen bis Smart-Mobility-Expert:innen fanden sich Vertreter:innen zusammen, um ihre Einschätzungen zu einem im Projekt entwickelten Prototypen abzugeben. Für uns ist die rege Teilnahme weiteres Indiz dafür, dass unsere Themen viele beschäftigen, die an der datengetriebenen Verkehrswende arbeiten und die Vorteile guter Datenlage kennen, dabei aber Privatsphäre als Grundrecht geschützt wissen wollen.

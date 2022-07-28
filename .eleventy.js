@@ -5,6 +5,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/audio");
   eleventyConfig.addPassthroughCopy({ "src/assets/common": "." });
 
+  // Eleventy v0.x requires opt-in for deep-merging data.
+  // This is needed because we need to deep merge tags for the blog.
+  // The blog layout has a tag, but also individual blog entries.
+  eleventyConfig.setDataDeepMerge(true);
+
   eleventyConfig.addCollection("events_by_year", function (collectionApi) {
     const eventItems = collectionApi.getFilteredByTag("event");
     const uniqueEventYears = [

@@ -1,7 +1,6 @@
 ---
 layout: layouts/blog.liquid
 title: "Mobilitätsdaten: Theorie und Praxis"
-subtitle: "Autorin: Frauke Nippel (Technologiestiftung Berlin)"
 author: "Frauke Nippel"
 date: 2021-10-14
 thumb_image_path: "/assets/images/blog/post-02_thumb.jpg"

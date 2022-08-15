@@ -108,6 +108,10 @@
   cite {
     @apply not-italic;
   }
+
+  b, strong {
+    @apply font-bold;
+  }
 }
 
 @layer components {

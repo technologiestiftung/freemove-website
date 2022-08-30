@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.liquid
-title: "Privacy-preserving techniques and how they apply to mobility data"
+title: "Privacy-preserving Techniques and how they apply to Mobility Data"
 author: "Alexandra Kapp (HTW)"
 date: 2022-03-14
 thumb_image_path: "/assets/images/blog/post-08_thumb.jpg"

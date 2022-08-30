@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.liquid
-title: "Meine Bewegungsdarten für eine nachhaltige Mobilität? Ja, aber bitte anonym!"
+title: "Meine Bewegungsdaten für eine nachhaltige Mobilität? Ja, aber bitte anonym!"
 subtitle: "Podiumsdiskussion mit Sebastian Meier, Maita Schade, Klaudia Zotzmann-Koch, Maximilian von Grafenstein und Markus Lübeck"
 author: "Christian Larsen"
 date: 2021-11-25

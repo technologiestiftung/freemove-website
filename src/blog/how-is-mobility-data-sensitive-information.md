@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.liquid
-title: "How is mobility data sensitive information"
+title: "How is Mobility Data Sensitive Information?"
 author: "Alexandra Kapp (HTW)"
 date: 2022-04-25
 tags: 

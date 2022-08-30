@@ -5,4 +5,4 @@ subtitle: "Projektvorstellung am ersten Tag der Veranstaltung im Track „Digita
 date: 2022-09-07
 ---
 
-Text zum Aufklappen: Prof. Max von Grafenstein wird auf dem zwölften Future Mobility Summit das Projekt mittels eines Impulsvortrages und anschließender Diskussion vertreten. Beim jährlichen Treffen von Entscheider:innen im Mobilitätsbereich aus Verwaltung, Politik, Wirtschaft, Wissenschaft und Zivilgesellschaft werden zwei Tage lang die drängenden, aktuellen Fragen im Themenkomplex addressiert.
+Prof. Max von Grafenstein wird auf dem zwölften Future Mobility Summit das Projekt mittels eines Impulsvortrages und anschließender Diskussion vertreten. Beim jährlichen Treffen von Entscheider:innen im Mobilitätsbereich aus Verwaltung, Politik, Wirtschaft, Wissenschaft und Zivilgesellschaft werden zwei Tage lang die drängenden, aktuellen Fragen im Themenkomplex addressiert.

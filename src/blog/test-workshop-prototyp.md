@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.liquid
-title: "Test-Workshop eines Prototyps zur datenschutz-bewussten Exploration von Mobilitätsdatensätzen"
+title: "Test-Workshop eines Prototyps zur Datenschutz-bewussten Exploration von Mobilitätsdatensätzen"
 subtitle: "freemove lädt die Mobilitätsszene zum fachlichen Austausch an die TSB"
 author: "Markus Sperl"
 date: 2022-06-03

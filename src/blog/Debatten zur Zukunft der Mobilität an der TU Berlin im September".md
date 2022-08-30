@@ -1,7 +1,7 @@
 ---
 layout: layouts/blog.liquid
 title: "Debatten zur Zukunft der Mobilität an der TU Berlin im September"
-author: Markus Sperl
+author: "Markus Sperl"
 date: 2022-07-28
 tags: 
     - Digitale Souveränität

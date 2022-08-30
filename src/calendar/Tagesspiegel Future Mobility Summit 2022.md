@@ -1,7 +1,7 @@
 ---
 layout: layouts/event.liquid
 title: "freemove - Projektpräsentation beim Tagesspiegel Future Mobility Summit 2022"
-subtitle: "Projektvorstellung am ersten Tag der Veranstaltung im Track "Digitalisierung""
+subtitle: "Projektvorstellung am ersten Tag der Veranstaltung im Track „Digitalisierung“"
 date: 2022-09-07
 ---
 

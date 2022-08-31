@@ -6,4 +6,4 @@ date: 2022-09-07
 time: "16:40-16:55"
 ---
 
-Prof. Max von Grafenstein wird auf dem zwölften [Future Mobility](https://veranstaltungen.tagesspiegel.de/event/6a817093-ad81-4644-921d-4bcc1576d9e1/summary)Summit das Projekt mittels eines Impulsvortrages und anschließender Diskussion vertreten. Beim jährlichen Treffen von Entscheider:innen im Mobilitätsbereich aus Verwaltung, Politik, Wirtschaft, Wissenschaft und Zivilgesellschaft werden zwei Tage lang die drängenden, aktuellen Fragen im Themenkomplex addressiert.
+Prof. Max von Grafenstein wird auf dem zwölften [Future Mobility Summit](https://veranstaltungen.tagesspiegel.de/event/6a817093-ad81-4644-921d-4bcc1576d9e1/summary) das Projekt mittels eines Impulsvortrages und anschließender Diskussion vertreten. Beim jährlichen Treffen von Entscheider:innen im Mobilitätsbereich aus Verwaltung, Politik, Wirtschaft, Wissenschaft und Zivilgesellschaft werden zwei Tage lang die drängenden, aktuellen Fragen im Themenkomplex addressiert.

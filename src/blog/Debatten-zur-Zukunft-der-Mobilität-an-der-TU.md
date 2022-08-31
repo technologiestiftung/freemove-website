@@ -4,10 +4,8 @@ title: "Debatten zur Zukunft der Mobilität an der TU Berlin im September"
 author: "Markus Sperl"
 date: 2022-07-28
 tags: 
-    - Digitale Souveränität
-    - Datenschutz
-    - Privatsphäre als Grundrecht
-    - Zertifizierung und Standards
+    - Gesellschaftlicher Diskurs
+    - Nachhaltige Mobilität
 ---
 
 Es sind bewegte Zeiten für die Mobilität im Jahr 2022. Der Future Mobility Summit 2022 bietet die Gelegenheit, die Situation zu analysieren und neue Konzepte zu diskutieren. Unser Projekt freemove ist auch vertreten.

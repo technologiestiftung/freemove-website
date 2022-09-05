@@ -1,6 +1,6 @@
 ---
 layout: layouts/event.liquid
-title: freemove bei der "Bits & Bäume 2022"
+title: freemove bei der Bits & Bäume 2022
 subtitle: "Projektvorstellung und Diskussion"
 date: 2022-10-02
 time: "10:50 - 11:30"

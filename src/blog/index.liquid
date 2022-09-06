@@ -1,23 +1,23 @@
 ---
-layout: layouts/wrapper.liquid
+layout: layouts/sidebar.liquid
 title: Blog
 permalink: /blog/
 ---
 
-<h1 class="text-orange !text-3xl sm:!text-4xl md:!text-5xl">Beiträge auf einen Blick</h1>
+{% include partials/tag-list.liquid %}
 
-<ul class="list-none !mx-0 !mb-0 !mt-8 grid gap-8">
-  {% assign articlesOrderedByDate = collections.blog %}
-
-  {% for article in articlesOrderedByDate reversed %}
+<div class="pr-8">
+  <h1 class="text-orange !text-3xl sm:!text-4xl md:!text-5xl">
+    Beiträge auf einen Blick
+  </h1>
+  <ul class="list-none !mx-0 !mb-0 !mt-8 grid gap-8">
+    {% assign articlesOrderedByDate = collections.blog %} {% for article in
+    articlesOrderedByDate reversed %}
     <li>
-      {% include partials/article-card.liquid,
-        url: article.url,
-        title: article.data.title,
-        abstract: article.data.subtitle,
-        date: article.date,
-        thumb_image_path: article.data.thumb_image_path
-      %}
+      {% include partials/article-card.liquid, url: article.url, title:
+      article.data.title, abstract: article.data.subtitle, date: article.date,
+      thumb_image_path: article.data.thumb_image_path %}
     </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</div>

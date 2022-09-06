@@ -14,6 +14,8 @@ This static site is built with [Eleventy (11ty)](https://www.11ty.dev/docs/). It
 
 The pages are styles using [Tailwind CSS](https://tailwindcss.com).
 
+> **Attention**: The CSS pipeline is currently buggy in local development. Not all changes trigger the local dev server to reload properly.
+
 ## Getting started
 
 ### Requirements

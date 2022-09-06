@@ -1,0 +1,7 @@
+<ul class="m-0 h-min flex flex-wrap lg:grid lg:grid-cols-1 gap-2 list-none">
+  {% for tag in collections.tagList %}
+    <li class="h-full">
+      {% include partials/tag.liquid, tag: tag %}
+    </li>
+  {% endfor %}
+</ul>

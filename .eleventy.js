@@ -3,7 +3,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css");
   eleventyConfig.addPassthroughCopy("src/assets/fonts");
   eleventyConfig.addPassthroughCopy("src/assets/audio");
-  eleventyConfig.addPassthroughCopy("src/assets/docs");
+  eleventyConfig.addPassthroughCopy({ "src/assets/docs": "docs" });
   eleventyConfig.addPassthroughCopy({ "src/assets/common": "." });
 
   // Eleventy v0.x requires opt-in for deep-merging data.

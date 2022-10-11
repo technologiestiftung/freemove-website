@@ -30,6 +30,7 @@ According to the objectives, there are respective attacks: _re-identification a
 The re-identification (or de-anonymization) is one of the most commonly stated objectives. More specifically, re-identification is usually achieved with a _record-linkage attack_ [(Fung et. al, 2010)](https://dl.acm.org/doi/10.1145/1749603.1749605): An adversary has access to some side information (e.g., an additional dataset, or a real-life observation) in addition to the anonymized dataset and links this information to the dataset so that re-identification of a person is possible. For example, as shown in Figure 1, an adversary knows that Alice visited a coffee shop at a certain time, and finds this record in the dataset, thus they can identify all other places Alice visited, revealing the sensitive home address.
 
 ![Figure 1: Record-Linkage Attack](/assets/images/blog/figure1_record_linkage_attack.png)
+_Figure 1: Record-Linkage Attack_
 
 Thus, there are two ways information can be critical to privacy:
 
@@ -55,6 +56,7 @@ Less obvious side information has also been used to de-anonymize individuals: [
 Unlike a re-identification attack, which is successful when a name can be put onto a single record, a similarity attack (or attribute-linkage attack) is already successful when sensitive information is retrieved (without identifying a user) [(Fiore et al. 2019)](https://arxiv.org/abs/1903.12211). For example, as shown in Figure 2, the adversary observes Alice at the coffee shop but there are two records in the database matching the time and place. Though, as both potential candidates visit an abortion counseling, the adversary knows that Alice must have been among those two, thus, obtaining sensitive information about Alice without having identified her in the database.
 
 ![Figure 2: Similarity Attack](/assets/images/blog/figure2_similarity_attack.png)
+_Figure 2: Similarity Attack_
 
 ### Localization Attack (Location Inference)
 

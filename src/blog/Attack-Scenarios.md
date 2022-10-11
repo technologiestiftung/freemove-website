@@ -5,7 +5,7 @@ author: "Alexandra Kapp"
 date: 2022-09-14
 thumb_image_path: "/assets/images/blog/post-02_thumb.jpg"
 tags: 
-    - rivatsphäre
+    - Privatsphäre
     - Datenschutz
     - Datensicherheit
     - Mobilitätsdaten

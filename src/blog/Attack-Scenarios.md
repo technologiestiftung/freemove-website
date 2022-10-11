@@ -3,7 +3,6 @@ layout: layouts/blog.liquid
 title: "Attack Scenarios – How Adversaries Retrieve Sensitive Information"
 author: "Alexandra Kapp"
 date: 2022-09-14
-thumb_image_path: "/assets/images/blog/post-02_thumb.jpg"
 tags: 
     - Privatsphäre
     - Datenschutz

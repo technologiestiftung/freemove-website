@@ -6,7 +6,7 @@ date: 2022-09-21
 tags: 
     - Privatsphäre
     - Anonymisierung
-    - Privatsphäre-erhaltende Technologien (pets)
+    - Privatsphäre-erhaltende Technologien (PETs)
 ---
 
 _In [this post](https://www.freemove.space/blog/privacy-preserving-techniques/), I gave an overview of different privacy-enhancing techniques for mobility data. This post is the first to deep-dive into single specific techniques by looking into privacy zones._

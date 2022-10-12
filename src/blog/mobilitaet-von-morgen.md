@@ -7,7 +7,7 @@ tags:
     - Datensammlung
     - Mobilitätsdaten
     - Nachhaltige Mobilität Anonymisierung
-    - Privatsphäre-erhaltende Technologien (PETS)
+    - Privatsphäre-erhaltende Technologien (PETs)
 ---
 
 ### Die Mobilität von morgen gestalten: freemove startet in die Erhebungsphase

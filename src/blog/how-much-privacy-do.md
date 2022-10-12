@@ -15,9 +15,8 @@ Social-network sports apps like Strava are used to track and share personal spor
 
 To protect sensitive locations such as the home location, some of those sports app providers like Garmin or Strava offer a privacy zone functionality. Users can define sensitive locations around which a privacy zone is created according to a preferred radius (see Figure 1 for an example of the privacy zone user interface by Garmin). Any shared routes will be cut off at the boundary of the privacy zone (see Figure 2).
 
-![Figure 1: User interface for the privacy zone functionality](/assets/images/blog/figure1_privacy_zone_functionality.webp)
+![Figure 1: User interface for the privacy zone functionality](/assets/images/blog/figure1_privacy_zone.webp)
 _Figure 1: Example screenshot by Garmin that shows the user interface for the privacy zone functionality_
-
 
 This method has obvious limitations: in such a basic implementation where all trajectories end at the boundary of the privacy zone which is a perfect circle, it only needs a few points to be able to reconstruct the center of that circle, i.e., the sensitive location.
 

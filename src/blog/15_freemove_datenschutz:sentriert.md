@@ -6,7 +6,8 @@ date: 2022-10-04
 tags: 
     - Datensammlung
     - Mobilitätsdaten
-    - Nachhaltige Mobilität
+    - Nachhaltige
+    - Mobilität
     - Anonymisierung
     - Privatsphäre-erhaltende Technologien (PETs)
 ---

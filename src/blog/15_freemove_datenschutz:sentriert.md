@@ -19,4 +19,7 @@ Es gibt einen Mitschnitt des Vortrags:
 
 <iframe class="w-full aspect-video" src="https://www.youtube.com/watch?v=CKCnd-bIm3E&t=262s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe class="w-full aspect-video" src="https://www.youtube-nocookie.com/embed/RRFh-dqeZ0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 _Im Vortrag werden inhaltliche Kernaspekte des Projekts dargelegt und Einblicke in die transdisziplinäre Zusammenarbeit gegeben._

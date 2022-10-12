@@ -37,7 +37,7 @@ Datenexploration und synthetische Datengenerierung: Das Projekt beschäftigte si
 
 Man kann es sich vorstellen, wie eine Kopie, nur mit anderen Bausteinen, aus denen sich diese zusammensetzt. In anderen Bereichen wurden solche Verfahren bereits erfolgreich erprobt - synthetische Mobilitätsdaten betreten weitestgehend Neuland.
 
-![Abbildung 2](/assets/images/blog/abb_2.webp)
+![Abbildung 2](/assets/images/blog/abb_3.webp)
 _Abbildung 2_
 
 ### Datenerhebung zusammen mit dem Deutschen Zentrum für Luft- und Raumfahrt (DLR)

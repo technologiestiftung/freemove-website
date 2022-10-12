@@ -17,6 +17,6 @@ _Am 02.10.2022 war das Verbundprojekt mit einem Programmpunkt bei der Konferenz 
 
 Es gibt einen Mitschnitt des Vortrags:
 
-![Vortrag](https://www.youtube.com/watch?v=CKCnd-bIm3E&t=262s)
+  <iframe class="w-full aspect-video" src="https://www.youtube.com/watch?v=CKCnd-bIm3E&t=262s" title="freemove - Datenschutz-zentriertes Arbeiten mit Mobilitätsdaten" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 _Im Vortrag werden inhaltliche Kernaspekte des Projekts dargelegt und Einblicke in die transdisziplinäre Zusammenarbeit gegeben._

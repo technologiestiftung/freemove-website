@@ -6,7 +6,7 @@ date: 2022-09-21
 tags: 
     - Privatsphäre
     - Anonymisierung
-    - Privatsphäre-erhaltende Technologien (pets)
+    - Privatsphäre-erhaltende Technologien (PETs)
 ---
 
 _In [this post](https://www.freemove.space/blog/privacy-preserving-techniques/), I gave an overview of different privacy-enhancing techniques for mobility data. This post is the first to deep-dive into single specific techniques by looking into privacy zones._
@@ -33,7 +33,6 @@ _Figure 2: An example of a privacy zone: Left: three routes lead to a location t
 
 **1. Modify radius size:** Enlarge the size of the radius (see Figure 3). According to the authors’ evaluation, this has no real privacy improvement. Only, when the radius was enlarged to such an extent, that a substantial number of trajectories are removed completely, thus highly sacrificing utility.
 
-
 ![Figure 3: 1) Modify radius](/assets/images/blog/figure3_modify_radius.png)
 _Figure 3: 1) Modify radius. The privacy zone radius is enlarged._
 
@@ -46,15 +45,11 @@ _Figure 4: 2) Fuzzy intersection points. The grey lines are removed from the tra
 
 For example, the [OpenBikeSensor](https://www.openbikesensor.org/en/docs/user-guide/privacy-zones/) makes use of such an implementation.
 
-
 ![Figure 5: Spatial cloaking by shifting the center.](/assets/images/blog/figure5_spatial_cloaking.png)
 _Figure 5: Spatial cloaking by shifting the center. The dotteld line is the original privacy zone and the green circle is the shifted privacy zone._
 
 For this method, the authors run a different attack, because determining the center of the privacy zone is no longer revealing sensitive information. Instead, they use the direction of the trajectories (based on the last two points) as an attack vector: by extending the trajectory (with a straight line) they determine where the trajectories cross paths. The middle of all crossings is used as a prediction and it is considered true if it falls within 50 meters of the true location (see Figure 6).
 Even though this is a very simple attack implementation that only takes the two last points of a trajectory to determine the direction and draws a straight light to determine the crossing, they have a success rate of 41.3% for a radius of ~400 meters (0.250 miles).
-
-![Figure 6: Attack against spatial cloaking.](/assets/images/blog/figure6_attack_against_spatial_cloak.png)
-_Figure 6: Attack against spatial cloaking: the prediction uses the intersection point of the linear interpolation of all trajectories entering the privacy zone. In this example, the intersection is close to the sensitive location (black point)._
 
 Both obfuscation methods, fuzzy intersection points and shifting the center, increase privacy and significantly increase the complexity of the attack. Depending on the use case and the attacker this might provide sufficient protection in practice. Still, it should be noted that such mechanisms can be broken with a bit of effort to a non-negligible success rate.
 

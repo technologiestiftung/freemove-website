@@ -20,7 +20,7 @@ _Figure 1: Example screenshot by Garmin that shows the user interface for the pr
 
 This method has obvious limitations: in such a basic implementation where all trajectories end at the boundary of the privacy zone which is a perfect circle, it only needs a few points to be able to reconstruct the center of that circle, i.e., the sensitive location.
 
-![Figure 2: Example of a privacy zone](/assets/images/blog/figure2_privacy_zone.webp)
+![Figure 2: Example of a privacy zone](/assets/images/blog/Figure2_privacy_zone.webp)
 _Figure 2: An example of a privacy zone: Left: three routes lead to a location that has been defined as a sensitive location (e.g., home location). The circle indicates the privacy zone around the sensitive location. Right: all routes are cut off at the boundary of the circle. The figure already suggests that the circle, and thus the center of the circle, can be reconstructed given the shortened trajectories._
 
 [Hassan et al. (2018)](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-hassan_0.pdf) show how such centers can easily be computed mathematically from Strava data while [Mink et al. (2022)](https://jaronm.ink/assets/pdf/papers/users-can-deduce_chi22.pdf) showed with a user study that no such mathematical capabilities are even necessary, as for the most common privacy zone size, 68% of guesses (i.e., estimating based on the visual map representation) fell within 50 meters of the hidden location when participants were shown just 3 activities.

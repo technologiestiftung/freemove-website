@@ -15,7 +15,6 @@ tags:
 _Ein Schlüssel zur Mobilitätswende sind unsere Mobilitätsdaten. Wie die sensiblen Daten unter Wahrung der Privatsphäre allen zu Gute kommen können, bewegt unser Verbundprojekt freemove – das jetzt in die Erhebungsphase startet. Projektverantwortlicher Markus Sperl erklärt, was das Projekt so wichtig macht und welche Fragen die Projektbeteiligten über die nächsten Wochen begleiten._
 
 ![Abbildung 1](/assets/images/blog/abb_1.webp)
-_Abbildung 1_
 
 Unser Projekt [freemove](https://www.freemove.space/), welches wir zusammen mit Lehrstühlen der Hochschule für Technik und Wirtschaft (Datenwissenschaft), Freien Universität Berlin (Human-Centered Computing), Technischen Universität Berlin (Datensicherheit) und Universität der Künste (Digitale Souveränität) sowie dem Deutschen Zentrum für Luft- und Raumfahrt durchführen, widmet sich der komplexen Arbeit mit Mobilitätsdaten. Genauer geht es im Falle des vom Bundesministerium für Bildung und Forschung geförderten Projekts um individuelle Bewegungsdaten mit Startzeitpunkt, Ankunftszeit _(timestamps)_, jeweilige Koordinaten _(origin/destination)_ und in einzelnen Fällen genau zurückgelegter Strecke, sowie derer Aggregate. Das Besondere: freemove will diese Daten unter Achtung der Privatsphäre Wissenschaft und Gesellschaft zur Verfügung stellen. 
 
@@ -37,8 +36,7 @@ Datenexploration und synthetische Datengenerierung: Das Projekt beschäftigte si
 
 Man kann es sich vorstellen, wie eine Kopie, nur mit anderen Bausteinen, aus denen sich diese zusammensetzt. In anderen Bereichen wurden solche Verfahren bereits erfolgreich erprobt - synthetische Mobilitätsdaten betreten weitestgehend Neuland.
 
-![Abbildung 2](/assets/images/blog/abb_3.webp)
-_Abbildung 2_
+![Abbildung 2](/assets/images/blog/abb_2.webp)
 
 ### Datenerhebung zusammen mit dem Deutschen Zentrum für Luft- und Raumfahrt (DLR)
 
@@ -48,5 +46,4 @@ In den ersten beiden Novemberwochen (**31.10.2022** bis **13.11.2022**, **Anm
 
 Im Projekt werden die entstandenen Daten dann zu einem größeren Datensatz zusammengefasst und je nach Einwilligung weiterverarbeitet. Sowohl für verkehrswissenschaftliche Auswertungen als auch im Bereich der Erprobung von Anonymisierungstechnologien können wir durch sie Wichtiges lernen, und im besten Fall die Daten zur Weiternutzung in Wissenschaft und Planung teilen.
 
-![Abbildung 3](/assets/images/blog/abb_2.webp)
-_Abbildung 3_
+![Abbildung 3](/assets/images/blog/abb_3.webp)

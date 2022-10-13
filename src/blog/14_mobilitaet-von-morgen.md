@@ -3,6 +3,7 @@ layout: layouts/blog.liquid
 title: "Die Mobilität von morgen gestalten: freemove startet in die Erhebungsphase"
 author: "Markus Sperl"
 date: 2022-09-30
+thumb_image_path: "/assets/images/blog/14_preview_image.webp"
 tags: 
     - Datensammlung
     - Mobilitätsdaten

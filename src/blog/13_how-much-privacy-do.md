@@ -3,7 +3,8 @@ layout: layouts/blog.liquid
 title: "How much privacy do “Privacy Zones” provide?"
 author: "Alexandra Kapp"
 date: 2022-09-21
-thumb_image_path: "/assets/images/blog/13_preview_image.webp"
+thumb_image_path: "/assets/images/blog/13_preview_image.png"
+tags: 
     - Privatsphäre
     - Anonymisierung
     - Privatsphäre-erhaltende Technologien (PETs)

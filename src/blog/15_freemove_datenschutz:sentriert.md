@@ -3,7 +3,7 @@ layout: layouts/blog.liquid
 title: "freemove: Datenschutz-zentriertes Arbeiten mit Mobilitätsdaten auf der Bits & Bäume 2022"
 author: "Markus Sperl"
 date: 2022-10-04
-thumb_image_path: "/assets/images/blog/15_preview_image.webp"
+thumb_image_path: "/assets/images/blog/15_preview_image.jpeg"
 tags: 
     - Datensammlung
     - Mobilitätsdaten

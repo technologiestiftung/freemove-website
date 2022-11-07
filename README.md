@@ -60,6 +60,58 @@ General data can be defined in `src_/data/`.
 
 There are currently no tests in this project.
 
+## Updating content
+
+All content for the website (events, blog posts, etc.) live in this repository. In this section you can find instructions on how to create new content, update or delete it.
+
+### Workflow
+
+For each change you want to make to the content, please create a new branch based on the `main` branch first. Then, make your changes and [open a Pull Request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). This PR can then be merged into `main`. If you need support for this workflow or encounter problems, please ask one of the repository maintainers for help.
+
+### Blog posts
+
+The freemove [blog](https://www.freemove.space/blog/) content can be found in the following folder: `src/blog`. You will find a file named `index.liquid` which you won't have to touch. It simply displays all available blog posts automatically. The interesting files are the ones with a `.md` file extension. Each of these [Markdown](https://en.wikipedia.org/wiki/Markdown) files holds the contents of a blog post. Note the first lines which are always encapsulated with three dashes like this:
+
+```md
+---
+# [...]
+---
+```
+
+This so-called "front matter" holds some metadata about the blog post. If you want to create a new blog post, duplicate one of the `.md` files and update the front matter according to your desired content.
+
+> Note that you shouldn't update the line `layout: layouts/blog.liquid`. This is a property that all blog posts need.
+
+One important bit is the `thumb_image_path` key. This is the path (relative to the `src` folder) to the image you want to have displayed in the blog overview page. Make sure to add that file to the `src/assets/images/blog` folder and add the correct path.
+
+Below the second `---` goes the actual content of your blog post. If you want to show images in your Markdown, also add them to the same folder as the thumb image, as described above.
+
+#### Deleting a blog post
+
+If you want to delete a blog post, simply delete the file from the folder.
+
+### Events
+
+The freemove [event calendar](https://www.freemove.space/calendar/) can be found in the following folder: `src/calendar`. The structure here is the same as the blog posts, so the same instructions apply ⬆️.
+
+There is one difference in that the content (below the second `---`) is the part that is collapsed in the UI at first.
+
+In the event overview page, the events are automatically assigned to years according to the `date` key in the front matter.
+
+#### Deleting an event
+
+If you want to delete an event, simply delete the file from the folder.
+
+### Project partners
+
+If you need to make changes to the [project partners](https://www.freemove.space/partners/) section, go to `src/partners`. YOu will find sevral folders which each hold the content of one ofg the project partners. Inside a folder, the `.json` file holds general information about the responsible person of the partner, `index.md` is the place for the detailed text about said person. `school.md` holds the content that is displayed in the project partners overview page.
+
+> Remember to add a new image, should the responsoble person change.
+
+### Documents (PDFs etc.)
+
+If you want the page to host documents such as PDFs, simply add them to `src/assets/docs`. These will be automatically available in a path like this: https://www.freemove.space/docs/DLR_MovingLab_DSK_Freemove.pdf
+
 ## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):

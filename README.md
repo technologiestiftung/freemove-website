@@ -104,9 +104,9 @@ If you want to delete an event, simply delete the file from the folder.
 
 ### Project partners
 
-If you need to make changes to the [project partners](https://www.freemove.space/partners/) section, go to `src/partners`. YOu will find sevral folders which each hold the content of one ofg the project partners. Inside a folder, the `.json` file holds general information about the responsible person of the partner, `index.md` is the place for the detailed text about said person. `school.md` holds the content that is displayed in the project partners overview page.
+If you need to make changes to the [project partners](https://www.freemove.space/partners/) section, go to `src/partners`. You will find several folders which each hold the content of one of the project partners. Inside a folder, the `.json` file holds general information about the responsible person of the partner, `index.md` is the place for the detailed text about said person. `school.md` holds the content that is displayed in the project partners overview page.
 
-> Remember to add a new image, should the responsoble person change.
+> Remember to add a new image should the responsoble person change.
 
 ### Documents (PDFs etc.)
 

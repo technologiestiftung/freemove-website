@@ -11,7 +11,7 @@ tags:
     - Privatsphäre-erhaltende Technologien (PETs)
 ---
 
-### Paper Release: Collection, Usage and Privacy of Mobility Data in the Enterprise and Public Administrations  
+### Neues Paper veröffentlicht: Sammlung, Nutzung und Privatsphäre-erhaltende Maßnahmen in der Mobilitätspraxis  
 
 Welche Mobilitätsdaten-Quellen werden in der Praxis genutzt? Zu welchem Zweck? Mit welchen Modellen wird gearbeitet? Welche Privatsphäre-stärkenden Technologien werden genutzt. Um all das zunächst empirisch herauszuarbeiten, hat Alexandra Kapp letztes Jahr mit mehreren Expert:innen aus dem Mobilitätsbereich Interviews durchgeführt.
 

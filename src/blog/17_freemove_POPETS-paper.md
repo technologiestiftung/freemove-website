@@ -11,9 +11,9 @@ tags:
     - Privatsphäre-erhaltende Technologien (PETs)
 ---
 
-### Neues Paper veröffentlicht: Sammlung, Nutzung und Privatsphäre-erhaltende Maßnahmen in der Mobilitätspraxis  
+### Neues Paper veröffentlicht: Datensammlung, -nutzung und Privatsphäre-erhaltende Maßnahmen in der Mobilitätspraxis  
 
-Welche Mobilitätsdaten-Quellen werden in der Praxis genutzt? Zu welchem Zweck? Mit welchen Modellen wird gearbeitet? Welche Privatsphäre-stärkenden Technologien werden genutzt. Um all das zunächst empirisch herauszuarbeiten, hat Alexandra Kapp letztes Jahr mit mehreren Expert:innen aus dem Mobilitätsbereich Interviews durchgeführt.
+Welche Mobilitätsdaten-Quellen werden in der Praxis genutzt? Zu welchem Zweck? Mit welchen Modellen wird gearbeitet? Welche Privatsphäre-stärkenden Technologien werden genutzt? Um all das zunächst empirisch herauszuarbeiten, hat Alexandra Kapp letztes Jahr mit mehreren Expert:innen aus dem Mobilitätsbereich Interviews durchgeführt.
 
 Die Ergebnisse hat sie auf dem Privacy-Enhancing Technologies Symposium 2022 in Sydney präsentiert.
 [Hier](https://petsymposium.org/2022/files/papers/issue4/popets-2022-0117.pdf) gibt es den Artikel zum Lesen und einen Vortragsmitschnitt zum Ansehen!

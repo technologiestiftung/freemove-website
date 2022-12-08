@@ -2,7 +2,7 @@
 layout: layouts/blog.liquid
 title: "Quo Vadis Mobilität? Der freemove - Jahresrückblick 2022. Teil 1: Was uns gesellschaftlich bewegt"
 author: "Markus Sperl"
-date: 2022-09-30
+date: 2022-12-07
 thumb_image_path: "/assets/images/blog/14_preview_image.webp"
 tags: 
     - Gesellschaftlicher Diskurs

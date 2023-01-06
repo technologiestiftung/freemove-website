@@ -73,7 +73,7 @@
 >
   <a 
     href="/blog"
-    {% if page.url == "/" %}
+    {% if page.url == "/" or page.url == "/en/" %}
     class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 text-2xl no-underline"
     {% elsif page.url contains "/blog" %}
     class="nav-font-size-lg lg:nav-font-size-md text-orange mx-2 font-semibold no-underline"
@@ -84,7 +84,7 @@
   >
   <a 
     href="/partners"
-    {% if page.url == "/" %}
+    {% if page.url == "/" or page.url == "/en/" %}
     class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 no-underline"
     {% elsif page.url contains "/partners" %}
     class="nav-font-size-lg lg:nav-font-size-md text-green mx-2 font-semibold no-underline"
@@ -95,7 +95,7 @@
   >
   <a 
     href="/calendar"
-    {% if page.url == "/" %}
+    {% if page.url == "/" or page.url == "/en/" %}
     class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 no-underline"
     {% elsif page.url contains "/calendar" %}
     class="nav-font-size-lg lg:nav-font-size-md text-purple mx-2 font-semibold no-underline"
@@ -106,15 +106,32 @@
   >
   <a 
     href="/contact"
-    {% if page.url == "/" %}
+    {% if page.url == "/" or page.url == "/en/" %}
     class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 no-underline"
     {% elsif page.url == "/contact/" %}
     class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2 font-semibold no-underline"
     {% else %}
     class="nav-font-size-lg lg:nav-font-size-md text-blue mx-2 no-underline"
     {% endif %}
-    >KONTAKT</a
   >
+    KONTAKT
+  </a>
+  {% if page.url == "/" or page.url == "/en/" %}
+  <a 
+    {% if page.url == "/" %}
+      href="/en/"
+    {% elsif page.url == "/en/" %}
+      href="/"
+    {% endif %}
+    class="nav-font-size-lg lg:nav-font-size-md text-white mx-2 no-underline border-l border-white pl-4"
+  >
+    {% if page.url == "/" %}
+      EN
+    {% elsif page.url == "/en/" %}
+      DE
+    {% endif %}
+  </a>
+  {% endif  %}
 </nav>
 <nav id="mobile-nav" class="component-navbar-mobile">
   <div>
@@ -150,4 +167,22 @@
   <div>
     <a href="/contact" class="no-underline">KONTAKT</a>
   </div>
+  {% if page.url == "/" or page.url == "/en/" %}
+  <div>
+    <a
+    {% if page.url == "/" %}
+      href="/en/"
+    {% elsif page.url == "/en/" %}
+      href="/"
+    {% endif %}
+      class="no-underline"
+    >
+    {% if page.url == "/" %}
+      EN
+    {% elsif page.url == "/en/" %}
+      DE
+    {% endif %}
+    </a>
+  </div>
+  {% endif %}
 </nav>

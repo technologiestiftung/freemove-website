@@ -1,0 +1,36 @@
+---
+layout: layouts/root.liquid
+---
+
+<section
+  class="py-16 md:py-24 relative bg-blue bg-cover"
+  style="background-image: url(/assets/images/home-background.jpg);"
+>
+  <div class="component-container grid grid-cols-1">
+    {% include partials/erhebung-banner.liquid %}
+    <h1 class="text-white">{{ title }}</h1>
+    <p class="text-white font-semibold my-2">{{ subtitle  }}</p>
+    {% for intro_section in intro_sections %}
+      <p class="text-white my-4">
+        {{ intro_section  }}
+      </p>
+    {% endfor %}
+    {% if alert %}
+    <p class="italic text-white">{{ alert }}</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="my-8 md:my-16">
+  <div class="component-container">
+    <h2 class="text-orange text-4xl md:text-6xl">{{ project_goal.title }}</h2>
+    <p class="my-8">
+      {{ project_goal.content  }}
+    </p>
+    <div class="prose prose-h2:text-blue prose-h2:text-4xl prose-h2:md:text-6xl prose-h2:mb-12 prose-h2:font-semibold prose-p:py-0 !max-w-none">
+      {{ content }}
+    </div>
+    <h2 class="mt-8 mb-8 text-blue text-4xl md:text-6xl">{{ publications.title }}</h2>
+    {% include partials/publications.liquid %}
+  </div>
+</section>

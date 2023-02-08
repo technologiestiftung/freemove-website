@@ -1,6 +1,6 @@
 ---
 layout: layouts/event.liquid
-title: "Praxis-Workshop "Python Package DP Mobility Report"
+title: "Praxis-Workshop \"Python Package DP Mobility Report\""
 subtitle: "Aggregierte Statistiken mit Privatsphäre-Garantien von Mobilitätsdatensätzen"
 date: 2023-03-30
 time: "10:00-13:00"

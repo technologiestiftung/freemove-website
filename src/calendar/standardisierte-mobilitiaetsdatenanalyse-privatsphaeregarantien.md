@@ -6,4 +6,4 @@ date: 2022-05-19
 time: "09:00 - 13:00"
 ---
 
-freemove lädt erneut Vertreter:innen aus der Mobilitätsszene zum Austausch über Forschungsergebnisse ein. Dieses Mal sollen Datenanalyst:innen aus der Praxis ein im Projekt entwickeltes Tool evaluieren und diskutieren.
+freemove lud erneut Vertreter:innen aus der Mobilitätsszene zum Austausch über Forschungsergebnisse ein. Dieses Mal sollen Datenanalyst:innen aus der Praxis ein im Projekt entwickeltes Tool evaluieren und diskutieren. Details zur Veranstaltung und zu den Inhalten können Sie [in diesem Blog-Beitrag](https://www.freemove.space/blog/10_test-workshop-prototyp/) nachlesen.

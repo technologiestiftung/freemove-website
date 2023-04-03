@@ -2,7 +2,7 @@
 layout: layouts/event.liquid
 title: "Partizipativer Workshop \"Was ist Euch bei der Spende von Mobilitätsdaten wichtig?\""
 subtitle: "Werte-basiertes Design für Datenspendeplattformen"
-date: 2023-03-16
+date: 2023-04-25
 time: "17:00-20:00"
 ---
 
@@ -16,7 +16,7 @@ Im Rahmen der geplanten partizipativen Workshops führen wir euch durch einen an
 
 Zu jedem Termin wird es Verpflegung, Getränke und eine kleine Aufwandsentschädigung für Eure Mitarbeit geben!
 
-Bitte melden Sie sich [hier](https://pretix.eu/citylabberlin/mobilitaet1/) an!
+Bitte melden Sie sich [hier](https://pretix.eu/citylabberlin/move/) an!
 
 **Ort:**
 CityLAB Berlin

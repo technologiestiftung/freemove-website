@@ -8,26 +8,13 @@ time: "17:00-20:00"
 
 Das Spenden von Daten im Rahmen von Bürgerwissenschaftsprojekten (Citizen-Science-Projekte) wird immer wichtiger für unsere Gesellschaft, sei es um zu wissenschaftlichen Erkenntnissen beizutragen oder um die Politik zu unterstützen, Entscheidungen auf Grundlage des tatsächlichen Bedarfs zu treffen.
 
-Du engagierst dich bereits heute in Citizen-Science-Projekten, beispielsweise indem Du Daten im Zusammenhang mit Biodiversität, Mobilität oder Gesundheit mit ihrem Smartphone oder ihrer Smartwatch sammelst? Dabei spendest Du jedoch teilweise hochsensible persönliche Informationen, wie deine Standortdaten. Unter Umständen ist dir gar nicht bewusst, wie innerhalb der Citizen Science-Projekte mit deinen persönlichen Daten umgegangen wird.
+Viele Menschen engagieren sich in solchen Citizen-Science-Projekten, beispielsweise indem sie Daten im Zusammenhang mit Biodiversität, Mobilität oder Gesundheit mit ihrem Smartphone oder ihrer Smartwatch sammeln. Dabei spenden sie jedoch teilweise hochsensible persönliche Informationen, wie Standortdaten. Unter Umständen ist dabei gar nicht bewusst, wie innerhalb der Citizen Science-Projekte mit persönlichen Daten umgegangen wird.
 
-Im Forschungsprojekt Freemove setzen wir uns daher mit den Gestaltungsanforderungen an Datenspende-Plattformen in der Citizen-Science auseinander, d.h. wir wollen gemeinsam mit Euch das Datenspenden nachhaltiger und verantwortungsbewusster gestalten. Helft mit!
+Im Forschungsprojekt freemove setzen wir uns daher mit den Gestaltungsanforderungen an Datenspende-Plattformen in der Citizen-Science auseinander, d.h. wir wollen gemeinsam mit Euch das Datenspenden nachhaltiger und verantwortungsbewusster gestalten. Dafür haben wir gemeinsam mit Spender:innen Workshops durchgeführt.
 
-Im Rahmen der geplanten partizipativen Workshops führen wir euch durch einen angeleiteten Prozess, um herauszufinden, was Ihr bei der Spende von Mobilitätsdaten für wichtig erachtet. Welche Daten spendet Ihr wo? Wie spendet Ihr eure Daten? Was ist Euch dabei wichtig? Wie sieht der für Euch ideale Prozess der Datenspende aus?
+Die partizipativen Workshops folgen einem angeleiteten Prozess, um herauszufinden, was Menschen bei der Spende von Mobilitätsdaten für wichtig erachten. Welche Daten spenden die Bürger:innen? Wie spendet sie ihre Daten? Was ist ihnen dabei wichtig? Wie sieht für sie der ideale Prozess der Datenspende aus?
 
-Zu jedem Termin wird es Verpflegung, Getränke und eine kleine Aufwandsentschädigung für Eure Mitarbeit geben!
+In kleinen Gruppen und unter Anleitung von Mitarbeitenden der Forschungsgruppe Human-Centered-Computing und der Technologiestiftung Berlin explorierten wir zunächst im Prozess verankerte Werte, und verorteten diese anschließend bei den relevanten Interessengruppen. Als letzte Aufgabe sollten Teilnehmende ein Szenario der Datenspende entwickeln, welches ihre Werte berücksichtigt.
 
-Bitte melden Sie sich [hier](https://pretix.eu/citylabberlin/mobilitaet2/) an!
-
-**Ort:**
-CityLAB Berlin
-Platz der Luftbrücke 4
-12101 Berlin
-
-**Anfahrt:**
-U6, Platz der Luftbrücke
-
-Ihr Kontakt für Unklarheiten oder Rückfragen ist Markus Sperl.
-E-Mail: markus.sperl@ts.berlin
-Telefon: +49151 54983810
-
+Die Workshops fanden am CityLAB Berlin Stadt. Details zur Auswertung und Ergebnisverwertung folgen in etwaigen wissenschaftlichen Publikationen und im Blog der Technologiestiftung Berlin.
 

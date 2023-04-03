@@ -16,5 +16,5 @@ Die partizipativen Workshops folgen einem angeleiteten Prozess, um herauszufinde
 
 In kleinen Gruppen und unter Anleitung von Mitarbeitenden der Forschungsgruppe Human-Centered-Computing und der Technologiestiftung Berlin explorierten wir zunächst im Prozess verankerte Werte, und verorteten diese anschließend bei den relevanten Interessengruppen. Als letzte Aufgabe sollten Teilnehmende ein Szenario der Datenspende entwickeln, welches ihre Werte berücksichtigt.
 
-Die Workshops fanden am CityLAB Berlin Stadt. Details zur Auswertung und Ergebnisverwertung folgen in etwaigen wissenschaftlichen Publikationen und im Blog der Technologiestiftung Berlin.
+Die Workshops fanden am CityLAB Berlin statt. Details zur Auswertung und Ergebnisverwertung folgen in etwaigen wissenschaftlichen Publikationen und im Blog der Technologiestiftung Berlin.
 

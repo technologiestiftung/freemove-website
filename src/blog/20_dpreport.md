@@ -19,13 +19,13 @@ The report should not only provide exploratory analyses but also allow the **sha
 
 An example of an HTML DP Mobility Report output can be found [here](https://freemoveproject.github.io/dp_mobility_report/examples/html/berlin.html).
 
-![Figure 1: Screenshot of an example DP Mobility report](/assets/images/blog/20_1_example)
+![Figure 1: Screenshot of an example DP Mobility report](/assets/images/blog/20_1_example.png)
 _Screenshot of an example DP Mobility Report_
 
 ### How the report works
 Essentially, the report takes the dataset as input, computes the aggregations and applies noise according to differential privacy and outputs an HTML file with a DP Mobility Report.
 
-![Figure 2: High level scheme of the creation of a DP Mobility Report](/assets/images/blog/20_2_creation)
+![Figure 2: High level scheme of the creation of a DP Mobility Report](/assets/images/blog/20_2_creation.webp)
 _High level scheme of the creation of a DP Mobility Report_
 
 ### Input data
@@ -33,9 +33,9 @@ The input data format is expected as follows: a _pandas DataFrame_ with the colu
 
 Additionally, a tessellation is expected as a _geopandas GeoDataFrame_. This can either be custom defined, like administrative boundaries, or regular grids.
 
-![Figure 3: Example input mobility data](/assets/images/blog/20_3_input)
+![Figure 3: Example input mobility data](/assets/images/blog/20_3_input.webp)
 _Example input mobility data_
-![Figure 4: High level scheme of the creation of a DP Mobility Report](/assets/images/blog/20_4_tessellation)
+![Figure 4: High level scheme of the creation of a DP Mobility Report](/assets/images/blog/20_4_tessellation.webp)
 _Example input tessellation (Source: Geoportal Berlin)_
 
 ### Code example
@@ -109,7 +109,7 @@ For each analysis, a visual comparison is provided, as well as similarity measur
 
 An example for the HTML benchmark report output can be found [here](https://freemoveproject.github.io/dp_mobility_report/examples/html/berlin_benchmark.html).
 
-![Figure 5: Example excerpt of the benchmark report for the analysis travel time](/assets/images/blog/20_5_benchmark)
+![Figure 5: Example excerpt of the benchmark report for the analysis travel time](/assets/images/blog/20_5_benchmark.png)
 _Example excerpt of the benchmark report for the analysis “travel time”_
 
 ### Creating a tessellation

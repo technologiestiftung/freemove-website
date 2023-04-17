@@ -43,7 +43,7 @@ After installing the dp_mobility_report, the dataset (df) and tessellation need 
 
 With the report.to_file() function, the report is created as HTML and stored at the given path.
 
-'''python
+```python
 import pandas as pd
 import geopandas as gpd
 from dp_mobility_report import DpMobilityReport
@@ -60,7 +60,7 @@ report = DpMobilityReport(
     privacy_budget=5)
  
 report.to_file("my_mobility_report.html")
-'''
+```
 
 ### Customizing the report
 The default settings of the report may not provide the optimal output. With the following parameters, the report can be enhanced:
@@ -72,7 +72,7 @@ The default settings of the report may not provide the optimal output. With the 
 
 **Here you can find the [full DpMobilityReport documentation](https://dp-mobility-report.readthedocs.io/en/latest/modules.html#dpmobilityreport).**
 
-'''python
+```python
 from dp_mobility_report import DpMobilityReport, constants as const
  
 report = DpMobilityReport(
@@ -99,7 +99,7 @@ report = DpMobilityReport(
                #bin_range_user_time_delta,
                subtitle="Test Report" # provide a meaningful title 
           )
-'''
+```
 
 ### Benchmark report
 

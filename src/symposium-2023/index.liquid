@@ -1,0 +1,144 @@
+---
+layout: layouts/wrapper.liquid
+title: Symposium Privacy & Mobility 2023
+slots:
+  - time: "09.00 Uhr"
+    title: "Einlass und Ankunft"
+  - time: "09.15 Uhr"
+    title: "Begrüßung"
+  - time: "09.30 Uhr"
+    title: "Keynote I: Privacy Risks of Mobility Traces (EN)"
+  - time: "10.00 Uhr"
+    title: "Session I: PETs to the Rescue: Möglichkeiten und Grenzen technischer Anonymisierung"
+  - time: "12.00 Uhr"
+    title: "Lunch Break"
+  - time: "12.45 Uhr"
+    title: "Keynote II: PETs in der Praxis: Anwendung und Bewertung"
+  - time: "13.30 Uhr"
+    title: "Session II: Beyond PETs: Organisatorische Maßnahmen und Weiteres"
+  - time: "15.00 Uhr"
+    title: "Flash-Präsentationen, Ausstellung und Austausch"
+  - time: "17.00 Uhr"
+    title: "Keynote III: How to Think about Privacy-friendly Systems?"
+speakers:
+  - name: "Prof. Yves-Alexandre de Montjoye"
+    link: "https://www.demontjoye.com/"
+    institution: "Imperial College London"
+  - name: "Theresa Stadler"
+    link: "https://people.epfl.ch/theresa.stadler/?lang=en"
+    institution: "Spring Lab, EPFL Lausanne"
+  - name: "PhD Wouter Lueks"
+    link: "https://wouterlueks.nl/"
+    institution: "CISPA Helmholtz-Zentrum für Informationssicherheit"
+partners:
+  - "Prof. Claudia Müller-Birn (Freie Universität Berlin)"
+  - "Dr. Daniel Franzen (Freie Universität Berlin)"
+  - "Prof. Helena Mihaljević (Hochschule für Technik und Wirtschaft Berlin)"
+  - "Saskia Nuñez von Voigt (Technische Universität Berlin)"
+  - "Alexandra Kapp (Hochschule für Technik und Wirtschaft Berlin)"
+  - "Prof. Max von Grafenstein (Universität der Künste Berlin)"
+  - "René Kelpin (Institut für Verkehrsforschung, DLR)"
+---
+
+<h1 class="text-orange">{{ title }}</h1>
+
+<div class="mt-12 border border-purple px-5 py-3 rounded-md">
+  <p class="text-purple">Das BMBF-geförderte Projekt freemove veranstaltet im September ein Transfer-Symposium zu Datenschutz-zentrierter Arbeit mit Mobilitätsdaten und lädt ein, sich mittels eines interaktiven Austauschformates zu beteiligen. Einreichungen wie praxisnah aufbereitete Poster oder Exponate zu aktuellen Entwicklungen im Bereich Privatsphäre-erhaltender Technologien und Maßnahmen im Mobilitätsdatenbereich sowie Anwendungsprojekten sind willkommen.</p>
+  <hr class="my-3 w-1/5 h-px bg-purple border-0">
+  <p class="text-purple text-base">Einreichungsfrist: <strong>28.07.2023</strong></p>
+  <p class="text-purple text-base pt-0">Mögliche Formate: <strong>Poster & Flash-Präsentation dessen, anschauliche Exponate</strong> </p>
+  <p class="text-purple text-base pt-0">Einreichungen bitte per Mail an <a href="mailto:markus.sperl@ts.berlin">markus.sperl@ts.berlin</a>.</p>
+</div>
+
+<p class="mt-8">
+  Das Projekt freemove beschäftigt sich mit der Datenschutz-bewussten Verfügbarmachung von Bewegungsdaten zur nachhaltigen, urbanen Transformation. Am Mittwoch, <strong>den 27.09.2023, von 09:00 bis 18:00 Uhr</strong>, laden wir zu einem eintägigen Symposium an die Technologiestiftung Berlin ein, bei dem wir unsere Ergebnisse aus drei Jahren Arbeit mit der Praxis teilen und diskutieren wollen.
+</p>
+
+<a href="https://doo.net/veranstaltung/132660/buchung" class="inline-block border border-purple text-purple text-xl py-1 px-4 cursor-pointer hover:bg-purple hover:text-white no-underline">Melden Sie sich hier an!</a>
+
+<h2 class="mt-12 mb-4 text-purple text-3xl md:text-5xl">
+  Agenda
+</h2>
+
+<ul class="list-none ml-0">
+  {% for slot in slots %}
+    <li class="text-lg leading-loose"><strong>{{slot.time}}</strong>: {{slot.title}}</li>
+  {% endfor %}
+</ul>
+
+<p>Ab <strong>18 Uhr</strong>: Vernetzungs und Ausklang</p>
+
+<p>Im Mittelpunkt stehen Ergebnisse unserer Forschung zur Anonymisierung von Mobilitätsdaten.</p>
+
+<h2 class="mt-12 mb-4 text-green text-3xl md:text-5xl">
+  Zum Hintergrund
+</h2>
+
+<p>Mobilitätsdaten, und darunter Bewegungsdaten, gelten als Hoffnungsträger im Bereich datengetriebener Innovation im Verkehrssektor und menschzentrierter, umweltbewusster Stadtentwicklung. Gleichzeitig sind Bewegungsdaten personenbezogen und teils hochsensibel, und stellen bezüglich Anonymisierung eine besondere Herausforderung dar.</p>
+
+<p>Seit einigen Jahren wird versucht, unterschiedliche Stückwerke von Mobilitätsevidenz aus Haushaltsbefragungen, offenen Daten, Zählungen, verkehrswissenschaftlichen Untersuchungen, Datenspenden und wissenschaftlicher Arbeit um breiter angelegte Initiativen und Möglichkeiten zum Datenteilen, die durch mobile Endgeräte wie Smartphones erfasst werden, zu erweitern. Granulare Bewegungsdaten können KI-gestützte Anwendungen informieren, Verkehrssimulationen verbessern und Elemente multimodaler Mobilitätsservices stützen (Modus-Prediktionen, Routing-Kriterien spezifizieren). Bewegungsdaten entstehen, teils als Beiwerk, bei der Nutzung unterschiedlicher Services wie Navigation, ÖPNV-Ticketing-Systemen oder Shared-Mobility-Angeboten, oder der Nutzung von Connected Cars. Diese Daten dem Gemeinwohl dienlich nutzbar zu machen scheitert in Teilen an der Sensibilität der Daten mit Blick auf Privatsphäre.</p>
+
+<p>Diskussionen um die Auslegung der DSGVO, die Schaffung von gesetzlichen Grundlagen (Stichwort Mobilitätsdatengesetze, Teilungsverpflichtungen, Data Act), nötigen Daten-Kompetenzen (Stichwort Dateninstitut) im öffentlichen Sektor sowie Plattformen (Stichwort Mobility Data Space, Mobilithek) zeugen von der Aktualität der von uns bearbeiteten Fragestellungen, weswegen wir Ergebnisse gerne mit Ihnen teilen möchten. Wir als Forschungsprojekt wollen Best Practices und Learnings unmittelbar mit Entscheidungsträger:innen teilen!</p>
+
+<h2 class="mt-12 mb-4 text-orange text-3xl md:text-5xl">
+  Tagesprogramm
+</h2>
+
+<ul>
+  <li class="text-lg leading-loose">Welche Privatsphäre-erhaltenden Technologien lassen sich auf den Mobilitätsdatenbereich anwenden, und wie gut funktionieren diese mit Blick auf Nutzbarkeit (für praxisrelevante Use Cases) und Privatsphäre?</li>
+  <li class="text-lg leading-loose">Wie kann Datenschutz als Wettbewerbsvorteil fungieren?</li>
+  <li class="text-lg leading-loose">Wie können wir Hinweise auf das Zusammenspiel zwischen technischen und organisatorischen Maßnahmen im Bereich Anonymisierung von Mobilitätsdaten geben?</li>
+  <li class="text-lg leading-loose">Wie können wir Datenspendeplattformen gestalten, die Nutzenden informierte Entscheidung auf Basis ihrer Privatsphärebedürfnisse ermöglichen?</li>
+</ul>
+
+<p>Wir werden unsere Perspektiven auf diese Fragen anhand unserer Forschung, die sich um folgende drei zentrale Use Cases gedreht hat, anschaulich darlegen.</p>
+
+<ol class="list-decimal text-purple ml-4">
+  <li class="text-lg leading-loose">Mobilitätsdatenspezifische Statistiken mit Differential-Privacy-Garantien</li>
+  <li class="text-lg leading-loose">Exploration der Möglichkeit eines Data Release von Bewegungsdaten mittels synthetischer Datengenerierung</li>
+  <li class="text-lg leading-loose">Datenspendeplattformen und deren Gestaltung unter Berücksichtigung individueller Datenschutzbedürfnisse</li>
+</ol>
+
+<p>Das von uns gestaltete Programm wird begleitet von drei Keynote-Präsentationen, die ins Thema einführen, vertiefen und den ereignisreichen Tag abschließen.</p>
+
+<p>Für Verpflegung ist gesorgt, ebenso wie für eine ansprechende Räumlichkeit im neu gestalteten vierten Stock der Grunewaldstraße 61-62, bei der Technologiestiftung Berlin.</p>
+
+<h2 class="mt-12 mb-4 text-purple text-3xl md:text-5xl">
+  Referent:innen (bisher bestätigt)
+</h2>
+
+<ul class="ml-0 grid grid-cols-1 gap-y-2">
+  {% for speaker in speakers %}
+    <li
+      class="grid grid-cols-1"
+    >
+      <a href="{{ speaker.link }}" class="text-2xl">{{ speaker.name }}</a>
+      <span>{{ speaker.institution }}</span>
+    </li>
+  {% endfor %}
+</ul>
+
+<h2 class="mt-12 mb-4 text-green text-3xl md:text-5xl">
+  Projektpartner:innen
+</h2>
+
+<ul>
+  {% for partner in partners %}
+    <li class="text-lg leading-loose">{{ partner }}</li>
+  {% endfor %}
+</ul>
+
+<h2 class="mt-12 mb-4 text-orange text-3xl md:text-5xl">
+  Anfahrt
+</h2>
+
+<p class="leading-snug">
+Technologiestiftung Berlin <br>
+Grunewaldstraße 61-61 <br>
+10825 Berlin <br>
+4. Stock <br>
+Raum "Audimax"
+</p>
+
+<p>Mit dem ÖPNV: U7, Haltestelle Bayerischer Platz</p>
+

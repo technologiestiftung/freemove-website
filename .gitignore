@@ -6,3 +6,5 @@ _site/
 
 # Compiled CSS
 src/assets/css/style.compiled.css
+
+.idea/*

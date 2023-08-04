@@ -24,20 +24,37 @@ speakers:
   - name: "Prof. Yves-Alexandre de Montjoye"
     link: "https://www.demontjoye.com/"
     institution: "Imperial College London"
+    short_bio: "Associate Professor (Angewandte Mathematik und Computer-Wissenschaft), Leiter der Computational Privacy Group; beratend für Europäische Kommission und Belgische Datenschutzbehörde tätig"
   - name: "Theresa Stadler"
     link: "https://people.epfl.ch/theresa.stadler/?lang=en"
     institution: "Spring Lab, EPFL Lausanne"
+    short_bio: "Expertin für Privatsphäre-Themen im Bereich Datenverarbeitung, Privatsphäre-erhaltende Technologien und deren Anwendung sowie Bewertung"
   - name: "PhD Wouter Lueks"
     link: "https://wouterlueks.nl/"
     institution: "CISPA Helmholtz-Zentrum für Informationssicherheit"
+    short_bio: "Experte für sichere, praktisch anwendbare und Privatsphäre-freundliche Systeme mittels Nutzung von Angewandter Kryptographie, Anonymer Kommunikation und Systems Design"
 partners:
-  - "Prof. Claudia Müller-Birn (Freie Universität Berlin)"
-  - "Dr. Daniel Franzen (Freie Universität Berlin)"
-  - "Prof. Helena Mihaljević (Hochschule für Technik und Wirtschaft Berlin)"
-  - "Saskia Nuñez von Voigt (Technische Universität Berlin)"
-  - "Alexandra Kapp (Hochschule für Technik und Wirtschaft Berlin)"
-  - "Prof. Max von Grafenstein (Universität der Künste Berlin)"
-  - "René Kelpin (Institut für Verkehrsforschung, DLR)"
+  - name: "Prof. Claudia Müller-Birn"
+    institution: "Freie Universität Berlin"
+    discipline: "Human-Centered Computing"
+  - name: "Dr. Daniel Franzen"
+    institution: "Freie Universität Berlin"
+  - name: "Prof. Helena Mihaljević"
+    institution: "Hochschule für Technik und Wirtschaft Berlin"
+    discipline: "Machine Learning / Data Science"
+  - name: "Saskia Nuñez von Voigt"
+    institution: "Technische Universität Berlin"
+    discipline: "Human-Centered Computing"
+  - name: "Alexandra Kapp"
+    institution: "Hochschule für Technik und Wirtschaft Berlin"
+  - name: "Prof. Max von Grafenstein"
+    institution: "Universität der Künste Berlin"
+    discipline: "Digitale Souveränität"
+  - name: "René Kelpin"
+    institution: "Institut für Verkehrsforschung, DLR"
+  - name: "Prof. Florian Tschorsch"
+    institution: "Technische Universität Berlin"
+    discipline: "Datensicherheit / Distributed Security Infrastructures"
 ---
 
 <h1 class="text-orange">{{ title }}</h1>
@@ -114,13 +131,14 @@ partners:
   Externe Referent:innen
 </h2>
 
-<ul class="ml-0 grid grid-cols-1 gap-y-2">
+<ul class="ml-0 grid grid-cols-1 gap-y-5">
   {% for speaker in speakers %}
     <li
       class="grid grid-cols-1"
     >
       <a href="{{ speaker.link }}" class="text-2xl">{{ speaker.name }}</a>
-      <span>{{ speaker.institution }}</span>
+      <i>{{ speaker.institution }}</i>
+      <span>{{ speaker.short_bio }}</span>
     </li>
   {% endfor %}
 </ul>
@@ -131,7 +149,10 @@ partners:
 
 <ul>
   {% for partner in partners %}
-    <li class="text-base md:text-lg leading-normal md:leading-loose"">{{ partner }}</li>
+    <li class="text-base md:text-lg leading-tight md:leading-normal mt-2 md:mt-4">
+      <span class="block">{{ partner.name }}</span>
+      <span class="block"><i>{{ partner.institution }}</i> {% if partner.discipline  %}– {{ partner.discipline }}{% endif %}</span>
+    </li>
   {% endfor %}
 </ul>
 

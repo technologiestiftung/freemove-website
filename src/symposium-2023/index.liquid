@@ -2,24 +2,56 @@
 layout: layouts/wrapper.liquid
 title: Symposium Privacy & Mobility 2023
 slots:
-  - time: "09.00 Uhr"
+  - time: "08.45 Uhr"
     title: "Einlass und Ankunft"
   - time: "09.15 Uhr"
     title: "Begrüßung"
   - time: "09.30 Uhr"
-    title: "Keynote I: Privacy Risks of Mobility Traces (EN)"
-  - time: "10.00 Uhr"
-    title: "Session I: PETs to the Rescue: Möglichkeiten und Grenzen technischer Anonymisierung"
-  - time: "12.00 Uhr"
+    title: "Keynote I: PETs in der Praxis: Anwendung und Bewertung (DE)"
+    speakers:
+      - "Theresa Stadler (Spring Lab, EPFL Lausanne)"
+  - time: "10.15 Uhr"
+    title: "Session I.I: PETs to the Rescue: Möglichkeiten und Grenzen technischer Anonymisierung"
+    speakers:
+      - "Alexandra Kapp"
+      - "Helena Mihaljević"
+      - "Saskia Nuñez von Voigt"
+  - time: "11.15 Uhr"
+    title: "Pause"
+  - time: "11.30 Uhr"
+    title: "Session I.II: Beyond PETs: Privatsphäre als gesellschaftlicher Aushandlungsprozess"
+    speakers:
+      - "Daniel Franzen"
+      - "Helena Mihaljević"
+      - "Saskia Nuñez von Voigt"
+  - time: "12.30 Uhr"
     title: "Lunch Break"
-  - time: "12.45 Uhr"
-    title: "Keynote II: PETs in der Praxis: Anwendung und Bewertung"
-  - time: "13.30 Uhr"
-    title: "Session II: Beyond PETs: Organisatorische Maßnahmen und Weiteres"
-  - time: "15.00 Uhr"
-    title: "Flash-Präsentationen, Ausstellung und Austausch"
-  - time: "17.00 Uhr"
+  - time: "13.15 Uhr"
+    title: "Keynote II: Privacy Risks of Mobility Traces (EN)"
+    speakers:
+      - "Yves-Alexandre de Montjoye (Imperial College London)"
+  - time: "13.45 Uhr"
+    title: "Session I.III: Synthetic Data as Cure-All PET? Die Praxistauglichkeit synthetischer Mobilitätsdaten"
+    speakers:
+      - "Alexandra Kapp"
+      - "Helena Mihaljević"
+      - "Saskia Nuñez von Voigt"
+  - time: "14.30 Uhr"
+    title: "Pause"
+  - time: "14.45 Uhr"
     title: "Keynote III: How to Think about Privacy-friendly Systems? (EN)"
+    speakers:
+      - "Wouter Lueks (CISPA Helmholtz-Zentrum für Informationssicherheit)"
+  - time: "15.30 Uhr"
+    title: "Session II: PETs in Law: Rechtssichere Anonymisierung durch Zertifizierung (Vortrag & Panel-Diskussion)"
+    speakers:
+      - "Max von Grafenstein"
+      - "Valentin Rupp"
+      - "Kilian Spuck (BVG)"
+  - time: "16.15 Uhr"
+    title: "Pause"
+  - time: "16.30 Uhr"
+    title: "Flash Präsentationen & Poster-Session"
 speakers:
   - name: "Prof. Yves-Alexandre de Montjoye"
     link: "https://www.demontjoye.com/"
@@ -86,7 +118,11 @@ partners:
 
 <ul class="list-none ml-0">
   {% for slot in slots %}
-    <li class="text-base md:text-lg leading-normal md:leading-loose"><strong>{{slot.time}}</strong>: {{slot.title}}</li>
+    <li class="text-base md:text-lg leading-normal md:leading-loose">
+      <strong>{{slot.time}}</strong>: {{slot.title}}
+      {% if slot.speakers %}
+        – <i>{% for speaker in slot.speakers %}{{ speaker }}{% unless forloop.last %}, {% endunless %}{% endfor %}</i>
+  {% endif %}</li>
   {% endfor %}
 </ul>
 

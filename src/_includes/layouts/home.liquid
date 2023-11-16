@@ -7,7 +7,7 @@ layout: layouts/root.liquid
   style="background-image: url(/assets/images/home-background.jpg);"
 >
   <div class="component-container grid grid-cols-1">
-    {% include partials/circular-banner.liquid text: "Zum Symposium Privacy & Mobility 2023" link: "/symposium-2023" %}
+    {% include partials/circular-banner.liquid text: banner.text, link: banner.link %}
     <h1 class="text-white">{{ title }}</h1>
     <p class="text-white font-semibold my-2">{{ subtitle  }}</p>
     {% for intro_section in intro_sections %}

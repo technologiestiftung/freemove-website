@@ -10,6 +10,9 @@ project_goal:
   content: "In den kommenden drei Jahren ist es Ziel des Projektes, ein wissenschaftlich fundiertes Framework zu entwickeln, welches die Anforderungen an eine faire, nützliche, sichere und verständliche Bereitstellung von Bewegungsdaten für öffentliche und private Anwender:innen konkretisiert."
 publications:
   title: "Veröffentlichungen"
+banner:
+  text: "Zum Bericht über das Symposium Privacy & Mobility 2023"
+  link: "https://www.technologiestiftung-berlin.de/profil/blog/privacy-mobility-2023-freemove"
 ---
 
 ## Ausgangssituation & Forschungsfragen

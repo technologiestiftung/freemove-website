@@ -12,7 +12,7 @@ alert: "Note that not all parts of this website are available in English at the 
 publications:
   title: "Publications"
 banner:
-  text: "To the report on the Privacy & Mobility 2023 symposium (German)"
+  text: "Read report on the 2023 privacy & mobility symposium (German)"
   link: "https://www.technologiestiftung-berlin.de/profil/blog/privacy-mobility-2023-freemove"
 ---
 

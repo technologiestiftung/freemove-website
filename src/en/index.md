@@ -11,6 +11,9 @@ project_goal:
 alert: "Note that not all parts of this website are available in English at the moment."
 publications:
   title: "Publications"
+banner:
+  text: "Read report on the 2023 privacy & mobility symposium (German)"
+  link: "https://www.technologiestiftung-berlin.de/profil/blog/privacy-mobility-2023-freemove"
 ---
 
 ## Status Quo & Research Questions

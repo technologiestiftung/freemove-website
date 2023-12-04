@@ -13,17 +13,17 @@ defaultAbstract: "Transdisziplin√§re Erforschung der Datenschutz-bewussten Verf√
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/burger.css" />
 
-    {% include partials/icon-head.liquid %}
-    {% include partials/social-head.liquid %}
+    {% include "partials/icon-head.liquid" %}
+    {% include "partials/social-head.liquid" %}
 
   </head>
 
   <body>
-    {% include partials/tracking.liquid %}
-    {% include partials/header.liquid %}
+    {% include "partials/tracking.liquid" %}
+    {% include "partials/header.liquid" %}
     <main class="w-full">
       {{ content }}
     </main>
-    {% include partials/footer.liquid %}
+    {% include "partials/footer.liquid" %}
   </body>
 </html>

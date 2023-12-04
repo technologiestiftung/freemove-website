@@ -6,7 +6,7 @@ permalink: /blog/
 
 <div class="pt-12 lg:pt-20 pl-8 pr-4 pb-0">
   <h2 class="block lg:hidden text-orange text-2xl mb-6">Beiträge nach Schlagworten filtern</h2>
-  {% include partials/tag-list.liquid %}
+  {% include "partials/tag-list.liquid" %}
 </div>
 
 <div class="pl-8 lg:pl-0 pr-8 order-first lg:order-last">
@@ -17,7 +17,7 @@ permalink: /blog/
     {% assign articlesOrderedByDate = collections.blog %} {% for article in
     articlesOrderedByDate reversed %}
     <li>
-      {% include partials/article-card.liquid, url: article.url, title:
+      {% include "partials/article-card.liquid", url: article.url, title:
       article.data.title, abstract: article.data.subtitle, date: article.date,
       thumb_image_path: article.data.thumb_image_path %}
     </li>

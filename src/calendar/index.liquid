@@ -9,38 +9,38 @@ permalink: /calendar/
 <div class="relative">
   {% for yearWithEvents in collections.events_by_year reversed %}
   <h2 class="mt-12 text-3xl md:text-4xl text-purple">{{ yearWithEvents.year }}</h2>
-  <ul class="list-none ml-0 mt-6 border-t border-purple">
+  <ul class="mt-6 ml-0 list-none border-t border-purple">
     {% for event in yearWithEvents.events reversed %}
-    <li class="py-4 md:py-8 border-b border-purple">
+    <li class="py-4 border-b md:py-8 border-purple">
       {% if event.templateContent.length > 0 %}
         <details>
-          <summary class="list-none flex flex-wrap md:flex-nowrap cursor-pointer">
+          <summary class="flex flex-wrap list-none cursor-pointer md:flex-nowrap">
             {% include
-              partials/event-card.liquid,
+              "partials/event-card.liquid",
               title: event.data.title,
               subtitle: event.data.subtitle,
               date: event.data.date,
-              time: event.data.time
+              time: event.data.time,
               registerLink: event.data.registerLink,
               registerText: event.data.registerText
               has_details: true
             %}
           </summary>
-          <div class="mt-2 md:mt-8 border-t border-purple">
+          <div class="mt-2 border-t md:mt-8 border-purple">
             {{ event.templateContent }}
           </div>
         </details>
       {% else %}
       {% include
-          partials/event-card.liquid,
+          "partials/event-card.liquid",
           title: event.data.title,
           subtitle: event.data.subtitle,
           date: event.data.date,
-          time: event.data.time
+          time: event.data.time,
           registerLink: event.data.registerLink,
           registerText: event.data.registerText,
           has_details: false
-        %}       
+        %}
       {% endif %}
     </li>
     {% endfor %}

@@ -2,18 +2,29 @@
 layout: layouts/home.liquid
 title: "freemove"
 subtitle: "Transdisziplinäre Erforschung der Datenschutz-bewussten Verfügbarmachung von Bewegungsdaten für nachhaltige urbane Mobilität"
+project_over: "Das Projekt freemove endete zum Juni 2024. Wir danken allen Mitwirkenden, Workshop-Teilnehmenden und Mithelfer:innen! Diese Website bleibt weiterhin online, ebenso wie unsere Tools. Bei Fragen, gerne an info@technologiestiftung-berlin.de wenden!"
 intro_sections:
   - "freemove ist ein vom BMBF gefördertes, transdisziplinäres Projekt zur Erforschung von Mobilitätsdaten. Die Forschungsgruppe vereint die Kompetenzen von universitären und praktischen Partner:innen aus den Bereichen Machine Learning, Digitale Selbstbestimmung, Human-Centered Computing und Informationssicherheit."
   - "Das Projektteam wird auf wissenschaftlicher Seite von Fachgebieten der Hochschule für Technik & Wirtschaft Berlin, der Freien Universität Berlin, der Technischen Universität Berlin und der Universität der Künste Berlin gestellt. Die praxisorientierten Partner:innen des Deutschen Zentrum für Luft- und Raumfahrt und der Technologiestiftung Berlin erweitern diese wissenschaftliche Perspektive mit einem Fokus auf Fragen der Umsetzung und Stakeholder-Einbindung."
 project_goal:
   title: "Projektziel"
-  content: "In den kommenden drei Jahren ist es Ziel des Projektes, ein wissenschaftlich fundiertes Framework zu entwickeln, welches die Anforderungen an eine faire, nützliche, sichere und verständliche Bereitstellung von Bewegungsdaten für öffentliche und private Anwender:innen konkretisiert."
+  content: "Ziel des Projektes war es, ein wissenschaftlich fundiertes Framework zu entwickeln, welches die Anforderungen an eine faire, nützliche, sichere und verständliche Bereitstellung von Bewegungsdaten für öffentliche und private Anwender:innen konkretisiert."
 publications:
   title: "Veröffentlichungen"
 banner:
   text: "Zum Bericht über das Symposium Privacy & Mobility 2023"
   link: "https://www.technologiestiftung-berlin.de/profil/blog/privacy-mobility-2023-freemove"
 ---
+
+## Projektergebnisse
+
+Neben wissenschaftlichen Publikationen hat das Konsortium im Rahmen des Projekts auch eine Reihe von Ergebnissen in Form von nutzbaren Tools generiert.
+
+- [Schritt-für-Schritt-Ratgeber zur Anonymisierung von Bewegungsdaten unter Beachtung ihres Kontexts in Form einer Website](https://guide.freemove.space/) (freemove-Guide - Privacy-Centered Urban Mobility Data)
+- [Python-Package zur Privatsphäre-wahrenden Analyse von Bewegungsdaten mit Differential-Privacy-Garantien](https://github.com/FreeMoveProject/dp_mobility_report) (DP Mobility Report)
+- [Interaktive Website zur Erklärung von Privatsphäre-Risiken im Bereich Mobilitätsdaten](https://reidentifikation.freemove.space/)
+
+Wir freuen uns über deren zahlreiche Nutzung und Verbreitung, und über Feedback!
 
 ## Ausgangssituation & Forschungsfragen
 

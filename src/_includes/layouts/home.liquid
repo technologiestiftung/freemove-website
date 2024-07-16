@@ -10,6 +10,7 @@ layout: layouts/root.liquid
     {% include "partials/circular-banner.liquid" text: banner.text, link: banner.link %}
     <h1 class="text-white">{{ title }}</h1>
     <p class="text-white font-semibold my-2">{{ subtitle  }}</p>
+    <p class="text-orange">{{ project_over }}</p>
     {% for intro_section in intro_sections %}
       <p class="text-white my-4">
         {{ intro_section  }}
@@ -27,7 +28,7 @@ layout: layouts/root.liquid
     <p class="my-8">
       {{ project_goal.content  }}
     </p>
-    <div class="prose prose-h2:text-blue prose-h2:text-4xl prose-h2:md:text-6xl prose-h2:mb-12 prose-h2:font-semibold prose-p:py-0 !max-w-none">
+    <div class="prose prose-h2:text-blue prose-a:text-inherit prose-h2:text-4xl prose-h2:md:text-6xl prose-h2:mt-12 prose-h2:mb-12 prose-h2:font-semibold prose-p:py-0 !max-w-none">
       {{ content }}
     </div>
     <h2 class="mt-8 mb-8 text-blue text-4xl md:text-6xl">{{ publications.title }}</h2>
